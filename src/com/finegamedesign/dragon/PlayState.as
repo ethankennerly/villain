@@ -86,11 +86,21 @@ package com.finegamedesign.dragon
         private function updateInput():void
         {
             if (FlxG.keys.justReleased("SPACE")) {
-                head.play("eat");
+				if (FlxG.overlap(head, peasant, eat)) {
+                    head.play("eat");
+                }
+                else {
+                    head.play("bite");
+                }
             }
             else if (head.finished) {
                 head.play("idling");
             }
+        }
+
+        private function eat(head:FlxObject, other:FlxObject):void
+        {
+            other.kill();
         }
     }
 }

@@ -71,7 +71,9 @@ badd +31 ~/ludum/stocksurfer/src/FlxMovieClip.as
 badd +12 ~/ludum/villain/src/com/noorhakim/FlxMovieClip.as
 badd +6 Peasant.as
 badd +12 Util.as
-badd +0 ~/ludum/src/org/flixel/FlxSprite.as
+badd +874 ~/ludum/src/org/flixel/FlxSprite.as
+badd +523 ~/ludum/stocksurfer/src/PlayState.as
+badd +0 ~/ludum/src/org/flixel/FlxG.as
 silent! argdel *
 edit ~/ludum/villain/README.md
 set splitbelow splitright
@@ -86,17 +88,24 @@ split
 wincmd w
 wincmd w
 wincmd w
+wincmd _ | wincmd |
+split
+1wincmd k
+wincmd w
 set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
 exe '1resize ' . ((&lines * 5 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 37 + 33) / 67)
+exe '2resize ' . ((&lines * 25 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
-exe '3resize ' . ((&lines * 21 + 33) / 67)
+exe '3resize ' . ((&lines * 33 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
+exe '4resize ' . ((&lines * 32 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)
+exe '5resize ' . ((&lines * 32 + 33) / 67)
+exe 'vert 5resize ' . ((&columns * 104 + 104) / 209)
 argglobal
 setlocal keymap=
 setlocal noarabic
@@ -201,11 +210,11 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 5 - ((0 * winheight(0) + 2) / 5)
+let s:l = 4 - ((2 * winheight(0) + 2) / 5)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-5
+4
 normal! 0
 wincmd w
 argglobal
@@ -313,12 +322,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 133 - ((27 * winheight(0) + 18) / 37)
+let s:l = 86 - ((2 * winheight(0) + 12) / 25)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-133
-normal! 086l
+86
+normal! 04l
 wincmd w
 argglobal
 edit ~/ludum/villain/log.txt
@@ -425,12 +434,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 6 - ((4 * winheight(0) + 10) / 21)
+let s:l = 9 - ((1 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-6
-normal! 07l
+9
+normal! 06l
 wincmd w
 argglobal
 edit PlayState.as
@@ -536,22 +545,137 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 43 - ((7 * winheight(0) + 32) / 65)
+let s:l = 90 - ((14 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-43
-normal! 043l
+90
+normal! 020l
 lcd ~/ludum/villain/src/com/finegamedesign/dragon
 wincmd w
-4wincmd w
+argglobal
+edit ~/ludum/villain/src/com/finegamedesign/dragon/PlayState.as
+setlocal keymap=
+setlocal noarabic
+setlocal autoindent
+setlocal balloonexpr=
+setlocal nobinary
+setlocal bufhidden=
+setlocal buflisted
+setlocal buftype=
+setlocal nocindent
+setlocal cinkeys=0{,0},0),:,0#,!^F,o,O,e
+setlocal cinoptions=
+setlocal cinwords=if,else,while,do,for,switch
+setlocal colorcolumn=
+setlocal comments=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,n:>,fb:-
+setlocal commentstring=/*%s*/
+setlocal complete=.,w,b,u,t,i
+setlocal concealcursor=
+setlocal conceallevel=0
+setlocal completefunc=
+setlocal nocopyindent
+setlocal cryptmethod=
+setlocal nocursorbind
+setlocal nocursorcolumn
+setlocal nocursorline
+setlocal define=
+setlocal dictionary=
+setlocal nodiff
+setlocal equalprg=
+setlocal errorformat=
+setlocal expandtab
+if &filetype != 'actionscript'
+setlocal filetype=actionscript
+endif
+setlocal foldcolumn=0
+setlocal foldenable
+setlocal foldexpr=0
+setlocal foldignore=#
+setlocal foldlevel=0
+setlocal foldmarker={{{,}}}
+setlocal foldmethod=manual
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldtext=foldtext()
+setlocal formatexpr=
+setlocal formatoptions=tcq
+setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
+setlocal grepprg=
+setlocal iminsert=2
+setlocal imsearch=2
+setlocal include=
+setlocal includeexpr=
+setlocal indentexpr=
+setlocal indentkeys=0{,0},:,0#,!^F,o,O,e
+setlocal noinfercase
+setlocal iskeyword=@,48-57,_,192-255
+setlocal keywordprg=
+setlocal nolinebreak
+setlocal nolisp
+setlocal nolist
+setlocal nomacmeta
+setlocal makeprg=
+setlocal matchpairs=(:),{:},[:]
+setlocal modeline
+setlocal modifiable
+setlocal nrformats=octal,hex
+setlocal nonumber
+setlocal numberwidth=4
+setlocal omnifunc=
+setlocal path=
+setlocal nopreserveindent
+setlocal nopreviewwindow
+setlocal quoteescape=\\
+setlocal noreadonly
+setlocal norelativenumber
+setlocal norightleft
+setlocal rightleftcmd=search
+setlocal noscrollbind
+setlocal shiftwidth=4
+setlocal noshortname
+setlocal nosmartindent
+setlocal softtabstop=0
+setlocal nospell
+setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
+setlocal spellfile=
+setlocal spelllang=en
+setlocal statusline=
+setlocal suffixesadd=
+setlocal swapfile
+setlocal synmaxcol=3000
+if &syntax != 'actionscript'
+setlocal syntax=actionscript
+endif
+setlocal tabstop=4
+setlocal tags=
+setlocal textwidth=0
+setlocal thesaurus=
+setlocal noundofile
+setlocal nowinfixheight
+setlocal nowinfixwidth
+setlocal wrap
+setlocal wrapmargin=0
+silent! normal! zE
+let s:l = 91 - ((15 * winheight(0) + 16) / 32)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+91
+normal! 016l
+lcd ~/ludum/villain/src/com/finegamedesign/dragon
+wincmd w
+3wincmd w
 exe '1resize ' . ((&lines * 5 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 37 + 33) / 67)
+exe '2resize ' . ((&lines * 25 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
-exe '3resize ' . ((&lines * 21 + 33) / 67)
+exe '3resize ' . ((&lines * 33 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
+exe '4resize ' . ((&lines * 32 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)
+exe '5resize ' . ((&lines * 32 + 33) / 67)
+exe 'vert 5resize ' . ((&columns * 104 + 104) / 209)
 tabedit ~/ludum/villain/src/com/finegamedesign/dragon/Head.as
 set splitbelow splitright
 wincmd _ | wincmd |
@@ -795,7 +919,7 @@ normal! zt
 normal! 012l
 wincmd w
 argglobal
-edit ~/ludum/src/org/flixel/FlxSprite.as
+edit ~/ludum/src/org/flixel/FlxG.as
 setlocal keymap=
 setlocal noarabic
 setlocal autoindent
@@ -899,14 +1023,14 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 610 - ((25 * winheight(0) + 32) / 65)
+let s:l = 960 - ((45 * winheight(0) + 32) / 65)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-610
-normal! 02l
+960
+normal! 028l
 wincmd w
-4wincmd w
+3wincmd w
 exe '1resize ' . ((&lines * 30 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
 exe '2resize ' . ((&lines * 34 + 33) / 67)

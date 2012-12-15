@@ -1,12 +1,12 @@
-14 Press a key to kill something ?
+14 Release space, see pink flicker.
     18 journal 50 variants of villainous actions.
     19 On paper, move a snake (after Sky Serpents).  Welcome Alex.
     20 On paper, dragon bite, breath fire. Note waves. (after Spike: A Love Story suggested by Dave Alleca)
     21 Press spacebar to return to menu.
     22 Gray box in center.  White box scrolls from left.
     23 Press space, see pink flicker.
-15
-    8
+15 Release space to eat a peasant.
+    8 Release space to eat a white box.
     9
     10
     11
@@ -31,3 +31,29 @@
     15
     16
     17
+
+TODO
+    Release space to eat a square.
+    White square carries yellow square away.
+    If eaten, gold dropped.
+    Release space to eat a peasant.
+    All gold gone, lose.  All peasants eaten, win.
+    See dragon.
+    See peasant.
+    See cave.
+    See gold.
+    See peasant eaten.
+    See dragon eat and bite.
+    Hear bite, eat, walk, gold.
+    Release space to eat a knight.
+    See knight.
+    Release space to eat a thief.
+    See thief.
+    See peasant taunt. (after Spike)
+    Read review (after Spike)
+    Wizard levitates gold.
+    See wizard.
+    Hold space and release to breathe fire.
+    Score higher for gold position and timing of eating.
+
+

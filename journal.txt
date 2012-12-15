@@ -83,6 +83,8 @@ Fri Dec 14 20:33:28 PST 2012
 
 Title Bank
     Sleeping Dragon
+    Dragon's Gold
+    Sleeping Dragon, Stealing Treasure
     Dragon Cave
     Dragon's Mouth
 
@@ -131,3 +133,13 @@ Fri Dec 14 23:22:09 PST 2012
 
 MovieClip, scene placement, animation.
 Flixel blit, consistent frame rate, keyboard listeners, velocity management, particles.
+
+
+Sat Dec 15 08:46:14 PST 2012
+
+could be:
+    Sounds on movie clip labels also.
+    All objects loaded from scene movieclip.
+    FlxClip adds animations.
+
+
