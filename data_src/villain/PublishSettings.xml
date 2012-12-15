@@ -15,7 +15,7 @@
     <flashDefaultName>0</flashDefaultName>
     <projectorWinDefaultName>1</projectorWinDefaultName>
     <projectorMacDefaultName>1</projectorMacDefaultName>
-    <htmlDefaultName>1</htmlDefaultName>
+    <htmlDefaultName>0</htmlDefaultName>
     <gifDefaultName>1</gifDefaultName>
     <jpegDefaultName>1</jpegDefaultName>
     <pngDefaultName>1</pngDefaultName>
@@ -25,7 +25,7 @@
     <flashFileName>../bin/villain.swf</flashFileName>
     <projectorWinFileName>villain.exe</projectorWinFileName>
     <projectorMacFileName>villain.app</projectorMacFileName>
-    <htmlFileName>villain.html</htmlFileName>
+    <htmlFileName>../bin/villain.html</htmlFileName>
     <gifFileName>villain.gif</gifFileName>
     <jpegFileName>villain.jpg</jpegFileName>
     <pngFileName>villain.png</pngFileName>

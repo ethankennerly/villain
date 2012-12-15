@@ -32,6 +32,8 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="62785" publishTime="1355610741"/>
+          <PublishItem publishSize="62792" publishTime="1355610736"/>
           <PublishItem publishSize="92768" publishTime="1355609894" publishDebug="true"/>
           <PublishItem publishSize="92623" publishTime="1355609421" publishDebug="true"/>
           <PublishItem publishSize="175952" publishTime="1355607809" publishDebug="true"/>
@@ -50,7 +52,5 @@
           <PublishItem publishSize="90557" publishTime="1355602800" publishDebug="true"/>
           <PublishItem publishSize="90568" publishTime="1355602726" publishDebug="true"/>
           <PublishItem publishSize="90605" publishTime="1355602660" publishDebug="true"/>
-          <PublishItem publishSize="90565" publishTime="1355602615" publishDebug="true"/>
-          <PublishItem publishSize="90605" publishTime="1355602573" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>
