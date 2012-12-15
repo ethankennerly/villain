@@ -143,3 +143,15 @@ could be:
     FlxClip adds animations.
 
 
+Sat Dec 15 09:54:23 PST 2012
+
+max level
+all clips in scene.
+if all clips in scene then may be difficult to distinguish which peasant is which.  
+Could add them all to the same group.
+Would also get very wide to see when waves will occur.
+    Limit velocity when off screen.
+    May be difficult to detect when wave is finished.
+    Could establish it as an amount of time.
+Could spawn each when desired.  
+Parse scene.  Read position.  

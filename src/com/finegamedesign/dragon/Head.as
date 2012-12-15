@@ -10,7 +10,6 @@ package com.finegamedesign.dragon
             Y = place.y;
             super(X, Y);
             var sheet:HeadSpritesheet = new HeadSpritesheet();
-            FlxG.log("Head:  width = " + sheet.frameWidth.toString() + " height = " + sheet.frameHeight.toString());
             this.loadGraphic(HeadSpritesheet, true, true, sheet.frameWidth, sheet.frameHeight);
             PlayState.addAnimation(this, place);
         }
@@ -25,8 +24,6 @@ import com.noorhakim.FlxMovieClip;
  */
 class HeadSpritesheet extends FlxMovieClip
 {
-    // AS3 Embedded MovieClip Gotcha:  Need two frames to declare movieclip.
-    // http://www.airtightinteractive.com/2008/05/as3-embedded-movieclip-gotcha/
     public function HeadSpritesheet() 
     {
         super(HeadClip);

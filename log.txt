@@ -6,8 +6,8 @@
     22 Gray box in center.  White box scrolls from left.
     23 Press space, see pink flicker.
 15 Release space to eat a peasant.
-    8 Release space to eat a white box.
-    9
+    8 Release space to annihilate a white box.
+    9 White square carries yellow square away.
     10
     11
     12
@@ -53,6 +53,7 @@ TODO
     Read review (after Spike)
     Wizard levitates gold.
     See wizard.
+    Release space bar to swipe gold back with tail.
     Hold space and release to breathe fire.
     Score higher for gold position and timing of eating.
 

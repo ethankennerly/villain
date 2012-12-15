@@ -44,7 +44,7 @@ package com.finegamedesign.dragon
                     frames.push(f);
                 }
                 var looped:Boolean = endsWith(mc.currentLabels[i].name, "ing");
-                trace("addAnimation", mc.currentLabels[i].name, frames, FlxG.stage.frameRate, looped);
+                trace(flxSprite, "addAnimation", mc.currentLabels[i].name, frames, FlxG.stage.frameRate, looped);
                 flxSprite.addAnimation(mc.currentLabels[i].name, frames, FlxG.stage.frameRate, looped);
             }
         }
@@ -56,20 +56,25 @@ package com.finegamedesign.dragon
         private var goldCount:int;
         private var head:Head;
         private var peasant:Peasant;
+        private var gold:Gold;
 
         override public function create():void
         {
-            scene = new Scene();
             FlxG.visualDebug = true;
+            FlxG.timeScale = 8.0;
+            FlxG.score = 0;
             super.create();
+            scene = new Scene();
             FlxG.bgColor = 0xFF222222;
             head = new Head();
             add(head);
             peasant = new Peasant();
             add(peasant);
+            gold = new Gold();
+            add(gold);
 
             instructionText = new FlxText(FlxG.width/2 - 40, FlxG.height - 20, 200, 
-                "RELEASE SPACEBAR TO FLASH PINK");
+                "RELEASE SPACEBAR TO EAT WHITE SQUARE");
             add(instructionText);
             waveText = new FlxText(0, 0, 100, "WAVE " + waveCount.toString() + " OF 0");
             add(waveText);
@@ -80,14 +85,18 @@ package com.finegamedesign.dragon
 		override public function update():void 
         {
             updateInput();
+            updateGold();
             super.update();
         }
 
         private function updateInput():void
         {
-            if (FlxG.keys.justReleased("SPACE")) {
-				if (FlxG.overlap(head, peasant, eat)) {
+            if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
+                trace("release");
+				if (FlxG.overlap(head, peasant)) {
                     head.play("eat");
+                    peasant.kill();
+                    FlxG.score++;
                 }
                 else {
                     head.play("bite");
@@ -95,12 +104,28 @@ package com.finegamedesign.dragon
             }
             else if (head.finished) {
                 head.play("idling");
+                if (!peasant.alive) {
+                    FlxG.switchState(new MenuState());
+                }
             }
         }
 
-        private function eat(head:FlxObject, other:FlxObject):void
+        private function updateGold():void
         {
-            other.kill();
+            if (FlxG.overlap(gold, peasant)) {
+                peasant.play("carrying");
+                peasant.velocity.x = Peasant.carryVelocity;
+                gold.play("carrying");
+                gold.velocity.x = peasant.velocity.x;
+                gold.x = peasant.x;
+            }
+            else {
+                gold.play("idling");
+                gold.velocity.x = 0.0;
+            }
+            if (!gold.onScreen()) {
+                FlxG.switchState(new MenuState());
+            }
         }
     }
 }
