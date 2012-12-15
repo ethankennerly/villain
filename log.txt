@@ -1,0 +1,31 @@
+14 Press a key to kill something ?
+    18 journal 50 variants of villainous actions.
+    19
+    20
+    21
+15
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+16
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
