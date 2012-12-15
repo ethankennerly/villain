@@ -12,8 +12,7 @@ package com.finegamedesign.dragon
             var sheet:HeadSpritesheet = new HeadSpritesheet();
             FlxG.log("Head:  width = " + sheet.frameWidth.toString() + " height = " + sheet.frameHeight.toString());
             this.loadGraphic(HeadSpritesheet, true, true, sheet.frameWidth, sheet.frameHeight);
-            
-            this.addAnimation("idle", [0], 12);
+            PlayState.addAnimation(this, place);
         }
     }
 }

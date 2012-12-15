@@ -127,3 +127,7 @@ Link:  Fast.
 Mario:  Jumps fire.
 
 
+Fri Dec 14 23:22:09 PST 2012
+
+MovieClip, scene placement, animation.
+Flixel blit, consistent frame rate, keyboard listeners, velocity management, particles.

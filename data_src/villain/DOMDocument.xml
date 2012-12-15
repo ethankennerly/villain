@@ -1,7 +1,7 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#666666" gridColor="#CCCCCC" width="640" height="240" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="16" gridSpacingY="16" gridSnapTo="true" gridVisible="true" pixelSnap="true" vanishingPoint3DX="320" vanishingPoint3DY="240" previewMode="fast" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <symbols>
-          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355553849"/>
-          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355554545"/>
+          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355558516"/>
+          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355558086"/>
           <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355554517"/>
      </symbols>
      <timelines>
@@ -25,6 +25,14 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="88905" publishTime="1355558438" publishDebug="true"/>
+          <PublishItem publishSize="88866" publishTime="1355558217" publishDebug="true"/>
+          <PublishItem publishSize="88871" publishTime="1355558132" publishDebug="true"/>
+          <PublishItem publishSize="88882" publishTime="1355558104" publishDebug="true"/>
+          <PublishItem publishSize="88848" publishTime="1355557908" publishDebug="true"/>
+          <PublishItem publishSize="88876" publishTime="1355557854" publishDebug="true"/>
+          <PublishItem publishSize="88420" publishTime="1355555400" publishDebug="true"/>
+          <PublishItem publishSize="88200" publishTime="1355555358" publishDebug="true"/>
           <PublishItem publishSize="88025" publishTime="1355554350" publishDebug="true"/>
           <PublishItem publishSize="87801" publishTime="1355553596" publishDebug="true"/>
           <PublishItem publishSize="87776" publishTime="1355553551" publishDebug="true"/>

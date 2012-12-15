@@ -12,9 +12,8 @@ package com.finegamedesign.dragon
             var sheet:PeasantSpritesheet = new PeasantSpritesheet();
             FlxG.log("Peasant:  width = " + sheet.frameWidth.toString() + " height = " + sheet.frameHeight.toString());
             this.loadGraphic(PeasantSpritesheet, true, true, sheet.frameWidth, sheet.frameHeight);
-            
-            this.addAnimation("idle", [0], 12);
-            velocity.x = 16;
+            PlayState.addAnimation(this, place);
+            velocity.x = 64;
         }
     }
 }
