@@ -11,7 +11,8 @@ package com.finegamedesign.dragon
             t.size = 16;
             t.alignment = "center";
             add(t);
-            t = new FlxText(FlxG.width/2-50,FlxG.height/2,100,"PRESS SPACE TO EAT THE PEASANT\n\nClick to play\n\nHigh Score " + FlxG.score);
+            t = new FlxText(FlxG.width/2-50,FlxG.height/2,100,
+                "PRESS SPACE TO EAT THE PEASANT\n\nClick to play\n\nHigh Score " + FlxG.score);
             
             t.alignment = "center";
             add(t);
@@ -23,7 +24,7 @@ package com.finegamedesign.dragon
         {
             super.update();
 
-            if(FlxG.mouse.justPressed())
+            if(FlxG.mouse.justPressed() || FlxG.keys.justReleased("SPACE"))
             {
                 FlxG.mouse.hide();
                 FlxG.switchState(new PlayState());

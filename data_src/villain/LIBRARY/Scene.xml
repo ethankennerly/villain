@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355554517" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Scene">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="HeadClip" centerPoint3DX="392" centerPoint3DY="192">
+                  <matrix>
+                    <Matrix tx="336" ty="176"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PeasantClip" selected="true" centerPoint3DX="8" centerPoint3DY="192">
+                  <matrix>
+                    <Matrix tx="-48" ty="176"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

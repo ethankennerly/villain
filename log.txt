@@ -3,6 +3,7 @@
     19 On paper, move a snake (after Sky Serpents).  Welcome Alex.
     20 On paper, dragon bite, breath fire. Note waves. (after Spike: A Love Story suggested by Dave Alleca)
     21 Press spacebar to return to menu.
+    22 Gray box in center.  White box scrolls from left.
 15
     8
     9
