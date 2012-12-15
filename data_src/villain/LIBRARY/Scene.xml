@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355593558" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355597137" lastUniqueIdentifier="5">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
@@ -14,7 +14,7 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" selected="true" centerPoint3DX="8" centerPoint3DY="192">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="8" centerPoint3DY="192">
                   <matrix>
                     <Matrix tx="-48" ty="176"/>
                   </matrix>
@@ -25,6 +25,30 @@
                 <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="600" centerPoint3DY="160">
                   <matrix>
                     <Matrix tx="544" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PeasantClip" selected="true" centerPoint3DX="-488" centerPoint3DY="192">
+                  <matrix>
+                    <Matrix tx="-544" ty="176"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="648" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="592" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-664" centerPoint3DY="192">
+                  <matrix>
+                    <Matrix tx="-720" ty="176"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>

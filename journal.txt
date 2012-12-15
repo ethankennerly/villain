@@ -155,3 +155,9 @@ Would also get very wide to see when waves will occur.
     Could establish it as an amount of time.
 Could spawn each when desired.  
 Parse scene.  Read position.  
+Add each to a Flixel group.
+
+
+Sat Dec 15 11:25:09 PST 2012
+
+if not being carried, may be carried by another.

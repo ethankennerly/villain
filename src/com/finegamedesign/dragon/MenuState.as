@@ -6,6 +6,7 @@ package com.finegamedesign.dragon
     {
         override public function create():void
         {
+            FlxG.bgColor = 0xFF222222;
             if (null == FlxG.scores || FlxG.scores.length <= 0) {
                 FlxG.scores = [0];
                 FlxG.score = 0;
@@ -15,7 +16,7 @@ package com.finegamedesign.dragon
                 FlxG.scores.push(FlxG.score);
             }
             var t:FlxText;
-            t = new FlxText(0,FlxG.height/4,FlxG.width,"Sleeping Dragon\nSneaking Treasure");
+            t = new FlxText(0,FlxG.height/4,FlxG.width,"Sleeping Dragon\nStealing Treasure");
             t.size = 16;
             t.alignment = "center";
             add(t);

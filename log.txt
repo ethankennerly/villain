@@ -8,10 +8,10 @@
 15 Release space to eat a peasant.
     8 Release space to annihilate a white box.
     9 White square carries yellow square away.
-    10
-    11
-    12
-    13
+    10 - How can 3 waves of peasants approach?
+    11 - How can overlapping peasants retain gold?
+    12 Do not let 3 white squares steal the 2 gold.
+    13 See a dragon?
     14
     15
     16
@@ -33,11 +33,6 @@
     17
 
 TODO
-    Release space to eat a square.
-    White square carries yellow square away.
-    If eaten, gold dropped.
-    Release space to eat a peasant.
-    All gold gone, lose.  All peasants eaten, win.
     See dragon.
     See peasant.
     See cave.

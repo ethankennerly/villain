@@ -4,17 +4,60 @@ package com.finegamedesign.dragon
     public class Peasant extends FlxSprite
     {
         public static var carryVelocity:Number = -32;
+        public static var retreatVelocity:Number = -64;
+        public var gold:Gold;
 
-        public function Peasant(X:int = 0, Y:int = 0, SimpleGraphic:Class = null) 
+        public function Peasant(X:int = 0, Y:int = 0, MovieClipClass:Class = null) 
         {
-            var place:PeasantClip = PlayState.getChildByClass(PeasantClip);
-            X = place.x;
-            Y = place.y;
             super(X, Y);
-            var sheet:PeasantSpritesheet = new PeasantSpritesheet();
-            this.loadGraphic(PeasantSpritesheet, true, true, sheet.frameWidth, sheet.frameHeight);
-            PlayState.addAnimation(this, place);
+            PlayState.constructSprite(this, PeasantSpritesheet);
             velocity.x = 64;
+        }
+
+        override public function kill():void
+        {
+            trace(this, "kill");
+            if (null != gold) {
+                gold.play("idling");
+                gold.velocity.x = 0;
+                gold = null;
+            }
+            super.kill();
+        }
+
+        public function carry(gold:Gold):void
+        {
+            if (null == gold.curAnim || "carrying" != gold.curAnim.name || this.gold == gold) {
+                if (onScreen()) {
+                    play("carrying");
+                    velocity.x = carryVelocity;
+                }
+                else if (alive) {
+                    kill();
+                }
+                if (gold.onScreen()) {
+                    this.gold = gold;
+                    gold.play("carrying");
+                    gold.x = x;
+                    gold.velocity.x = velocity.x;
+                }
+                else if (gold.alive) {
+                    gold.kill();
+                }
+            }
+        }
+
+        public function retreat():void
+        {
+            if (onScreen()) {
+                if (null == gold) {
+                    play("retreating");
+                    velocity.x = retreatVelocity;
+                }
+            }
+            else if (alive) {
+                kill();
+            }
         }
     }
 }

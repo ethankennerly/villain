@@ -1,17 +1,27 @@
 package com.finegamedesign.dragon
 {
     import org.flixel.*;
+    import org.flixel.system.FlxAnim;
     public class Gold extends FlxSprite
     {
-        public function Gold(X:int = 0, Y:int = 0, SimpleGraphic:Class = null) 
+        public static var sum:int;
+
+        public function Gold(X:int = 0, Y:int = 0, MovieClipClass:Class = null) 
         {
-            var place:GoldClip = PlayState.getChildByClass(GoldClip);
-            X = place.x;
-            Y = place.y;
             super(X, Y);
-            var sheet:GoldSpritesheet = new GoldSpritesheet();
-            this.loadGraphic(GoldSpritesheet, true, true, sheet.frameWidth, sheet.frameHeight);
-            PlayState.addAnimation(this, place);
+            PlayState.constructSprite(this, GoldSpritesheet);
+        }
+
+        public function count():void
+        {
+            if (onScreen() && null == curAnim || "idling" == curAnim.name) {
+                sum++;
+            }
+        }
+
+        public function get curAnim():FlxAnim
+        {
+            return _curAnim;
         }
     }
 }

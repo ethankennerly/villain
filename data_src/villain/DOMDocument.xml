@@ -5,7 +5,7 @@
           <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355590961"/>
           <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355590939"/>
           <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355593618"/>
-          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355593558"/>
+          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355597137"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -28,6 +28,10 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="90107" publishTime="1355597119" publishDebug="true"/>
+          <PublishItem publishSize="90085" publishTime="1355597024" publishDebug="true"/>
+          <PublishItem publishSize="90065" publishTime="1355596957" publishDebug="true"/>
+          <PublishItem publishSize="89688" publishTime="1355595410" publishDebug="true"/>
           <PublishItem publishSize="89681" publishTime="1355594894" publishDebug="true"/>
           <PublishItem publishSize="89656" publishTime="1355594824" publishDebug="true"/>
           <PublishItem publishSize="89666" publishTime="1355594769" publishDebug="true"/>
@@ -44,9 +48,5 @@
           <PublishItem publishSize="89550" publishTime="1355593625" publishDebug="true"/>
           <PublishItem publishSize="89496" publishTime="1355593463" publishDebug="true"/>
           <PublishItem publishSize="89399" publishTime="1355592857" publishDebug="true"/>
-          <PublishItem publishSize="89063" publishTime="1355591631" publishDebug="true"/>
-          <PublishItem publishSize="89017" publishTime="1355591561" publishDebug="true"/>
-          <PublishItem publishSize="88994" publishTime="1355591493" publishDebug="true"/>
-          <PublishItem publishSize="89010" publishTime="1355591460" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

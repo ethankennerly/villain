@@ -49,30 +49,64 @@ package com.finegamedesign.dragon
             }
         }
 
+        /**
+         * Parse animations from movie clip.
+         * Flixel expects unique graphic class name.
+         */
+        public static function constructSprite(flxSprite:FlxSprite, SpritesheetClass:Class):void
+        {
+            var sheet:* = new SpritesheetClass();
+            flxSprite.loadGraphic(SpritesheetClass, true, true, sheet.frameWidth, sheet.frameHeight);
+        }
+
+        public static function constructChild(FlxSpriteClass:Class, child:MovieClip):*
+        {
+            var flxSprite:FlxSprite = new FlxSpriteClass(child.x, child.y);
+            addAnimation(flxSprite, child);
+            return flxSprite;
+        }
+
         private var instructionText:FlxText;
         private var waveText:FlxText;
         private var goldText:FlxText;
         private var waveCount:int;
         private var goldCount:int;
         private var head:Head;
-        private var peasant:Peasant;
-        private var gold:Gold;
+        private var peasants:FlxGroup;
+        private var golds:FlxGroup;
+
+        private function addChildren(scene:MovieClip):void
+        {
+            peasants = new FlxGroup();
+            golds = new FlxGroup();
+            for (var c:int=0; c < scene.numChildren; c++) {
+                var child:* = scene.getChildAt(c);
+                if (child is HeadClip) {
+                    head = constructChild(Head, child);
+                    add(head);
+                }
+                else if (child is PeasantClip) {
+                    peasants.add(constructChild(Peasant, child));
+                    add(peasants);
+                }
+                else if (child is GoldClip) {
+                    golds.add(constructChild(Gold, child));
+                    add(golds);
+                }
+            }
+        }
 
         override public function create():void
         {
-            FlxG.visualDebug = true;
-            FlxG.timeScale = 8.0;
             FlxG.score = 0;
             super.create();
             scene = new Scene();
-            FlxG.bgColor = 0xFF222222;
-            head = new Head();
-            add(head);
-            peasant = new Peasant();
-            add(peasant);
-            gold = new Gold();
-            add(gold);
+            addChildren(scene);
+            addHud();
+        }
 
+        private function addHud():void
+        {
             instructionText = new FlxText(FlxG.width/2 - 40, FlxG.height - 20, 200, 
                 "RELEASE SPACEBAR TO EAT WHITE SQUARE");
             add(instructionText);
@@ -86,6 +120,7 @@ package com.finegamedesign.dragon
         {
             updateInput();
             updateGold();
+            updateRetreat();
             super.update();
         }
 
@@ -93,39 +128,65 @@ package com.finegamedesign.dragon
         {
             if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
                 trace("release");
-				if (FlxG.overlap(head, peasant)) {
-                    head.play("eat");
-                    peasant.kill();
-                    FlxG.score++;
-                }
-                else {
+				if (!FlxG.overlap(head, peasants, eat)) {
                     head.play("bite");
                 }
             }
             else if (head.finished) {
                 head.play("idling");
-                if (!peasant.alive) {
+                if (peasants.countLiving() <= 0) {
                     FlxG.switchState(new MenuState());
                 }
             }
+            if (FlxG.keys.pressed("SHIFT") && FlxG.keys.justPressed("TWO")) {
+                // FlxG.visualDebug = true;
+                FlxG.timeScale = 8.0;
+            }
+            else if (FlxG.keys.pressed("SHIFT") && FlxG.keys.justPressed("ONE")) {
+                // FlxG.visualDebug = false;
+                FlxG.timeScale = 1.0;
+            }
         }
 
+        private function eat(head:FlxObject, peasant:FlxObject):void
+        {
+            Head(head).play("eat");
+            peasant.kill();
+            FlxG.score++;
+        }
+
+        /**
+         * If peasant touches gold, carry.  Otherwise gold sits.
+         * If peasants carry all gold away, lose.
+         */
         private function updateGold():void
         {
-            if (FlxG.overlap(gold, peasant)) {
-                peasant.play("carrying");
-                peasant.velocity.x = Peasant.carryVelocity;
-                gold.play("carrying");
-                gold.velocity.x = peasant.velocity.x;
-                gold.x = peasant.x;
-            }
-            else {
-                gold.play("idling");
-                gold.velocity.x = 0.0;
-            }
-            if (!gold.onScreen()) {
+            FlxG.overlap(golds, peasants, carry);
+            if (golds.countLiving() <= 0) {
                 FlxG.switchState(new MenuState());
             }
+        }
+
+        /**
+         * If no gold idling on screen, then peasants on screen retreat.
+         */
+        private function updateRetreat():void
+        {
+            Gold.sum = 0;
+            golds.callAll("count");
+            if (Gold.sum <= 0) {
+                peasants.callAll("retreat");
+            }
+        }
+
+        /**
+         * If gold being carried, do not transfer to another.
+         */
+        private function carry(me:FlxObject, you:FlxObject):void
+        {
+            var peasant:Peasant = Peasant(you);
+            var gold:Gold = Gold(me);
+            peasant.carry(gold);
         }
     }
 }
