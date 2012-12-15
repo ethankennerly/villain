@@ -1,0 +1,304 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BodyClip" itemID="50ccec7a-00000f9a" linkageExportForAS="true" linkageClassName="BodyClip" lastModified="1355609644">
+  <timeline>
+    <DOMTimeline name="BodyClip">
+      <layers>
+        <DOMLayer name="Layer 10" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!4380 2941[4380 3049 4222 3125!4222 3125[4064 3201 3840 3201!3840 3201[3616 3201 3458 3125!3458 3125[3300 3049 3300 2941!3300 2941[3300 2833 3458 2756!3458 2756[3616 2680 3840 2680!3840 2680[4064 2680 4222 2756!4222 2756[4380 2833 4380
+ 2941"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!3303 2260[3304 2249 3307 2238!3307 2238[3339 2091 3452 1977!3452 1977[3612 1818 3837 1818!3837 1818[4062 1818 4220 1977!4220 1977[4380 2136 4380 2361!4380 2361[4380 2586 4220 2745!4220 2745[4062 2904 3837 2904!3837 2904[3612 2904 3452
+ 2745!3452 2745[3442 2734 3432 2723!3432 2723[3383 2670 3351 2609"/>
+                    <Edge fillStyle1="1" edges="
+!3351 2609[3355 2609 3357 2608!3357 2608[3656 2539 3656 2440!3656 2440[3656 2342 3357 2272!3357 2272[3330 2265 3303 2260"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!5646 1495[5957 1452 5992 1544!5992 1544[6028 1637 5768 1811!5768 1811[5509 1986 5106 2140!5106 2140[4704 2294 4394 2337!4394 2337[4085 2381 4049 2288!4049 2288[4014 2196 4272 2021!4272 2021[4532 1846 4934 1692!4934 1692[5337 1538 5646
+ 1495"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!4380 2561[4380 2495 4614 2448!4614 2448[#12F0.F8 #960.E6 5280 2319.5!5280 2319.5[#164F.16 #8BE.4E 5905.5 2318!5905.5 2318[#17D3.E9 #95D.B2 6040 2512.5!6040 2512.5[#175C.07 #A43.1A 5745 2674!5745 2674[5511 2721 5180 2721!5180 2721[4849
+ 2721 4614 2674!4614 2674[4380 2627 4380 2561"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!5980 1121[6113 1121 6206 1329!6206 1329[6300 1537 6300 1831!6300 1831[6300 2125 6206 2333!6206 2333[6113 2541 5980 2541!5980 2541[5847 2541 5753 2333!5753 2333[5660 2125 5660 1831!5660 1831[5660 1537 5753 1329!5753 1329[5847 1121 5980
+ 1121"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!2512 889[2720 1097 2720 1391!2720 1391[#A9F.FC #694.F1 2228 2324.5!2228 2324.5[#6C8.0A #B94.2D 1510 2861!1510 2861[#503.F5 #AC5.D3 1292 2221.5!1292 2221.5[#514.03 #695.0F 1300 1391!1300 1391[1300 1097 1508 889!1508 889[1716 681 2010
+ 681!2010 681[2304 681 2512 889"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!6200 1281[6200 1811 5321 2186!5321 2186[#115A.EE #A00.F5 3180.5 2660.5!3180.5 2660.5[#77E.34 #AC8.1F 1008.5 2546!1008.5 2546[#62.CB #91B.E 149.5 1541.5!149.5 1541.5[#C8.11 #2EF.0A 1078 376!1078 376[1957 1 3200 1!3200 1[4443 1 5321 376
+!5321 376[6200 751 6200 1281"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 9" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!700 1541[903 1541 1046 1719!1046 1719[1190 1898 1190 2151!1190 2151[1190 2404 1046 2582!1046 2582[903 2761 700 2761!700 2761[497 2761 353 2582!353 2582[210 2404 210 2151!210 2151[210 1898 353 1719!353 1719[497 1541 700 1541"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 11" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!3430 3166[3070 3201 2560 3201!2560 3201[2050 3201 1690 3166!1690 3166[1330 3131 1330 3081!1330 3081[1330 3031 1690 2996!1690 2996[2050 2961 2560 2961!2560 2961[3070 2961 3430 2996!3430 2996[3790 3031 3790 3081!3790 3081[3790 3131 3430
+ 3166"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 12" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!5321 1866[4443 2241 3200 2241!3200 2241[1957 2241 1078 1866!1078 1866[200 1491 200 961!200 961[200 431 1078 56!1078 56[1957 -319 3200 -319!3200 -319[4443 -319 5321 56!5321 56[6200 431 6200 961!6200 961[6200 1491 5321 1866"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

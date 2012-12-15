@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355597137" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355607851" lastUniqueIdentifier="5">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
@@ -22,7 +22,7 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="600" centerPoint3DY="160">
+                <DOMSymbolInstance libraryItemName="GoldClip" selected="true" centerPoint3DX="600" centerPoint3DY="160">
                   <matrix>
                     <Matrix tx="544" ty="144"/>
                   </matrix>
@@ -30,7 +30,7 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" selected="true" centerPoint3DX="-488" centerPoint3DY="192">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-488" centerPoint3DY="192">
                   <matrix>
                     <Matrix tx="-544" ty="176"/>
                   </matrix>
@@ -58,20 +58,34 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
+        <DOMLayer name="body" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="BodyClip" centerPoint3DX="431.05" centerPoint3DY="207.65">
+                  <matrix>
+                    <Matrix tx="249" ty="61.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="180" y="129.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="floor" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#333333"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle1="1" edges="!12800 4800|0 4800!0 4800|0 4160!0 4160|12800 4160!12800 4160|12800 4800"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="BackgroundClip" centerPoint3DX="320" centerPoint3DY="224">
+                  <matrix>
+                    <Matrix ty="208"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="320" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

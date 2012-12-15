@@ -3,6 +3,8 @@ package com.finegamedesign.dragon
     import flash.display.DisplayObject;
     import flash.display.DisplayObjectContainer;
     import flash.display.MovieClip;
+    import flash.utils.getQualifiedClassName;
+    import flash.utils.getDefinitionByName;
     import org.flixel.*;
    
     public class PlayState extends FlxState
@@ -93,6 +95,12 @@ package com.finegamedesign.dragon
                     golds.add(constructChild(Gold, child));
                     add(golds);
                 }
+                else if (child is BackgroundClip) {
+                    add(constructChild(Background, child));
+                }
+                else if (child is BodyClip) {
+                    add(constructChild(Body, child));
+                }
             }
         }
 
@@ -110,9 +118,9 @@ package com.finegamedesign.dragon
             instructionText = new FlxText(FlxG.width/2 - 40, FlxG.height - 20, 200, 
                 "RELEASE SPACEBAR TO EAT WHITE SQUARE");
             add(instructionText);
-            waveText = new FlxText(0, 0, 100, "WAVE " + waveCount.toString() + " OF 0");
+            waveText = new FlxText(0, 0, 100, "");
             add(waveText);
-            goldText = new FlxText(FlxG.width - 40, 0, 100, "GOLD " + goldCount.toString());
+            goldText = new FlxText(FlxG.width - 40, 0, 100, "");
             add(goldText);
         }
 
@@ -121,7 +129,20 @@ package com.finegamedesign.dragon
             updateInput();
             updateGold();
             updateRetreat();
+            updateHud(peasants.countLiving(), golds.countLiving());
             super.update();
+        }
+
+        private function updateHud(peasantsLiving:int, goldsLiving:int):void
+        {
+            waveText.text = "PEASANTS " + peasantsLiving.toString();
+            goldText.text = "GOLD " + goldsLiving.toString();
+            if (goldsLiving <= 0) {
+                FlxG.switchState(new MenuState());
+            }
+            else if (peasantsLiving <= 0) {
+                FlxG.switchState(new MenuState());
+            }
         }
 
         private function updateInput():void
@@ -134,9 +155,6 @@ package com.finegamedesign.dragon
             }
             else if (head.finished) {
                 head.play("idling");
-                if (peasants.countLiving() <= 0) {
-                    FlxG.switchState(new MenuState());
-                }
             }
             if (FlxG.keys.pressed("SHIFT") && FlxG.keys.justPressed("TWO")) {
                 // FlxG.visualDebug = true;
@@ -162,9 +180,6 @@ package com.finegamedesign.dragon
         private function updateGold():void
         {
             FlxG.overlap(golds, peasants, carry);
-            if (golds.countLiving() <= 0) {
-                FlxG.switchState(new MenuState());
-            }
         }
 
         /**

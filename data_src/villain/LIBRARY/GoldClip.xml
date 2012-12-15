@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GoldClip" itemID="50ccb08b-00000e73" linkageExportForAS="true" linkageClassName="GoldClip" lastModified="1355593552">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GoldClip" itemID="50ccb08b-00000e73" linkageExportForAS="true" linkageClassName="GoldClip" lastModified="1355609862">
   <timeline>
     <DOMTimeline name="GoldClip">
       <layers>
@@ -12,39 +12,39 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="image" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="image" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#FFCC00"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle0="1" edges="!0 640|0 1280!0 1280|640 1280!640 1280|640 640!640 640|0 640"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="GoldGraphic" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix ty="32"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" duration="4" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#FFCC00"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle0="1" edges="!0 640|640 640!640 640|640 0!640 0|0 0!0 0|0 640"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="GoldGraphic" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="frame" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="frame" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="5" keyMode="9728">
               <elements>

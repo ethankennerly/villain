@@ -11,9 +11,9 @@
     10 - How can 3 waves of peasants approach?
     11 - How can overlapping peasants retain gold?
     12 Do not let 3 white squares steal the 2 gold.
-    13 See a dragon?
-    14
-    15
+    13 - How can I draw a dragon?
+    14 Sketch volume of dragon, peasant, and gold.
+    15 See dragon?
     16
     17
     18

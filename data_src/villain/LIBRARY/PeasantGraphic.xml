@@ -1,0 +1,251 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantGraphic" itemID="50ccf467-0000026f" symbolType="graphic" lastModified="1355609356">
+  <timeline>
+    <DOMTimeline name="PeasantGraphic">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F4B678"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#654806"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!380 260[322 260 281 225!281 225[240 190 240 140!240 140[240 90 281 55!281 55[322 20 380 20!380 20[438 20 479 55!479 55[520 90 520 140!520 140[520 190 479 225!479 225[438 260 380 260"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F4B678"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#654806"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!440 320[440 382 402 426!402 426[364 470 310 470!310 470[256 470 218 426!218 426[180 382 180 320!180 320[180 258 218 214!218 214[256 170 310 170!310 170[364 170 402 214!402 214[440 258 440 320"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F4B678"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#654806"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!500 220[546 220 578 234!578 234[610 249 610 270!610 270[610 291 578 305!578 305[546 320 500 320!500 320[454 320 422 305!422 305[390 291 390 270!390 270[390 249 422 234!422 234[454 220 500 220!252 144[290 159 290 180!290 180[290 201 252
+ 215!252 215[214 230 160 230!160 230[106 230 68 215!68 215[30 201 30 180!30 180[30 159 68 144!68 144[106 130 160 130!160 130[214 130 252 144"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F4B678"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#654806"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!675 275[661 310 640 310!640 310[619 310 604 275!604 275[590 240 590 190!590 190[590 140 604 105!604 105[619 70 640 70!640 70[661 70 675 105!675 105[690 140 690 190!690 190[690 240 675 275"/>
+                  </edges>
+                </DOMShape>
+                <DOMOvalObject objectWidth="5" objectHeight="11" x="3.5" y="8.5" endAngle="0">
+                  <matrix>
+                    <Matrix tx="-2"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#F4B678"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#654806"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="15" objectHeight="7" x="11.5" y="18.5" endAngle="0">
+                  <matrix>
+                    <Matrix tx="-2"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#F4B678"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#654806"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="5" objectHeight="10" x="21.5" y="21.5" endAngle="0">
+                  <matrix>
+                    <Matrix tx="-2"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#F4B678"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#654806"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="8" objectHeight="4" x="23.5" y="27.5" endAngle="0">
+                  <matrix>
+                    <Matrix tx="-2"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#F4B678"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#654806"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="4" objectHeight="10" x="11.5" y="21.5" endAngle="0">
+                  <matrix>
+                    <Matrix tx="-2.5" ty="0.5"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#F4B678"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#654806"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 9" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="15" objectHeight="6" x="-0.5" y="23.5" endAngle="0">
+                  <matrix>
+                    <Matrix a="0.55242919921875" b="0.552413940429688" c="-0.50506591796875" d="0.50506591796875" tx="16.55" ty="9.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.95" y="26.55"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#F4B678"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor color="#654806"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

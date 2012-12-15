@@ -25,16 +25,20 @@ package com.finegamedesign.dragon
             super.kill();
         }
 
+        override public function update():void
+        {
+            if (velocity.x < 0 && alive && !onScreen()) {
+                kill();
+            }
+        }
+
         public function carry(gold:Gold):void
         {
             if (null == gold.curAnim || "carrying" != gold.curAnim.name || this.gold == gold) {
                 if (onScreen()) {
-                    play("carrying");
                     velocity.x = carryVelocity;
                 }
-                else if (alive) {
-                    kill();
-                }
+                play("carrying");
                 if (gold.onScreen()) {
                     this.gold = gold;
                     gold.play("carrying");

@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HeadClip" itemID="50cc1c36-00000df1" linkageExportForAS="true" linkageClassName="HeadClip" lastModified="1355591556">
   <timeline>
-    <DOMTimeline name="HeadClip" currentFrame="20">
+    <DOMTimeline name="HeadClip">
       <layers>
         <DOMLayer name="label" color="#9933CC" autoNamed="false">
           <frames>
@@ -103,7 +103,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="JawBottom" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="JawBottom" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -191,7 +191,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="frame" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="frame" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="21" keyMode="9728">
               <elements>
@@ -202,7 +202,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!320 320S2|0 320!0 320|0 0!0 0|320 0!320 0|320 320"/>
+                    <Edge fillStyle1="1" edges="!320 320|0 320!0 320|0 0!0 0|320 0!320 0|320 320"/>
                   </edges>
                 </DOMShape>
               </elements>

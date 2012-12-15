@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355593618">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355609405">
   <timeline>
-    <DOMTimeline name="PeasantClip">
+    <DOMTimeline name="PeasantClip" currentFrame="2">
       <layers>
         <DOMLayer name="label" color="#9933CC" autoNamed="false">
           <frames>
@@ -10,36 +10,47 @@
             <DOMFrame index="1" name="carrying" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
+            <DOMFrame index="2" name="retreating" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="image" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="body" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#FFFFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle0="1" edges="!640 0|0 0!0 0|0 640!0 640|640 640!640 640|640 0"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="7" y="6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#CCCCCC"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle0="1" edges="!0 0|0 640!0 640|640 640!640 640|640 0!640 0|0 0"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="18" centerPoint3DY="16.5" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" tx="36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color brightness="-0.34"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="18" centerPoint3DY="16.5" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" tx="36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

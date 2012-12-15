@@ -65,7 +65,7 @@ badd +76 PlayState.as
 badd +1 Preloader.as
 badd +1 Dragon.as
 badd +72 ~/ludum/stocksurfer/src/Player.as
-badd +17 Head.as
+badd +18 Head.as
 badd +13 FlxMovieClip.as
 badd +31 ~/ludum/stocksurfer/src/FlxMovieClip.as
 badd +74 ~/ludum/villain/src/com/noorhakim/FlxMovieClip.as
@@ -78,6 +78,8 @@ badd +12 Gold.as
 badd +22 FlxClip.as
 badd +508 ~/ludum/src/org/flixel/FlxGroup.as
 badd +0 ~/ludum/src/org/flixel/system/FlxAnim.as
+badd +24 Body.as
+badd +1 Background.as
 silent! argdel *
 edit ~/ludum/villain/README.md
 set splitbelow splitright
@@ -103,17 +105,17 @@ set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
-exe '1resize ' . ((&lines * 15 + 33) / 67)
+exe '1resize ' . ((&lines * 16 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 16 + 33) / 67)
+exe '2resize ' . ((&lines * 15 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
 exe '3resize ' . ((&lines * 16 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
 exe '4resize ' . ((&lines * 15 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)
-exe '5resize ' . ((&lines * 5 + 33) / 67)
+exe '5resize ' . ((&lines * 30 + 33) / 67)
 exe 'vert 5resize ' . ((&columns * 104 + 104) / 209)
-exe '6resize ' . ((&lines * 59 + 33) / 67)
+exe '6resize ' . ((&lines * 34 + 33) / 67)
 exe 'vert 6resize ' . ((&columns * 104 + 104) / 209)
 argglobal
 setlocal keymap=
@@ -219,12 +221,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 4 - ((3 * winheight(0) + 7) / 15)
+let s:l = 15 - ((9 * winheight(0) + 8) / 16)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-4
-normal! 0
+15
+normal! 046l
 wincmd w
 argglobal
 edit ~/ludum/villain/journal.txt
@@ -331,12 +333,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 163 - ((15 * winheight(0) + 8) / 16)
+let s:l = 174 - ((3 * winheight(0) + 7) / 15)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-163
-normal! 039l
+174
+normal! 0
 wincmd w
 argglobal
 edit ~/ludum/villain/log.txt
@@ -666,11 +668,11 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 9 - ((2 * winheight(0) + 2) / 5)
+let s:l = 17 - ((16 * winheight(0) + 15) / 30)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
+17
 normal! 012l
 lcd ~/ludum/villain/src/com/finegamedesign/dragon
 wincmd w
@@ -779,28 +781,27 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 142 - ((29 * winheight(0) + 29) / 59)
+let s:l = 132 - ((9 * winheight(0) + 17) / 34)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-142
-normal! 018l
+132
+normal! 037l
 lcd ~/ludum/villain/src/com/finegamedesign/dragon
 wincmd w
-4wincmd w
-exe '1resize ' . ((&lines * 15 + 33) / 67)
+exe '1resize ' . ((&lines * 16 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 16 + 33) / 67)
+exe '2resize ' . ((&lines * 15 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
 exe '3resize ' . ((&lines * 16 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
 exe '4resize ' . ((&lines * 15 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)
-exe '5resize ' . ((&lines * 5 + 33) / 67)
+exe '5resize ' . ((&lines * 30 + 33) / 67)
 exe 'vert 5resize ' . ((&columns * 104 + 104) / 209)
-exe '6resize ' . ((&lines * 59 + 33) / 67)
+exe '6resize ' . ((&lines * 34 + 33) / 67)
 exe 'vert 6resize ' . ((&columns * 104 + 104) / 209)
-tabedit ~/ludum/villain/src/com/finegamedesign/dragon/Head.as
+tabedit ~/ludum/villain/src/com/finegamedesign/dragon/Background.as
 set splitbelow splitright
 wincmd _ | wincmd |
 vsplit
@@ -824,11 +825,11 @@ set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
-exe '1resize ' . ((&lines * 4 + 33) / 67)
+exe '1resize ' . ((&lines * 13 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 21 + 33) / 67)
+exe '2resize ' . ((&lines * 1 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
-exe '3resize ' . ((&lines * 38 + 33) / 67)
+exe '3resize ' . ((&lines * 49 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
 exe '4resize ' . ((&lines * 41 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)
@@ -940,12 +941,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 9 - ((0 * winheight(0) + 2) / 4)
+let s:l = 24 - ((7 * winheight(0) + 6) / 13)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 043l
+24
+normal! 08l
 wincmd w
 argglobal
 edit ~/ludum/villain/src/com/finegamedesign/dragon/Gold.as
@@ -1052,7 +1053,7 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 15 - ((11 * winheight(0) + 10) / 21)
+let s:l = 15 - ((0 * winheight(0) + 0) / 1)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -1164,12 +1165,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 30 - ((15 * winheight(0) + 19) / 38)
+let s:l = 30 - ((12 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
 30
-normal! 091l
+normal! 054l
 wincmd w
 argglobal
 edit ~/ludum/villain/src/com/finegamedesign/dragon/PlayState.as
@@ -1276,12 +1277,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 190 - ((36 * winheight(0) + 20) / 41)
+let s:l = 202 - ((30 * winheight(0) + 20) / 41)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-190
-normal! 08l
+202
+normal! 032l
 lcd ~/ludum/villain/src/com/finegamedesign/dragon
 wincmd w
 argglobal
@@ -1508,12 +1509,11 @@ normal! zt
 19
 normal! 032l
 wincmd w
-4wincmd w
-exe '1resize ' . ((&lines * 4 + 33) / 67)
+exe '1resize ' . ((&lines * 13 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 21 + 33) / 67)
+exe '2resize ' . ((&lines * 1 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
-exe '3resize ' . ((&lines * 38 + 33) / 67)
+exe '3resize ' . ((&lines * 49 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
 exe '4resize ' . ((&lines * 41 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)

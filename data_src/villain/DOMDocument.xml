@@ -1,11 +1,15 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#666666" gridColor="#CCCCCC" width="640" height="240" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="16" gridSpacingY="16" gridSnapTo="true" gridVisible="true" pixelSnap="true" vanishingPoint3DX="320" vanishingPoint3DY="240" previewMode="fast" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <symbols>
-          <Include href="GoldClip.xml" itemID="50ccb08b-00000e73" lastModified="1355593552"/>
+          <Include href="BackgroundClip.xml" itemID="50cceb2a-00000f5d" lastModified="1355606826"/>
+          <Include href="BodyClip.xml" itemID="50ccec7a-00000f9a" lastModified="1355609644"/>
+          <Include href="GoldClip.xml" itemID="50ccb08b-00000e73" lastModified="1355609862"/>
+          <Include href="GoldGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf655-0000027e" lastModified="1355609881"/>
           <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355591556"/>
-          <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355590961"/>
-          <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355590939"/>
-          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355593618"/>
-          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355597137"/>
+          <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355609626"/>
+          <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355609608"/>
+          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355609405"/>
+          <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355609356"/>
+          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355607851"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -28,25 +32,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="90107" publishTime="1355597119" publishDebug="true"/>
-          <PublishItem publishSize="90085" publishTime="1355597024" publishDebug="true"/>
-          <PublishItem publishSize="90065" publishTime="1355596957" publishDebug="true"/>
-          <PublishItem publishSize="89688" publishTime="1355595410" publishDebug="true"/>
-          <PublishItem publishSize="89681" publishTime="1355594894" publishDebug="true"/>
-          <PublishItem publishSize="89656" publishTime="1355594824" publishDebug="true"/>
-          <PublishItem publishSize="89666" publishTime="1355594769" publishDebug="true"/>
-          <PublishItem publishSize="89670" publishTime="1355594735" publishDebug="true"/>
-          <PublishItem publishSize="89668" publishTime="1355594693" publishDebug="true"/>
-          <PublishItem publishSize="89690" publishTime="1355594647" publishDebug="true"/>
-          <PublishItem publishSize="89663" publishTime="1355594581" publishDebug="true"/>
-          <PublishItem publishSize="89638" publishTime="1355594511" publishDebug="true"/>
-          <PublishItem publishSize="89612" publishTime="1355594454" publishDebug="true"/>
-          <PublishItem publishSize="89604" publishTime="1355593952" publishDebug="true"/>
-          <PublishItem publishSize="89609" publishTime="1355593918" publishDebug="true"/>
-          <PublishItem publishSize="89569" publishTime="1355593695" publishDebug="true"/>
-          <PublishItem publishSize="89550" publishTime="1355593667" publishDebug="true"/>
-          <PublishItem publishSize="89550" publishTime="1355593625" publishDebug="true"/>
-          <PublishItem publishSize="89496" publishTime="1355593463" publishDebug="true"/>
-          <PublishItem publishSize="89399" publishTime="1355592857" publishDebug="true"/>
+          <PublishItem publishSize="92768" publishTime="1355609894" publishDebug="true"/>
+          <PublishItem publishSize="92623" publishTime="1355609421" publishDebug="true"/>
+          <PublishItem publishSize="175952" publishTime="1355607809" publishDebug="true"/>
+          <PublishItem publishSize="175920" publishTime="1355607725" publishDebug="true"/>
+          <PublishItem publishSize="175916" publishTime="1355607666" publishDebug="true"/>
+          <PublishItem publishSize="175886" publishTime="1355607576" publishDebug="true"/>
+          <PublishItem publishSize="175913" publishTime="1355607458" publishDebug="true"/>
+          <PublishItem publishSize="175894" publishTime="1355607395" publishDebug="true"/>
+          <PublishItem publishSize="176078" publishTime="1355607307" publishDebug="true"/>
+          <PublishItem publishSize="175684" publishTime="1355606962" publishDebug="true"/>
+          <PublishItem publishSize="175494" publishTime="1355606679" publishDebug="true"/>
+          <PublishItem publishSize="90633" publishTime="1355603217" publishDebug="true"/>
+          <PublishItem publishSize="90590" publishTime="1355603050" publishDebug="true"/>
+          <PublishItem publishSize="90550" publishTime="1355602914" publishDebug="true"/>
+          <PublishItem publishSize="90563" publishTime="1355602814" publishDebug="true"/>
+          <PublishItem publishSize="90557" publishTime="1355602800" publishDebug="true"/>
+          <PublishItem publishSize="90568" publishTime="1355602726" publishDebug="true"/>
+          <PublishItem publishSize="90605" publishTime="1355602660" publishDebug="true"/>
+          <PublishItem publishSize="90565" publishTime="1355602615" publishDebug="true"/>
+          <PublishItem publishSize="90605" publishTime="1355602573" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

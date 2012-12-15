@@ -161,3 +161,14 @@ Add each to a Flixel group.
 Sat Dec 15 11:25:09 PST 2012
 
 if not being carried, may be carried by another.
+
+
+Sat Dec 15 13:15:45 PST 2012
+
+Sleeping dragon.  curled.  like a cat.
+spine.
+smoke from nostrils.
+one eye winking like a cat.
+
+After Airdin
+http://airdin.deviantart.com/art/Sleeping-Dragon-40622802

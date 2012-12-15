@@ -16,7 +16,7 @@ package com.finegamedesign.dragon
                 FlxG.scores.push(FlxG.score);
             }
             var t:FlxText;
-            t = new FlxText(0,FlxG.height/4,FlxG.width,"Sleeping Dragon\nStealing Treasure");
+            t = new FlxText(0,FlxG.height/4,FlxG.width,"Sleeping Dragon\nEating Peasants");
             t.size = 16;
             t.alignment = "center";
             add(t);
