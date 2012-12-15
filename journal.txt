@@ -75,3 +75,55 @@ Shark swims
         shark bites
     hero comes with spear
 Drop rock from the sky onto passersby.
+
+
+
+
+Fri Dec 14 20:33:28 PST 2012
+
+Title Bank
+    Sleeping Dragon
+    Dragon Cave
+    Dragon's Mouth
+
+Why cannot dragon breathe fire nearby and only at a distance?
+If dragon does, then that becomes the dominant strategy, 
+unless fire charge up time prevents bite and charge up time is very slow.
+Bite once before and after gold.
+Will it look like a dragon?
+Walk in front of dragon.
+When dragon opens its mouth it will bite.
+
+Peasant:  Walks toward gold, drags it back.  Tactic:  Bite or breathe fire.
+Peasant and Peasant.  Tactic:  bite twice or breathe fire.
+Knight:  Walks toward gold, drags it back.  Armor absorbs 1 hit (after Ghouls n Ghosts).  Tactic:  Bite twice.
+Thief:  Hide in shadow.  Take gold and go back.  Run.  Tactic:  Time fire, or time bite.
+Thief and Peasant.  Tactic:  Time bite.
+Knight and Thief.  Tactic:  Time bite three times.
+Wizard:  Teleports gold from a distance.  Tactic:  Breathe fire.
+Wizard and Knight.  Tactic:  Breathe fire, bite.
+Priest:  Does not take gold.  Tactic:  Breathe fire.
+Priest and Knight:  Does not take gold.  Force field knight.  Tactic:  Breathe fire.
+Wizard and Thief.  Tactic:  Breathe fire, time bite.
+Thief:  Jump fire.
+Priest.  Heals knight from behind.  
+
+Dragon looks like it is sleeping.
+Cute dragon.  Cute 8 bit characters, squat.
+Gold slows down character.
+
+Dragon a slope, so gold rolls back to cave.
+Or gold simply stays where it is and may be easily picked up.
+In between, dragon's tail wipes gold back in place.  If no one on screen, press space to move gold back.
+Breathing fire reels back and lunges forward, so misses short range.
+
+Lose all gold.  Lose.
+Kill all heroes.  Win.
+Count waves survived.  
+
+
+Ghost n goblins
+Link:  Fast.
+Mario:  Jumps fire.
+
+
