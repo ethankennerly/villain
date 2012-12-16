@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355638660">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355675825">
   <timeline>
-    <DOMTimeline name="PeasantClip" currentFrame="15">
+    <DOMTimeline name="PeasantClip" currentFrame="33">
       <layers>
         <DOMLayer name="label" color="#9933CC" autoNamed="false">
           <frames>
@@ -15,7 +15,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="sound" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="sound" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="5" keyMode="9728">
               <elements/>
@@ -31,11 +31,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#9933CC" autoNamed="false">
+        <DOMLayer name="body" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="11" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" selected="true" symbolType="graphic" loop="loop">
                   <transformationPoint>
                     <Point x="7" y="6"/>
                   </transformationPoint>

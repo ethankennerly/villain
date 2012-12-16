@@ -1,239 +1,73 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantGraphic" itemID="50ccf467-0000026f" symbolType="graphic" lastModified="1355629706">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantKillGraphic" itemID="50cdf6cd-0000047f" symbolType="graphic" lastModified="1355675543">
   <timeline>
-    <DOMTimeline name="PeasantGraphic" currentFrame="13">
+    <DOMTimeline name="PeasantKillGraphic" currentFrame="13">
       <layers>
-        <DOMLayer name="Layer 18" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="head" color="#9933CC" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!377 630[347 601 347 560!347 560[347 519 377 489!377 489[409 461 429 471!429 471[448 481 426 534!426 534[401 584 517 625!517 625[632 665 601 695!601 695[569 722 490 691!490 691[409 659 377 630"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="PeasantHeadGraphic" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="1" ty="1.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.4" y="21.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 17" color="#4FFF4F">
-          <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
+            <DOMFrame index="2" duration="3" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!552 312[552 307 557 302!557 302[562 298 568 298!568 298[574 298 578 302!578 302[582 307 582 312!582 312[582 318 578 323!578 323[574 326 568 326!568 326[562 326 557 323!557 323[552 318 552 312!622 307[632 298 644 298!644 298[655 298 665
- 307!665 307[674 314 674 326!674 326[674 338 665 346!665 346[655 355 644 355!644 355[632 355 622 346!622 346[613 338 613 326!613 326[613 314 622 307"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="PeasantHeadGraphic" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.707107543945312" b="-0.70709228515625" c="0.70709228515625" d="0.707107543945312" tx="-44.3" ty="18.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.4" y="21.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 15" color="#4F80FF">
-          <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
+            <DOMFrame index="5" duration="3" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!504 248[536 225 566 233!566 233[596 241 608 275!608 275[622 307 612 346!612 346[600 386 570 409!570 409[542 431 511 424!511 424[480 415 465 385!465 385[453 349 465 310!465 310[477 270 504 248"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="PeasantHeadGraphic" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.52587890625e-05" b="-0.999969482421875" c="0.999969482421875" d="1.52587890625e-05" tx="-53.25" ty="64.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.35" y="21.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 16" color="#FF4F4F">
-          <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
+            <DOMFrame index="8" duration="3" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!658 245[699 234 733 247!733 247[771 260 779 289!779 289[787 317 762 343!762 343[739 371 697 382!697 382[653 392 618 382!618 382[582 367 574 342!574 342[566 312 587 284!587 284[614 257 658 245"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="PeasantHeadGraphic" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.52587890625e-05" b="-0.999969482421875" c="0.999969482421875" d="1.52587890625e-05" tx="-65.25" ty="56.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.35" y="21.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 14" color="#808080">
-          <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
+            <DOMFrame index="11" duration="3" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!127 383[170 383 201 403!201 403[233 424 233 455!233 455[233 483 201 504!201 504[170 524 127 524!127 524[82 524 50 504!50 504[20 483 20 455!20 455[20 424 50 403!50 403[82 383 127 383"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 13" color="#4FFFFF">
-          <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!541 417[564 385 573 380!573 380[581 374 733 401!733 401[884 425 951 489!951 489[1016 552 990 612!990 612[964 673 879 691!879 691[796 710 711 659!711 659[638 617 580 566"/>
-                    <Edge fillStyle1="1" edges="
-!580 566[568 556 557 545!557 545[490 481 526 434!526 434[532 424 541 417"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 12" color="#FF4FFF">
-          <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!419 60[448 88 427 120!427 120[408 149 366 156!366 156[325 160 300 189!300 189[275 218 229 194!229 194[183 169 197 126!197 126[211 83 243 53!243 53[275 25 332 29!332 29[390 31 419 60"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 11" color="#FF800A">
-          <frames>
-            <DOMFrame index="0" duration="14" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#F4B678"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#654806"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!638 662/704 729!704 729/704 838!704 838[429 934 156 811!156 811[149 313 328 79!328 79[512 334 638 662"/>
-                    <Edge cubics="!704 838(;521,901 337,894 156,811q704 838Q429 934q156 811);"/>
-                    <Edge cubics="!704 729(;704,729 704,838 704,838q704 729 704 838);"/>
-                    <Edge cubics="!638 662(;638,662 704,729 704,729q638 662 704 729);"/>
-                    <Edge cubics="!156 811(;151,479 208,236 328,79q156 811Q149 313q328 79);"/>
-                    <Edge cubics="!328 79(;451,249 554,444 638,662q328 79Q512 334q638 662);"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="PeasantHeadGraphic" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.52587890625e-05" b="-0.999969482421875" c="0.999969482421875" d="1.52587890625e-05" tx="-76.25" ty="67.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="24.35" y="21.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="arm" color="#FF800A" autoNamed="false" layerType="folder"/>
-        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="8">
+        <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="1">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -253,8 +87,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!303 912[301 906 300 900!300 900[298 863 314 819!314 819[328 774 354 749!354 749[357 746 361 744!361 744[386 727 406 733!406 733[414 736 418 744!418 744[424 758 418 787!418 787[406 832 404 869!404 869[402 906 378 929!378 929[375 931 373
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!303 912[301 906 300 900!300 900[298 863 314 819!314 819[328 774 354 749!354 749[357 746 361 744!361 744[386 727 406 733!406 733[414 736 418 744!418 744[424 758 418 787!418 787[406 832 404 869!404 869[402 906 378 929!378 929[375 931 373
  933"/>
                     <Edge fillStyle1="1" edges="
 !373 933|372 934!372 934[350 950 332 945!332 945[322 942 315 934!315 934[307 926 303 912"/>
@@ -280,11 +113,11 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
+                    <Edge fillStyle1="1" edges="
+!412 929|412 931!412 931[395 952 377 952!377 952[366 952 357 945!357 945[348 940 340 928"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="
 !340 928[336 922 334 916!334 916[322 882 326 835!326 835[328 788 347 756!347 756[349 754 353 751!353 751[372 727 393 728!393 728[401 729 408 736!408 736[417 747 419 777!419 777[418 824 426 859!426 859[433 896 416 924!416 924[414 927 412
  929"/>
-                    <Edge fillStyle1="1" edges="
-!412 929|412 931!412 931[395 952 377 952!377 952[366 952 357 945!357 945[348 940 340 928"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -318,7 +151,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="8">
+        <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="1" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -449,9 +282,11 @@
                     <Edge fillStyle1="1" edges="
 !696.5 846[703 #358.F9 703 870!703 870[703 885 694 897"/>
                     <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
-!667 829[661 827 655 827!655 827[650 827 650 830!650 830[649 825 649 820!671 829[684 832 693 841!693 841[#2B5.F6 #34A.48 695 843.5!695 843.5[#2B7.B6 #34C.A 696.5 846"/>
+!667 829[661 827 655 827!655 827[650 827 650 830!650 830[649 825 649 820"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="
 !671 829[#29D.2 829 667 829!667 829[#29D.1 #33D.1 670 830!670 830|671 829"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
+!671 829[684 832 693 841!693 841[#2B5.F6 #34A.48 695 843.5!695 843.5[#2B7.B6 #34C.A 696.5 846"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -480,11 +315,9 @@
                     <Edge fillStyle1="1" edges="
 !532 972[#20A.AA 976 512 976!512 976[497 976 485 967"/>
                     <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
-!553 940[555 934 555 928!555 928[555 923 552 923!552 923[557 922 562 922"/>
+!553 940[555 934 555 928!555 928[555 923 552 923!552 923[557 922 562 922!553 944[550 957 541 966!541 966[540 967 538 968!538 968[537 969 536 970!536 970[#216.06 #3CB.14 532 972"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="
-!553 944[553 #3AE.2 553 940!553 940[#228.F #3AE.1 552 943!552 943|553 944"/>
-                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
-!553 944[550 957 541 966!541 966[540 967 538 968!538 968[537 969 536 970!536 970[#216.06 #3CB.14 532 972"/>
+!553 940[#228.F #3AE.1 552 943!552 943|553 944!553 944[553 #3AE.2 553 940"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -513,9 +346,11 @@
                     <Edge fillStyle1="1" edges="
 !696.5 846[703 #358.F9 703 870!703 870[703 885 694 897"/>
                     <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
-!667 829[661 827 655 827!655 827[650 827 650 830!650 830[649 825 649 820!671 829[684 832 693 841!693 841[#2B5.F6 #34A.48 695 843.5!695 843.5[#2B7.B6 #34C.A 696.5 846"/>
+!667 829[661 827 655 827!655 827[650 827 650 830!650 830[649 825 649 820"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="
 !670 830|671 829!671 829[#29D.2 829 667 829!667 829[#29D.1 #33D.1 670 830"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
+!671 829[684 832 693 841!693 841[#2B5.F6 #34A.48 695 843.5!695 843.5[#2B7.B6 #34C.A 696.5 846"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -523,7 +358,7 @@
           </frames>
         </DOMLayer>
         <DOMLayer name="legs" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-        <DOMLayer name="Layer 5" color="#4FFFFF" parentLayerIndex="13">
+        <DOMLayer name="Layer 5" color="#4FFFFF" parentLayerIndex="6">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -599,7 +434,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 7" color="#4F80FF" parentLayerIndex="13">
+        <DOMLayer name="Layer 7" color="#4F80FF" parentLayerIndex="6">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -675,7 +510,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 6" color="#808080" parentLayerIndex="13">
+        <DOMLayer name="Layer 6" color="#808080" parentLayerIndex="6">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -751,7 +586,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 9" color="#4FFF4F" parentLayerIndex="13">
+        <DOMLayer name="Layer 9" color="#4FFF4F" parentLayerIndex="6">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -827,7 +662,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 8" color="#FF4F4F" parentLayerIndex="13">
+        <DOMLayer name="Layer 8" color="#FF4F4F" parentLayerIndex="6">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>

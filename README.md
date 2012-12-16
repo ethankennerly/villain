@@ -4,7 +4,7 @@ Sleeping Dragon
 Do not let 3 peasants steal the 2 gold.
 Release space bar to eat a peasant.
 Or you can release mouse button.
-To make it harder, play 8x speed: press Shift+2.  
+To make it harder, play 2x speed: press Shift+2.  
 To make it normal again, play 1x speed: press Shift+1.  
 
 A game made in 1 day by Ethan Kennerly.

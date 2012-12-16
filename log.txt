@@ -21,9 +21,9 @@
     20 - How can I associate sound with a frame of animation?
     21 - How can I hear eat which is shorter than ".mp3"?
     22 Hear bite, eat, walk, carry, gold.
-16 Eat knight, thief,
-    8
-    9
+16 Eat knight, thief. ?
+    8 See peasant decapitated.
+    9 Release space to eat a knight?
     10
     11
     12
@@ -34,8 +34,6 @@
     17
 
 TODO
-    Hear bite, eat, walk, gold.
-    See peasant eaten.
     Release space to eat a knight.
     See knight.
     Release space to eat a thief.
@@ -51,5 +49,7 @@ TODO
     Score higher for gold position and timing of eating.
     When idle, peek at peasant.
     Why does peasant horizontal motion stutter?
+    Fade menu transition.
+    Shake camera.
 
 

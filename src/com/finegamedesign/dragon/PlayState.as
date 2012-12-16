@@ -82,6 +82,7 @@ package com.finegamedesign.dragon
         private var mouth:MouthCollision;
         private var golds:FlxGroup;
         private var peasants:FlxGroup;
+        private var state:String;
 
         private function addChildren(scene:MovieClip):void
         {
@@ -121,12 +122,13 @@ package com.finegamedesign.dragon
             scene = new Scene();
             addChildren(scene);
             addHud();
+            state = "play";
         }
 
         private function addHud():void
         {
-            instructionText = new FlxText(FlxG.width/2 - 40, FlxG.height - 20, 200, 
-                "RELEASE SPACEBAR TO EAT WHITE SQUARE");
+            instructionText = new FlxText(FlxG.width/2 - 40, 0, 200, 
+                "RELEASE SPACEBAR TO EAT");
             add(instructionText);
             waveText = new FlxText(0, 0, 100, "");
             add(waveText);
@@ -148,23 +150,60 @@ package com.finegamedesign.dragon
 
         private function updateHud(peasantsLiving:int, goldsLiving:int):void
         {
-            waveText.text = "PEASANTS " + peasantsLiving.toString();
-            goldText.text = "GOLD " + goldsLiving.toString();
-            if (goldsLiving <= 0) {
-                FlxG.switchState(new MenuState());
-            }
-            else if (peasantsLiving <= 0) {
-                FlxG.switchState(new MenuState());
+            if ("play" == state) {
+                waveText.text = "PEASANTS " + peasantsLiving.toString();
+                goldText.text = "GOLD " + goldsLiving.toString();
+                if (goldsLiving <= 0) {
+                    state = "lose";
+                    instructionText.text = "THEY STOLE ALL YOUR GOLD!";
+                    FlxG.fade(0xFF000000, 3.0, lose);
+                }
+                else if (peasantsLiving <= 0) {
+                    if (goldsLiving < golds.length) {
+                        instructionText.text = "YOU KEPT SOME GOLD";
+                    }
+                    else {
+                        instructionText.text = "YOU KEPT ALL YOUR GOLD";
+                    }
+                    state = "win";
+                    FlxG.fade(0xFFFFFFFF, 3.0, win);
+                }
             }
         }
 
+        private function lose():void
+        {
+            FlxG.switchState(new MenuState());
+        }
+
+        private function win():void
+        {
+            FlxG.switchState(new MenuState());
+        }
+    
+        /**
+         * Spawn gibs at peasant.
+         */
         private function eat(mouth:FlxObject, peasant:FlxObject):void
         {
             head.play("eat");
-            peasant.kill();
-            FlxG.score++;
+            peasant.health--;
+            if (peasant.health <= 0) {
+                peasant.kill();
+                FlxG.score++;
+                var gibsClip:GibsClip = new GibsClip();
+                gibsClip.x = peasant.x - 80.0;
+                gibsClip.y = peasant.y;
+                var gibs:Gibs = Gibs(add(constructChild(Gibs, gibsClip)));
+                gibs.play("kill");
+            }
         }
 
+        /**
+         * Or you can release mouse button.
+         * To make it harder, play 2x speed: press Shift+2.  
+         * To make it normal again, play 1x speed: press Shift+1.  
+         */ 
         private function updateInput():void
         {
             if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
@@ -173,13 +212,16 @@ package com.finegamedesign.dragon
             else if (head.finished) {
                 head.play("idling");
             }
-            if (FlxG.keys.pressed("SHIFT") && FlxG.keys.justPressed("TWO")) {
-                // FlxG.visualDebug = true;
-                FlxG.timeScale = 8.0;
-            }
-            else if (FlxG.keys.pressed("SHIFT") && FlxG.keys.justPressed("ONE")) {
-                // FlxG.visualDebug = false;
-                FlxG.timeScale = 1.0;
+            if (FlxG.keys.pressed("SHIFT")) {
+                if (FlxG.keys.justPressed("ONE")) {
+                    FlxG.timeScale = 1.0;
+                }
+                else if (FlxG.keys.justPressed("TWO")) {
+                    FlxG.timeScale = 2.0;
+                }
+                else if (FlxG.keys.justPressed("THREE")) {
+                    FlxG.timeScale = 8.0;
+                }
             }
         }
 

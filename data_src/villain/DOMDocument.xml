@@ -2,16 +2,19 @@
      <symbols>
           <Include href="BackgroundClip.xml" itemID="50cceb2a-00000f5d" lastModified="1355627347"/>
           <Include href="BodyClip.xml" itemID="50ccec7a-00000f9a" lastModified="1355624490"/>
+          <Include href="GibsClip.xml" itemID="50cdf8fe-0000048b" lastModified="1355677632"/>
           <Include href="GoldClip.xml" itemID="50ccb08b-00000e73" lastModified="1355609862"/>
           <Include href="GoldGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf655-0000027e" lastModified="1355609881"/>
-          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355632728"/>
+          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355674234"/>
           <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355618377"/>
           <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355618321"/>
           <Include href="MouthCollisionClip.xml" itemID="50cd1126-000002c7" lastModified="1355629986"/>
           <Include href="NeckGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cd2740-00000325" lastModified="1355625000"/>
-          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355638660"/>
+          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355675825"/>
           <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355629706"/>
-          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355630151"/>
+          <Include href="PeasantHeadGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf755-00000481" lastModified="1355675483"/>
+          <Include href="PeasantKillGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf6cd-0000047f" lastModified="1355675543"/>
+          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355675902"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -34,25 +37,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="122994" publishTime="1355638247" publishDebug="true"/>
-          <PublishItem publishSize="123007" publishTime="1355638135" publishDebug="true"/>
-          <PublishItem publishSize="122983" publishTime="1355638056" publishDebug="true"/>
-          <PublishItem publishSize="122905" publishTime="1355637738" publishDebug="true"/>
-          <PublishItem publishSize="122922" publishTime="1355637692" publishDebug="true"/>
-          <PublishItem publishSize="108569" publishTime="1355636429" publishDebug="true"/>
-          <PublishItem publishSize="108614" publishTime="1355636341" publishDebug="true"/>
-          <PublishItem publishSize="108583" publishTime="1355635821" publishDebug="true"/>
-          <PublishItem publishSize="108519" publishTime="1355635745" publishDebug="true"/>
-          <PublishItem publishSize="108476" publishTime="1355635567" publishDebug="true"/>
-          <PublishItem publishSize="108472" publishTime="1355635395" publishDebug="true"/>
-          <PublishItem publishSize="108489" publishTime="1355635340" publishDebug="true"/>
-          <PublishItem publishSize="108543" publishTime="1355635206" publishDebug="true"/>
-          <PublishItem publishSize="108561" publishTime="1355635191" publishDebug="true"/>
-          <PublishItem publishSize="108575" publishTime="1355635068" publishDebug="true"/>
-          <PublishItem publishSize="108587" publishTime="1355634964" publishDebug="true"/>
-          <PublishItem publishSize="97880" publishTime="1355630820" publishDebug="true"/>
-          <PublishItem publishSize="97868" publishTime="1355630787" publishDebug="true"/>
-          <PublishItem publishSize="97870" publishTime="1355630529" publishDebug="true"/>
-          <PublishItem publishSize="97857" publishTime="1355630441" publishDebug="true"/>
+          <PublishItem publishSize="125846" publishTime="1355677540" publishDebug="true"/>
+          <PublishItem publishSize="125909" publishTime="1355677456" publishDebug="true"/>
+          <PublishItem publishSize="125883" publishTime="1355677281" publishDebug="true"/>
+          <PublishItem publishSize="125851" publishTime="1355677241" publishDebug="true"/>
+          <PublishItem publishSize="125486" publishTime="1355675663" publishDebug="true"/>
+          <PublishItem publishSize="125308" publishTime="1355674562" publishDebug="true"/>
+          <PublishItem publishSize="125302" publishTime="1355674539" publishDebug="true"/>
+          <PublishItem publishSize="125304" publishTime="1355674509" publishDebug="true"/>
+          <PublishItem publishSize="125296" publishTime="1355674461" publishDebug="true"/>
+          <PublishItem publishSize="125286" publishTime="1355674286" publishDebug="true"/>
+          <PublishItem publishSize="125295" publishTime="1355674239" publishDebug="true"/>
+          <PublishItem publishSize="125273" publishTime="1355674182" publishDebug="true"/>
+          <PublishItem publishSize="125235" publishTime="1355673635" publishDebug="true"/>
+          <PublishItem publishSize="125224" publishTime="1355673515" publishDebug="true"/>
+          <PublishItem publishSize="125221" publishTime="1355673448" publishDebug="true"/>
+          <PublishItem publishSize="125220" publishTime="1355673381" publishDebug="true"/>
+          <PublishItem publishSize="125126" publishTime="1355673247" publishDebug="true"/>
+          <PublishItem publishSize="125105" publishTime="1355673184" publishDebug="true"/>
+          <PublishItem publishSize="125086" publishTime="1355672680" publishDebug="true"/>
+          <PublishItem publishSize="125113" publishTime="1355638931" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>
