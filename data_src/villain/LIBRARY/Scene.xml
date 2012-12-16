@@ -1,8 +1,24 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355675902" lastUniqueIdentifier="6">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355680632" lastUniqueIdentifier="7">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
-        <DOMLayer name="mob" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="gibs" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="GibsClip" centerPoint3DX="345" centerPoint3DY="184">
+                  <matrix>
+                    <Matrix tx="329" ty="176"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mob" color="#4FFF4F" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -30,7 +46,7 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" selected="true" centerPoint3DX="8" centerPoint3DY="162">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="8" centerPoint3DY="162">
                   <matrix>
                     <Matrix tx="-48" ty="146"/>
                   </matrix>
@@ -58,7 +74,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#FF800A" autoNamed="false">
+        <DOMLayer name="body" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -74,7 +90,23 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="floor" color="#9933CC" autoNamed="false">
+        <DOMLayer name="floor" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FloorClip" selected="true" centerPoint3DX="321" centerPoint3DY="225.5">
+                  <matrix>
+                    <Matrix tx="2" ty="209"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="319" y="16.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -87,7 +119,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mouth" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+        <DOMLayer name="mouth" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

@@ -2,7 +2,9 @@
      <symbols>
           <Include href="BackgroundClip.xml" itemID="50cceb2a-00000f5d" lastModified="1355627347"/>
           <Include href="BodyClip.xml" itemID="50ccec7a-00000f9a" lastModified="1355624490"/>
-          <Include href="GibsClip.xml" itemID="50cdf8fe-0000048b" lastModified="1355677632"/>
+          <Include href="FloorClip.xml" itemID="50ce07b1-00000541" lastModified="1355679665"/>
+          <Include href="Gibs3Clip.xml" loadImmediate="false" itemID="50ce0b73-00000547" lastModified="1355680627"/>
+          <Include href="GibsClip.xml" itemID="50ce0670-00000522" lastModified="1355682114"/>
           <Include href="GoldClip.xml" itemID="50ccb08b-00000e73" lastModified="1355609862"/>
           <Include href="GoldGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf655-0000027e" lastModified="1355609881"/>
           <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355674234"/>
@@ -13,13 +15,21 @@
           <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355675825"/>
           <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355629706"/>
           <Include href="PeasantHeadGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf755-00000481" lastModified="1355675483"/>
+          <Include href="PeasantKillClip.xml" itemID="50ce0663-00000521" lastModified="1355682120"/>
           <Include href="PeasantKillGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf6cd-0000047f" lastModified="1355675543"/>
-          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355675902"/>
+          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355680632"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <DOMLayer name="Layer 2" color="#9933CC" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" layerType="guide">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -37,25 +47,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="128827" publishTime="1355682064" publishDebug="true"/>
+          <PublishItem publishSize="128823" publishTime="1355681991" publishDebug="true"/>
+          <PublishItem publishSize="128832" publishTime="1355681940" publishDebug="true"/>
+          <PublishItem publishSize="128870" publishTime="1355681903" publishDebug="true"/>
+          <PublishItem publishSize="128813" publishTime="1355681752" publishDebug="true"/>
+          <PublishItem publishSize="128944" publishTime="1355681586" publishDebug="true"/>
+          <PublishItem publishSize="128731" publishTime="1355681528" publishDebug="true"/>
+          <PublishItem publishSize="128793" publishTime="1355681489" publishDebug="true"/>
+          <PublishItem publishSize="128807" publishTime="1355681470" publishDebug="true"/>
+          <PublishItem publishSize="128758" publishTime="1355681443" publishDebug="true"/>
+          <PublishItem publishSize="128777" publishTime="1355681362" publishDebug="true"/>
+          <PublishItem publishSize="128767" publishTime="1355681266" publishDebug="true"/>
+          <PublishItem publishSize="128746" publishTime="1355681117" publishDebug="true"/>
+          <PublishItem publishSize="128740" publishTime="1355681057" publishDebug="true"/>
+          <PublishItem publishSize="128693" publishTime="1355680834" publishDebug="true"/>
+          <PublishItem publishSize="128730" publishTime="1355680646" publishDebug="true"/>
+          <PublishItem publishSize="129082" publishTime="1355680568" publishDebug="true"/>
+          <PublishItem publishSize="125879" publishTime="1355677636" publishDebug="true"/>
           <PublishItem publishSize="125846" publishTime="1355677540" publishDebug="true"/>
           <PublishItem publishSize="125909" publishTime="1355677456" publishDebug="true"/>
-          <PublishItem publishSize="125883" publishTime="1355677281" publishDebug="true"/>
-          <PublishItem publishSize="125851" publishTime="1355677241" publishDebug="true"/>
-          <PublishItem publishSize="125486" publishTime="1355675663" publishDebug="true"/>
-          <PublishItem publishSize="125308" publishTime="1355674562" publishDebug="true"/>
-          <PublishItem publishSize="125302" publishTime="1355674539" publishDebug="true"/>
-          <PublishItem publishSize="125304" publishTime="1355674509" publishDebug="true"/>
-          <PublishItem publishSize="125296" publishTime="1355674461" publishDebug="true"/>
-          <PublishItem publishSize="125286" publishTime="1355674286" publishDebug="true"/>
-          <PublishItem publishSize="125295" publishTime="1355674239" publishDebug="true"/>
-          <PublishItem publishSize="125273" publishTime="1355674182" publishDebug="true"/>
-          <PublishItem publishSize="125235" publishTime="1355673635" publishDebug="true"/>
-          <PublishItem publishSize="125224" publishTime="1355673515" publishDebug="true"/>
-          <PublishItem publishSize="125221" publishTime="1355673448" publishDebug="true"/>
-          <PublishItem publishSize="125220" publishTime="1355673381" publishDebug="true"/>
-          <PublishItem publishSize="125126" publishTime="1355673247" publishDebug="true"/>
-          <PublishItem publishSize="125105" publishTime="1355673184" publishDebug="true"/>
-          <PublishItem publishSize="125086" publishTime="1355672680" publishDebug="true"/>
-          <PublishItem publishSize="125113" publishTime="1355638931" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

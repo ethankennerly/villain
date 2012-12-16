@@ -5,7 +5,9 @@ package com.finegamedesign.dragon
     import flash.display.MovieClip;
     import flash.utils.getQualifiedClassName;
     import flash.utils.getDefinitionByName;
+
     import org.flixel.*;
+    import com.noorhakim.FlxMovieClip;
    
     public class PlayState extends FlxState
     {
@@ -83,6 +85,8 @@ package com.finegamedesign.dragon
         private var golds:FlxGroup;
         private var peasants:FlxGroup;
         private var state:String;
+        private var gibs:FlxEmitter;
+        private var floor:Floor;
 
         private function addChildren(scene:MovieClip):void
         {
@@ -112,12 +116,32 @@ package com.finegamedesign.dragon
                     mouth = constructChild(MouthCollision, child);
                     add(mouth);
                 }
+                else if (child is GibsClip) {
+                    addGibs();
+                }
+                else if (child is FloorClip) {
+                    floor = Floor(add(constructChild(Floor, child)));
+                }
             }
+        }
+
+        private function addGibs():void
+        {
+            gibs = new FlxEmitter();
+		    gibs.makeParticles(Gibs, 50, 32, false, 0.5);
+            gibs.gravity = 376;
+            gibs.setRotation(0, 0);
+            gibs.bounce = 0.25;
+		    gibs.setXSpeed(-150, 150);
+            gibs.particleDrag = new FlxPoint(50, 0);
+            gibs.setSize(2, 2);
+            add(gibs);
         }
 
         override public function create():void
         {
             FlxG.score = 0;
+            // FlxG.visualDebug = true;
             super.create();
             scene = new Scene();
             addChildren(scene);
@@ -142,10 +166,20 @@ package com.finegamedesign.dragon
             if (head.mayEat()) {
                 FlxG.overlap(mouth, peasants, eat);
             }
+            FlxG.collide(floor, gibs, crunch);
             updateGold();
             updateRetreat();
             updateHud(peasants.countLiving(), golds.countLiving());
             super.update();
+        }
+
+        private function crunch(floor:FlxObject, gib:FlxObject):void
+        {
+            if (0.5 < gib.health) {
+                trace("crunch");
+                gib.health -= 0.25;
+                FlxG.play(Sounds.eatClass);
+            }
         }
 
         private function updateHud(peasantsLiving:int, goldsLiving:int):void
@@ -191,11 +225,15 @@ package com.finegamedesign.dragon
             if (peasant.health <= 0) {
                 peasant.kill();
                 FlxG.score++;
-                var gibsClip:GibsClip = new GibsClip();
+                var gibsClip:PeasantKillClip = new PeasantKillClip();
                 gibsClip.x = peasant.x - 80.0;
                 gibsClip.y = peasant.y;
-                var gibs:Gibs = Gibs(add(constructChild(Gibs, gibsClip)));
-                gibs.play("kill");
+                var peasantKill:PeasantKill = PeasantKill(add(constructChild(PeasantKill, gibsClip)));
+                peasantKill.play("kill");
+                gibs.x = peasant.x;
+                gibs.y = peasant.y;
+                gibs.start(true, 0, 0.1, 1);
+                add(gibs);
             }
         }
 

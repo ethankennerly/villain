@@ -23,9 +23,9 @@
     22 Hear bite, eat, walk, carry, gold.
 16 Eat knight, thief. ?
     8 See peasant decapitated.
-    9 Release space to eat a knight?
-    10
-    11
+    9 - How can I spawn 1 gib from movie clip?
+    10 See peasant bones bounce.
+    11 Release space to eat a knight?
     12
     13
     14

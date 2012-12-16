@@ -186,3 +186,8 @@ Hear a sound?
 label on movieclip with sound file name.
 play sound on Sounds class.
 
+Sun Dec 16 09:13:29 PST 2012
+
+Knight
+armor
+if hit, replace with peasant at same frame.
