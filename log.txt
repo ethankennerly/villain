@@ -24,8 +24,8 @@
 16 Eat knight, thief. ?
     8 See peasant decapitated.
     9 - How can I spawn 1 gib from movie clip?
-    10 See peasant bones bounce.
-    11 Release space to eat a knight?
+    10 See peasant bones bounce.  Release space to turn peasant from blue to tan. 
+    11 Release space to destroy knight's armor?
     12
     13
     14

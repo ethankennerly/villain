@@ -1,0 +1,83 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="KnightClip" itemID="50ce184c-00000550" linkageExportForAS="true" linkageClassName="KnightClip" lastModified="1355683966">
+  <timeline>
+    <DOMTimeline name="KnightClip" currentFrame="26">
+      <layers>
+        <DOMLayer name="label" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="11" name="idling" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="11" duration="11" name="retreating" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="12" name="carrying" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sound" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="5" duration="11" name="walk.mp3" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="12" name="walk.mp3" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" duration="6" name="carry.mp3" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="body" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="7" y="6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.53" tintColor="#66FFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="32" centerPoint3DY="16.5" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" tx="50"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47" y="1"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.53" tintColor="#66FFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" selected="true" symbolType="graphic" centerPoint3DX="33" centerPoint3DY="16.5" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" tx="51"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47" y="1"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="0.53" tintColor="#0099FF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -10,14 +10,15 @@
           <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355674234"/>
           <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355618377"/>
           <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355618321"/>
+          <Include href="KnightClip.xml" itemID="50ce184c-00000550" lastModified="1355683966"/>
           <Include href="MouthCollisionClip.xml" itemID="50cd1126-000002c7" lastModified="1355629986"/>
           <Include href="NeckGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cd2740-00000325" lastModified="1355625000"/>
           <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355675825"/>
           <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355629706"/>
           <Include href="PeasantHeadGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf755-00000481" lastModified="1355675483"/>
-          <Include href="PeasantKillClip.xml" itemID="50ce0663-00000521" lastModified="1355682120"/>
+          <Include href="PeasantKillClip.xml" itemID="50ce0663-00000521" lastModified="1355683918"/>
           <Include href="PeasantKillGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf6cd-0000047f" lastModified="1355675543"/>
-          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355680632"/>
+          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355684296"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -47,6 +48,15 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="129397" publishTime="1355684205" publishDebug="true"/>
+          <PublishItem publishSize="128876" publishTime="1355682572" publishDebug="true"/>
+          <PublishItem publishSize="128862" publishTime="1355682542" publishDebug="true"/>
+          <PublishItem publishSize="128871" publishTime="1355682516" publishDebug="true"/>
+          <PublishItem publishSize="128867" publishTime="1355682489" publishDebug="true"/>
+          <PublishItem publishSize="128926" publishTime="1355682439" publishDebug="true"/>
+          <PublishItem publishSize="128888" publishTime="1355682431" publishDebug="true"/>
+          <PublishItem publishSize="128862" publishTime="1355682293" publishDebug="true"/>
+          <PublishItem publishSize="128816" publishTime="1355682187" publishDebug="true"/>
           <PublishItem publishSize="128827" publishTime="1355682064" publishDebug="true"/>
           <PublishItem publishSize="128823" publishTime="1355681991" publishDebug="true"/>
           <PublishItem publishSize="128832" publishTime="1355681940" publishDebug="true"/>
@@ -58,14 +68,5 @@
           <PublishItem publishSize="128807" publishTime="1355681470" publishDebug="true"/>
           <PublishItem publishSize="128758" publishTime="1355681443" publishDebug="true"/>
           <PublishItem publishSize="128777" publishTime="1355681362" publishDebug="true"/>
-          <PublishItem publishSize="128767" publishTime="1355681266" publishDebug="true"/>
-          <PublishItem publishSize="128746" publishTime="1355681117" publishDebug="true"/>
-          <PublishItem publishSize="128740" publishTime="1355681057" publishDebug="true"/>
-          <PublishItem publishSize="128693" publishTime="1355680834" publishDebug="true"/>
-          <PublishItem publishSize="128730" publishTime="1355680646" publishDebug="true"/>
-          <PublishItem publishSize="129082" publishTime="1355680568" publishDebug="true"/>
-          <PublishItem publishSize="125879" publishTime="1355677636" publishDebug="true"/>
-          <PublishItem publishSize="125846" publishTime="1355677540" publishDebug="true"/>
-          <PublishItem publishSize="125909" publishTime="1355677456" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

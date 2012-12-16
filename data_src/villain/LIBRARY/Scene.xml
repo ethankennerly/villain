@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355680632" lastUniqueIdentifier="7">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355684296" lastUniqueIdentifier="8">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
@@ -18,7 +18,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mob" color="#4FFF4F" locked="true" autoNamed="false">
+        <DOMLayer name="mob" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -70,6 +70,14 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" selected="true" centerPoint3DX="-877" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-933" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
@@ -90,11 +98,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="floor" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="floor" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FloorClip" selected="true" centerPoint3DX="321" centerPoint3DY="225.5">
+                <DOMSymbolInstance libraryItemName="FloorClip" centerPoint3DX="321" centerPoint3DY="225.5">
                   <matrix>
                     <Matrix tx="2" ty="209"/>
                   </matrix>

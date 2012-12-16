@@ -30,7 +30,7 @@ package com.finegamedesign.dragon
                 var name:String = mc.currentLabels[i].name;
                 var start:int = mc.currentLabels[i].frame - 1;
                 if (endsWith(name, soundEndsWith)) {
-                    trace(flxSprite, start, name);
+                    // trace(flxSprite, start, name);
                     flxSprite["sounds"][start.toString()] = name.substr(0, 
                         name.length - soundEndsWith.length) + "Class";
                 }
@@ -54,7 +54,7 @@ package com.finegamedesign.dragon
                         frames.push(f);
                     }
                     var looped:Boolean = endsWith(name, "ing");
-                    trace(flxSprite, "addAnimation", name, frames, FlxG.stage.frameRate, looped);
+                    // trace(flxSprite, "addAnimation", name, frames, FlxG.stage.frameRate, looped);
                     flxSprite.addAnimation(name, frames, FlxG.stage.frameRate, looped);
                 }
             }
@@ -100,6 +100,10 @@ package com.finegamedesign.dragon
                 }
                 else if (child is PeasantClip) {
                     peasants.add(constructChild(Peasant, child));
+                    add(peasants);
+                }
+                else if (child is KnightClip) {
+                    peasants.add(constructChild(Knight, child));
                     add(peasants);
                 }
                 else if (child is GoldClip) {
@@ -176,7 +180,7 @@ package com.finegamedesign.dragon
         private function crunch(floor:FlxObject, gib:FlxObject):void
         {
             if (0.5 < gib.health) {
-                trace("crunch");
+                // trace("crunch", gib);
                 gib.health -= 0.25;
                 FlxG.play(Sounds.eatClass);
             }
@@ -220,10 +224,12 @@ package com.finegamedesign.dragon
          */
         private function eat(mouth:FlxObject, peasant:FlxObject):void
         {
-            head.play("eat");
-            peasant.health--;
-            if (peasant.health <= 0) {
-                peasant.kill();
+            head.play("eat", peasant);
+            if (!peasant.flickering) {
+                peasant.hurt(1);
+                peasant.flicker(0.25);
+            }
+            if (!peasant.alive) {
                 FlxG.score++;
                 var gibsClip:PeasantKillClip = new PeasantKillClip();
                 gibsClip.x = peasant.x - 80.0;
