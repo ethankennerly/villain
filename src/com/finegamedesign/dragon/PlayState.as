@@ -11,16 +11,6 @@ package com.finegamedesign.dragon
     {
         private static var scene:Scene;
 
-        public static function getChildByClass(aClass:Class):*
-        {
-            for (var c:int=0; c < scene.numChildren; c++) {
-                if (scene.getChildAt(c) is aClass) {
-                    return scene.getChildAt(c);
-                }
-            }
-            return null;
-        }
-
         public static function endsWith(name:String, ending:String):Boolean
         {
             return name.indexOf(ending) == name.length - ending.length;
@@ -71,11 +61,10 @@ package com.finegamedesign.dragon
         private var instructionText:FlxText;
         private var waveText:FlxText;
         private var goldText:FlxText;
-        private var waveCount:int;
-        private var goldCount:int;
         private var head:Head;
-        private var peasants:FlxGroup;
+        private var mouth:MouthCollision;
         private var golds:FlxGroup;
+        private var peasants:FlxGroup;
 
         private function addChildren(scene:MovieClip):void
         {
@@ -100,6 +89,10 @@ package com.finegamedesign.dragon
                 }
                 else if (child is BodyClip) {
                     add(constructChild(Body, child));
+                }
+                else if (child is MouthCollisionClip) {
+                    mouth = constructChild(MouthCollision, child);
+                    add(mouth);
                 }
             }
         }
@@ -127,6 +120,9 @@ package com.finegamedesign.dragon
 		override public function update():void 
         {
             updateInput();
+            if (head.mayEat()) {
+                FlxG.overlap(mouth, peasants, eat);
+            }
             updateGold();
             updateRetreat();
             updateHud(peasants.countLiving(), golds.countLiving());
@@ -145,13 +141,17 @@ package com.finegamedesign.dragon
             }
         }
 
+        private function eat(mouth:FlxObject, peasant:FlxObject):void
+        {
+            head.play("eat");
+            peasant.kill();
+            FlxG.score++;
+        }
+
         private function updateInput():void
         {
             if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
-                trace("release");
-				if (!FlxG.overlap(head, peasants, eat)) {
-                    head.play("bite");
-                }
+                head.play("bite");
             }
             else if (head.finished) {
                 head.play("idling");
@@ -164,13 +164,6 @@ package com.finegamedesign.dragon
                 // FlxG.visualDebug = false;
                 FlxG.timeScale = 1.0;
             }
-        }
-
-        private function eat(head:FlxObject, peasant:FlxObject):void
-        {
-            Head(head).play("eat");
-            peasant.kill();
-            FlxG.score++;
         }
 
         /**

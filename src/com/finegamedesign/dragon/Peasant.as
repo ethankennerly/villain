@@ -3,15 +3,15 @@ package com.finegamedesign.dragon
     import org.flixel.*;
     public class Peasant extends FlxSprite
     {
-        public static var carryVelocity:Number = -32;
-        public static var retreatVelocity:Number = -64;
+        public static var carryVelocity:Number = -64;
+        public static var retreatVelocity:Number = -128;
         public var gold:Gold;
 
         public function Peasant(X:int = 0, Y:int = 0, MovieClipClass:Class = null) 
         {
             super(X, Y);
             PlayState.constructSprite(this, PeasantSpritesheet);
-            velocity.x = 64;
+            velocity.x = 128;
         }
 
         override public function kill():void

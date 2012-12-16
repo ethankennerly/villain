@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355607851" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355616623" lastUniqueIdentifier="6">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
-        <DOMLayer name="mob" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="mob" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -14,15 +14,15 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="8" centerPoint3DY="192">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="8" centerPoint3DY="162">
                   <matrix>
-                    <Matrix tx="-48" ty="176"/>
+                    <Matrix tx="-48" ty="146"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="56" y="16"/>
+                    <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="GoldClip" selected="true" centerPoint3DX="600" centerPoint3DY="160">
+                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="600" centerPoint3DY="160">
                   <matrix>
                     <Matrix tx="544" ty="144"/>
                   </matrix>
@@ -30,9 +30,9 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-488" centerPoint3DY="192">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-488" centerPoint3DY="162">
                   <matrix>
-                    <Matrix tx="-544" ty="176"/>
+                    <Matrix tx="-544" ty="146"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>
@@ -46,9 +46,25 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-664" centerPoint3DY="192">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-664" centerPoint3DY="162">
                   <matrix>
-                    <Matrix tx="-720" ty="176"/>
+                    <Matrix tx="-720" ty="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mouth" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MouthCollisionClip" selected="true" centerPoint3DX="392" centerPoint3DY="176">
+                  <matrix>
+                    <Matrix tx="336" ty="160"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>

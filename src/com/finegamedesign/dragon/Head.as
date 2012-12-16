@@ -8,6 +8,16 @@ package com.finegamedesign.dragon
             super(X, Y);
             PlayState.constructSprite(this, HeadSpritesheet);
         }
+
+        public function mayEat():Boolean
+        {
+            if (null != _curAnim && "bite" == _curAnim.name) {
+                if (_curAnim.frames.length - 1 <= _curFrame) {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
 
