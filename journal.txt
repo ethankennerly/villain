@@ -177,3 +177,12 @@ http://airdin.deviantart.com/art/Sleeping-Dragon-40622802
 Sat Dec 15 16:01:39 PST 2012
 
 Why does peasant horizontal motion stutter?
+
+
+Sat Dec 15 20:12:25 PST 2012
+
+Hear a sound?
+
+label on movieclip with sound file name.
+play sound on Sounds class.
+

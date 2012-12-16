@@ -6,10 +6,12 @@ package com.finegamedesign.dragon
         public static var carryVelocity:Number = -64;
         public static var retreatVelocity:Number = -128;
         public var gold:Gold;
+        public var sounds:Object;
 
         public function Peasant(X:int = 0, Y:int = 0, MovieClipClass:Class = null) 
         {
             super(X, Y);
+            sounds = {};
             PlayState.constructSprite(this, PeasantSpritesheet);
             velocity.x = 128;
         }
@@ -33,6 +35,10 @@ package com.finegamedesign.dragon
             else if (null == gold && (null == _curAnim || "retreating" != _curAnim.name)) {
                 play("idling");
             }
+            if (_curIndex.toString() in sounds) {
+                FlxG.play(Sounds[sounds[_curIndex.toString()]]);
+            }
+            super.update();
         }
 
         public function carry(gold:Gold):void
@@ -44,6 +50,9 @@ package com.finegamedesign.dragon
                     }
                     play("carrying");
                     if (gold.onScreen()) {
+                        if (gold.velocity.x == 0) {
+                            FlxG.play(Sounds.pickupClass);
+                        }
                         this.gold = gold;
                         gold.play("carrying");
                         gold.x = x;

@@ -19,6 +19,12 @@ package com.finegamedesign.dragon
             }
         }
 
+        override public function kill():void
+        {
+            FlxG.play(Sounds.coinClass);
+            super.kill();
+        }
+
         public function get curAnim():FlxAnim
         {
             return _curAnim;

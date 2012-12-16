@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HeadClip" itemID="50cc1c36-00000df1" linkageExportForAS="true" linkageClassName="HeadClip" lastModified="1355624187">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HeadClip" itemID="50cc1c36-00000df1" linkageExportForAS="true" linkageClassName="HeadClip" lastModified="1355632728">
   <timeline>
-    <DOMTimeline name="HeadClip" currentFrame="1">
+    <DOMTimeline name="HeadClip" currentFrame="15">
       <layers>
         <DOMLayer name="label" color="#9933CC" locked="true" autoNamed="false">
           <frames>
@@ -11,6 +11,19 @@
               <elements/>
             </DOMFrame>
             <DOMFrame index="15" duration="11" name="eat" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sound" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" duration="12" name="bite.mp3" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="25" name="eat.mp3" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -254,7 +267,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="neck" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="neck" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>

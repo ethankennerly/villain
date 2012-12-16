@@ -18,9 +18,10 @@
     17 - How can I contour dragon limbs?
     18 See dragon body.  See peasant.
     19 See peasant walk.  - How can I debug not retreating?
-    20 Hear bite, eat, walk, gold?
-    21
-16
+    20 - How can I associate sound with a frame of animation?
+    21 - How can I hear eat which is shorter than ".mp3"?
+    22 Hear bite, eat, walk, carry, gold.
+16 Eat knight, thief,
     8
     9
     10
@@ -40,6 +41,8 @@ TODO
     Release space to eat a thief.
     See thief.
     See peasant taunt. (after Spike)
+    Don't eat poison.
+    Delay after chomp until next chomp.
     Read review (after Spike)
     Wizard levitates gold.
     See wizard.

@@ -3,10 +3,24 @@ package com.finegamedesign.dragon
     import org.flixel.*;
     public class Head extends FlxSprite
     {
+        public var sounds:Object;
+
         public function Head(X:int = 0, Y:int = 0, MovieClipClass:Class = null) 
         {
             super(X, Y);
+            sounds = {};
             PlayState.constructSprite(this, HeadSpritesheet);
+        }
+
+        /**
+         * Play the sound associated with this frame index.
+         */
+        override public function update():void
+        {
+            if (_curIndex.toString() in sounds) {
+                FlxG.play(Sounds[sounds[_curIndex.toString()]]);
+            }
+            super.update();
         }
 
         public function mayEat():Boolean

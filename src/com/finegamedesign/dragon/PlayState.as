@@ -13,31 +13,48 @@ package com.finegamedesign.dragon
 
         public static function endsWith(name:String, ending:String):Boolean
         {
-            return name.indexOf(ending) == name.length - ending.length;
+            return ending.length <= name.length &&
+                name.indexOf(ending) == name.length - ending.length;
         }
 
         /**
          * Every labeled frame in the movie clip at Flixel frame index (frame - 1).
          * If label ends with "ing", then loop, otherwise stop.
+         * Unless label ends with ".mp3", then remember to play sound on that frame index.
          */
-        public static function addAnimation(flxSprite:FlxSprite, mc:MovieClip):void
+        public static function addAnimation(flxSprite:FlxSprite, mc:MovieClip, soundEndsWith:String=".mp3"):void
         {
             for (var i:int = 0; i < mc.currentLabels.length; i++) {
+                var name:String = mc.currentLabels[i].name;
                 var start:int = mc.currentLabels[i].frame - 1;
-                var end:int;
-                if (i < mc.currentLabels.length - 1) {
-                    end = mc.currentLabels[i+1].frame - 2;
+                if (endsWith(name, soundEndsWith)) {
+                    trace(flxSprite, start, name);
+                    flxSprite["sounds"][start.toString()] = name.substr(0, 
+                        name.length - soundEndsWith.length) + "Class";
                 }
                 else {
-                    end = mc.totalFrames - 1;
+                    var end:int = -1;
+                    if (i < mc.currentLabels.length - 1) {
+                        for (var j:int = i+1; end <= -1 && j < mc.currentLabels.length; j++) {
+                            if (!endsWith(mc.currentLabels[j].name, soundEndsWith)) {
+                                end = mc.currentLabels[j].frame - 2;
+                            }
+                        }
+                        if (mc.currentLabels.length <= j && end <= -1) {
+                            end = mc.totalFrames - 1;
+                        }
+                    }
+                    else {
+                        end = mc.totalFrames - 1;
+                    }
+                    var frames:Array = [];
+                    for (var f:int = start; f <= end; f++) {
+                        frames.push(f);
+                    }
+                    var looped:Boolean = endsWith(name, "ing");
+                    trace(flxSprite, "addAnimation", name, frames, FlxG.stage.frameRate, looped);
+                    flxSprite.addAnimation(name, frames, FlxG.stage.frameRate, looped);
                 }
-                var frames:Array = [];
-                for (var f:int = start; f <= end; f++) {
-                    frames.push(f);
-                }
-                var looped:Boolean = endsWith(mc.currentLabels[i].name, "ing");
-                trace(flxSprite, "addAnimation", mc.currentLabels[i].name, frames, FlxG.stage.frameRate, looped);
-                flxSprite.addAnimation(mc.currentLabels[i].name, frames, FlxG.stage.frameRate, looped);
             }
         }
 
