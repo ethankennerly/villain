@@ -16,8 +16,8 @@
     15 On last frame of bite, dragon may eat at mouth.
     16 See animatic sketch of light blue dragon bite.
     17 - How can I contour dragon limbs?
-    18 See dragon body.
-    19 See peasant?
+    18 See dragon body.  See peasant.
+    19 See peasant walk?
     20
     21
 16

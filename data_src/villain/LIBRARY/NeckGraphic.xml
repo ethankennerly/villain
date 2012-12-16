@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="NeckGraphic" itemID="50cd2740-00000325" symbolType="graphic" lastModified="1355622715">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="NeckGraphic" itemID="50cd2740-00000325" symbolType="graphic" lastModified="1355625000">
   <timeline>
     <DOMTimeline name="NeckGraphic" currentFrame="1">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -61,7 +61,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 2" color="#9933CC">
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -92,7 +92,37 @@
               </elements>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
-              <elements/>
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix ty="-20"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!1645 338S6[1699 485 1617 540!1617 540[1534 598 1469 583!1469 583[1403 568 1406 479!1406 479[1408 391 1440 254!1440 254[1469 115 1549 37!1549 37[1627 -40 1705 -15!1705 -15[1785 11 1685 100!1685 100[1586 189 1645 338!1269 403[1225 462
+ 1322 550!1322 550[1417 634 1381 696!1381 696[1345 756 1293 757!1293 757[1243 757 1207 697!1207 697[1170 634 1170 550!1170 550[1170 463 1205 401!1205 401[1243 342 1279 342!1279 342[1314 342 1269 403!839 578[767 690 862 819!862 819[953
+ 947 888 1021!888 1021[823 1098 755 1100!755 1100[689 1103 668 1017!668 1017[648 931 643 791!643 791[634 648 692 553!692 553[747 458 830 462!830 462[913 467 839 578"/>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="
+!580 1205.5S5[#254.44 #4A0.FE 605 1152!605 1152[#268.63 #456.A7 580 1074"/>
+                    <Edge fillStyle0="1" edges="
+!580 1074S1|580 1205.5"/>
+                  </edges>
+                </DOMShape>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>

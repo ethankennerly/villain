@@ -1,32 +1,32 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355612921">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355625433">
   <timeline>
-    <DOMTimeline name="PeasantClip" currentFrame="1">
+    <DOMTimeline name="PeasantClip" currentFrame="9">
       <layers>
         <DOMLayer name="label" color="#9933CC" autoNamed="false">
           <frames>
-            <DOMFrame index="0" name="idling" labelType="name" keyMode="9728">
+            <DOMFrame index="0" duration="18" name="idling" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="1" name="carrying" labelType="name" keyMode="9728">
+            <DOMFrame index="18" name="carrying" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="2" name="retreating" labelType="name" keyMode="9728">
+            <DOMFrame index="19" name="retreating" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="body" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="18" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" selected="true" symbolType="graphic" loop="loop">
                   <transformationPoint>
                     <Point x="7" y="6"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="1" keyMode="9728">
+            <DOMFrame index="18" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="30" centerPoint3DY="16.5" loop="loop">
                   <matrix>
@@ -41,9 +41,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="2" keyMode="9728">
+            <DOMFrame index="19" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="30" centerPoint3DY="16.5" loop="loop">
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" selected="true" symbolType="graphic" centerPoint3DX="30" centerPoint3DY="16.5" loop="loop">
                   <matrix>
                     <Matrix a="-1" tx="48"/>
                   </matrix>

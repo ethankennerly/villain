@@ -8,9 +8,9 @@
           <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355618377"/>
           <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355618321"/>
           <Include href="MouthCollisionClip.xml" itemID="50cd1126-000002c7" lastModified="1355616617"/>
-          <Include href="NeckGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cd2740-00000325" lastModified="1355622715"/>
-          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355612921"/>
-          <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355612883"/>
+          <Include href="NeckGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cd2740-00000325" lastModified="1355625000"/>
+          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355625433"/>
+          <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355626750"/>
           <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355623437"/>
      </symbols>
      <timelines>
@@ -34,6 +34,11 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="97352" publishTime="1355626757" publishDebug="true"/>
+          <PublishItem publishSize="97249" publishTime="1355626604" publishDebug="true"/>
+          <PublishItem publishSize="96914" publishTime="1355625704" publishDebug="true"/>
+          <PublishItem publishSize="96937" publishTime="1355625015" publishDebug="true"/>
+          <PublishItem publishSize="96834" publishTime="1355624508" publishDebug="true"/>
           <PublishItem publishSize="96021" publishTime="1355623674" publishDebug="true"/>
           <PublishItem publishSize="96022" publishTime="1355623639" publishDebug="true"/>
           <PublishItem publishSize="96020" publishTime="1355623596" publishDebug="true"/>
@@ -49,10 +54,5 @@
           <PublishItem publishSize="93128" publishTime="1355616846" publishDebug="true"/>
           <PublishItem publishSize="93184" publishTime="1355616800" publishDebug="true"/>
           <PublishItem publishSize="62800" publishTime="1355615972"/>
-          <PublishItem publishSize="62820" publishTime="1355615945"/>
-          <PublishItem publishSize="92723" publishTime="1355614697" publishDebug="true"/>
-          <PublishItem publishSize="92761" publishTime="1355614623" publishDebug="true"/>
-          <PublishItem publishSize="92732" publishTime="1355614531" publishDebug="true"/>
-          <PublishItem publishSize="92765" publishTime="1355614456" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

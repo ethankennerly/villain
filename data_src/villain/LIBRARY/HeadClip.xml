@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HeadClip" itemID="50cc1c36-00000df1" linkageExportForAS="true" linkageClassName="HeadClip" lastModified="1355624187">
   <timeline>
-    <DOMTimeline name="HeadClip" currentFrame="19">
+    <DOMTimeline name="HeadClip" currentFrame="1">
       <layers>
         <DOMLayer name="label" color="#9933CC" locked="true" autoNamed="false">
           <frames>
@@ -116,7 +116,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="skull" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="skull" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
@@ -254,7 +254,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="neck" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="neck" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>

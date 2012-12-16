@@ -16,5 +16,5 @@ Gameplay after Spike: A Love Story, which was suggested by Dave Alleca.
 http://flashpunk.net/2011/05/spike-a-love-story/
 Dragon illustration after Airdin "Sleeping Dragon".
 http://airdin.deviantart.com/art/Sleeping-Dragon-40622802
-Peasant illustration after Ghouls n Ghosts.
-http://www.ign.com/articles/2007/09/15/ghouls-n-ghosts-review
+Peasant illustration after "Cartoon of a Peasant Walking with His Mule".
+http://www.picturesof.net/pages/100214-000808-449042.html

@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
-        <DOMLayer name="mob" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="mob" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -14,7 +14,7 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="8" centerPoint3DY="162">
+                <DOMSymbolInstance libraryItemName="PeasantClip" selected="true" centerPoint3DX="8" centerPoint3DY="162">
                   <matrix>
                     <Matrix tx="-48" ty="146"/>
                   </matrix>
@@ -74,11 +74,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="body" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="BodyClip" selected="true" centerPoint3DX="414.05" centerPoint3DY="177.65">
+                <DOMSymbolInstance libraryItemName="BodyClip" centerPoint3DX="414.05" centerPoint3DY="177.65">
                   <matrix>
                     <Matrix tx="232" ty="31.95"/>
                   </matrix>
