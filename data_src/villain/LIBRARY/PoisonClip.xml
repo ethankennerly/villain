@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PoisonClip" itemID="50ce30a3-000005d6" linkageExportForAS="true" linkageClassName="PoisonClip" lastModified="1355691312">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PoisonClip" itemID="50ce30a3-000005d6" linkageExportForAS="true" linkageClassName="PoisonClip" lastModified="1355696017">
   <timeline>
     <DOMTimeline name="PoisonClip" currentFrame="6">
       <layers>
@@ -9,7 +9,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="sound" color="#FF800A" autoNamed="false">
+        <DOMLayer name="sound" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -306,7 +306,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="meat" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="meat" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -324,10 +324,10 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="PoisonMeatGraphic" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.965927124023438" b="0.258804321289062" c="-0.258804321289062" d="0.965927124023438" tx="23.5" ty="1.65"/>
+                    <Matrix a="0.9908447265625" b="0.134979248046875" c="-0.134979248046875" d="0.9908447265625" tx="21.1" ty="3.05"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="14.55" y="16.05"/>
+                    <Point x="14.6" y="16.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -346,6 +346,25 @@
                     <Point x="15.5" y="7.75"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="frame" color="#4FFFFF" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!1017 -20S2|1017 1280!1017 1280|-3 1280!-3 1280|-3 -20!-3 -20|1017 -20"/>
+                  </edges>
+                </DOMShape>
               </elements>
             </DOMFrame>
           </frames>

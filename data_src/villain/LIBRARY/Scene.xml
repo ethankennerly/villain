@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355690193" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355698675" lastUniqueIdentifier="38">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
@@ -22,7 +22,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="HeadClip" selected="true" centerPoint3DX="385.5" centerPoint3DY="111">
+                <DOMSymbolInstance libraryItemName="HeadClip" centerPoint3DX="385.5" centerPoint3DY="111">
                   <matrix>
                     <Matrix tx="329.5" ty="95"/>
                   </matrix>
@@ -38,49 +38,273 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="648" centerPoint3DY="160">
+                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="629" centerPoint3DY="155">
                   <matrix>
-                    <Matrix tx="592" ty="144"/>
+                    <Matrix tx="573" ty="139"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="8" centerPoint3DY="162">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DY="162">
                   <matrix>
-                    <Matrix tx="-48" ty="146"/>
+                    <Matrix tx="-56" ty="146"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-488" centerPoint3DY="162">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-56" centerPoint3DY="162">
                   <matrix>
-                    <Matrix tx="-544" ty="146"/>
+                    <Matrix tx="-112" ty="146"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-664" centerPoint3DY="162">
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-120" centerPoint3DY="162">
                   <matrix>
-                    <Matrix tx="-720" ty="146"/>
+                    <Matrix tx="-176" ty="146"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-877" centerPoint3DY="160">
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-208" centerPoint3DY="160">
                   <matrix>
-                    <Matrix tx="-933" ty="144"/>
+                    <Matrix tx="-264" ty="144"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-1113.85" centerPoint3DY="155">
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-288" centerPoint3DY="160">
                   <matrix>
-                    <Matrix tx="-1169.85" ty="139"/>
+                    <Matrix tx="-344" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-368" centerPoint3DY="162">
+                  <matrix>
+                    <Matrix tx="-424" ty="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-471" centerPoint3DY="162">
+                  <matrix>
+                    <Matrix tx="-527" ty="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-388" centerPoint3DY="164">
+                  <matrix>
+                    <Matrix tx="-444" ty="148"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-416" centerPoint3DY="163">
+                  <matrix>
+                    <Matrix tx="-472" ty="147"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-491" centerPoint3DY="163">
+                  <matrix>
+                    <Matrix tx="-547" ty="147"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-562" centerPoint3DY="161">
+                  <matrix>
+                    <Matrix tx="-618" ty="145"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-666" centerPoint3DY="161">
+                  <matrix>
+                    <Matrix tx="-722" ty="145"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-675.85" centerPoint3DY="159">
+                  <matrix>
+                    <Matrix tx="-731.85" ty="143"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-130" centerPoint3DY="162">
+                  <matrix>
+                    <Matrix tx="-186" ty="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-584" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-640" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-597" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-653" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-690" centerPoint3DY="163">
+                  <matrix>
+                    <Matrix tx="-746" ty="147"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-707" centerPoint3DY="161.5">
+                  <matrix>
+                    <Matrix tx="-763" ty="145.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="659" centerPoint3DY="157">
+                  <matrix>
+                    <Matrix tx="603" ty="141"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="600" centerPoint3DY="163">
+                  <matrix>
+                    <Matrix tx="544" ty="147"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-746" centerPoint3DY="161">
+                  <matrix>
+                    <Matrix tx="-802" ty="145"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-757.85" centerPoint3DY="159">
+                  <matrix>
+                    <Matrix tx="-813.85" ty="143"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-782" centerPoint3DY="163">
+                  <matrix>
+                    <Matrix tx="-838" ty="147"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-801" centerPoint3DY="161.5">
+                  <matrix>
+                    <Matrix tx="-857" ty="145.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-860" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-916" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-866" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-922" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-871" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-927" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-897" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-953" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-903" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-959" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-908" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-964" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-935" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-991" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-938" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-994" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-941" centerPoint3DY="160">
+                  <matrix>
+                    <Matrix tx="-997" ty="144"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>

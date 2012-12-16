@@ -7,11 +7,12 @@ Or you can release mouse button.
 To make it harder, play 2x speed: press Shift+2.  
 To make it normal again, play 1x speed: press Shift+1.  
 
-A game made in 1 day by Ethan Kennerly.
+A game made in 2 days by Ethan Kennerly.
 Ludum Dare 25, December 14-16, 2012.  
 Theme:  You are the Villain
 http://www.ludumdare.com/compo/
 
+Source:  https://github.com/ethankennerly/villain
 Gameplay after Spike: A Love Story, which was suggested by Dave Alleca.
 http://flashpunk.net/2011/05/spike-a-love-story/
 Dragon illustration after Airdin "Sleeping Dragon".

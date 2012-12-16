@@ -3,6 +3,7 @@ package com.finegamedesign.dragon
     import org.flixel.*;
     public class Peasant extends FlxSprite
     {
+        public static var idleVelocity:Number = 128;
         public static var carryVelocity:Number = -64;
         public static var retreatVelocity:Number = -128;
         public var gold:Gold;
@@ -13,7 +14,7 @@ package com.finegamedesign.dragon
             super(X, Y);
             sounds = {};
             PlayState.constructSprite(this, PeasantSpritesheet);
-            velocity.x = 128;
+            velocity.x = PlayState.offScreenMaxVelocityX;
         }
 
         override public function kill():void
@@ -30,13 +31,16 @@ package com.finegamedesign.dragon
 
         override public function update():void
         {
+            if (velocity.x == PlayState.offScreenMaxVelocityX && onScreen()) {
+                velocity.x = idleVelocity;
+            }
             if (velocity.x < 0 && alive && !onScreen()) {
                 kill();
             }
             else if (null == gold && (null == _curAnim || "retreating" != _curAnim.name)) {
                 play("idling");
             }
-            if (_curIndex.toString() in sounds) {
+            if (onScreen() && _curIndex.toString() in sounds) {
                 FlxG.play(Sounds[sounds[_curIndex.toString()]]);
             }
             super.update();

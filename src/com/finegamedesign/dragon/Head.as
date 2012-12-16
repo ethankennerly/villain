@@ -38,6 +38,7 @@ package com.finegamedesign.dragon
         public function poison(mouth:FlxObject, poison:FlxObject):void
         {
             poison.hurt(1);
+            FlxG.play(Sounds.biteClass);
             play("poisoning");
             poisonTimer.start(3.0, 1, recover);
         }

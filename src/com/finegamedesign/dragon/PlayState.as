@@ -12,6 +12,8 @@ package com.finegamedesign.dragon
     public class PlayState extends FlxState
     {
         private static var scene:Scene;
+        public static var offScreenMaxVelocityX:Number = 8.0;
+        public static var onScreenMaxVelocityX:Number = 800.0;
 
         public static function endsWith(name:String, ending:String):Boolean
         {
@@ -205,6 +207,9 @@ package com.finegamedesign.dragon
                     FlxG.fade(0xFF000000, 3.0, lose);
                 }
                 else if (peasantsLiving <= 0) {
+                    FlxG.score += goldsLiving;
+                    FlxG.score = int(Math.pow(2, FlxG.score));
+                    FlxG.score = int(FlxG.score / 50) * 50;
                     if (goldsLiving < golds.length) {
                         instructionText.text = "YOU KEPT SOME GOLD";
                     }

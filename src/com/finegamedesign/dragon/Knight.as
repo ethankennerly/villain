@@ -7,9 +7,7 @@ package com.finegamedesign.dragon
         {
             super(X, Y);
             PlayState.constructSprite(this, KnightSpritesheet);
-            sounds = {};
             health = 2;
-            velocity.x = 128;
         }
 
         override public function hurt(Damage:Number):void

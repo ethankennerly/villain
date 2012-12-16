@@ -4,6 +4,7 @@ package com.finegamedesign.dragon
     public class Poison extends FlxSprite
     {
         public var sounds:Object;
+        public static var idleVelocity:Number = 64;
 
         /**
          * While offscreen, keep in order.
@@ -13,18 +14,23 @@ package com.finegamedesign.dragon
             super(X, Y);
             sounds = {};
             PlayState.constructSprite(this, PoisonSpritesheet);
-            velocity.x = 128;
+            velocity.x = PlayState.offScreenMaxVelocityX;
         }
 
         override public function update():void
         {
+            if (velocity.x == PlayState.offScreenMaxVelocityX && onScreen()) {
+                velocity.x = idleVelocity;
+            }
             if (0 <= x && alive && !onScreen()) {
+                FlxG.score ++;
                 kill();
             }
-            else if (onScreen() && velocity.x < 64) {
+            else if (onScreen() && velocity.x != 64) {
                 velocity.x = 64;
+                play("idling");
             }
-            if (_curIndex.toString() in sounds) {
+            if (onScreen() && _curIndex.toString() in sounds) {
                 FlxG.play(Sounds[sounds[_curIndex.toString()]]);
             }
             super.update();

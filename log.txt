@@ -28,8 +28,8 @@
     11 Release space to destroy knight's armor.
     12 - How can I play poison for a while and stop when frames seem to blink and timer not started?
     13 Green meat wagon knocks out dragon.
-    14 Release space to eat a fast rogue?
-    15
+    14 Dozens of peasants, knights, and poison meat wagons.
+    15 Wizard?
     16
     17
 
@@ -40,6 +40,8 @@ TODO
     See thief disappear.
     Wizard levitates gold.
     See wizard.
+    Color peasant, dragon, knight?
+    Title screen image.
     Hold space and release to breathe fire.
     See peasant taunt. (after Spike)
     Delay after chomp until next chomp.
