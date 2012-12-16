@@ -1,23 +1,23 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355625433">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355630591">
   <timeline>
-    <DOMTimeline name="PeasantClip" currentFrame="9">
+    <DOMTimeline name="PeasantClip" currentFrame="11">
       <layers>
-        <DOMLayer name="label" color="#9933CC" autoNamed="false">
+        <DOMLayer name="label" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="18" name="idling" labelType="name" keyMode="9728">
+            <DOMFrame index="0" duration="11" name="idling" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="18" name="carrying" labelType="name" keyMode="9728">
+            <DOMFrame index="11" duration="11" name="retreating" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="19" name="retreating" labelType="name" keyMode="9728">
+            <DOMFrame index="22" duration="12" name="carrying" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="body" color="#9933CC" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="18" keyMode="9728">
+            <DOMFrame index="0" duration="11" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="PeasantGraphic" selected="true" symbolType="graphic" loop="loop">
                   <transformationPoint>
@@ -26,11 +26,23 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="18" keyMode="9728">
+            <DOMFrame index="11" duration="11" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="30" centerPoint3DY="16.5" loop="loop">
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="32" centerPoint3DY="16.5" loop="loop">
                   <matrix>
-                    <Matrix a="-1" tx="48"/>
+                    <Matrix a="-1" tx="50"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="47" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="33" centerPoint3DY="16.5" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" tx="51"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="47" y="1"/>
@@ -38,18 +50,6 @@
                   <color>
                     <Color brightness="-0.34"/>
                   </color>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="19" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="PeasantGraphic" selected="true" symbolType="graphic" centerPoint3DX="30" centerPoint3DY="16.5" loop="loop">
-                  <matrix>
-                    <Matrix a="-1" tx="48"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="47" y="1"/>
-                  </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

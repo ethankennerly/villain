@@ -30,23 +30,28 @@ package com.finegamedesign.dragon
             if (velocity.x < 0 && alive && !onScreen()) {
                 kill();
             }
+            else if (null == gold && (null == _curAnim || "retreating" != _curAnim.name)) {
+                play("idling");
+            }
         }
 
         public function carry(gold:Gold):void
         {
-            if (null == gold.curAnim || "carrying" != gold.curAnim.name || this.gold == gold) {
-                if (onScreen()) {
-                    velocity.x = carryVelocity;
-                }
-                play("carrying");
-                if (gold.onScreen()) {
-                    this.gold = gold;
-                    gold.play("carrying");
-                    gold.x = x;
-                    gold.velocity.x = velocity.x;
-                }
-                else if (gold.alive) {
-                    gold.kill();
+            if (this.gold == gold || this.gold == null) {
+                if (null == gold.curAnim || "carrying" != gold.curAnim.name || this.gold == gold) {
+                    if (onScreen()) {
+                        velocity.x = carryVelocity;
+                    }
+                    play("carrying");
+                    if (gold.onScreen()) {
+                        this.gold = gold;
+                        gold.play("carrying");
+                        gold.x = x;
+                        gold.velocity.x = velocity.x;
+                    }
+                    else if (gold.alive) {
+                        gold.kill();
+                    }
                 }
             }
         }
@@ -55,8 +60,8 @@ package com.finegamedesign.dragon
         {
             if (onScreen()) {
                 if (null == gold) {
-                    play("retreating");
                     velocity.x = retreatVelocity;
+                    play("retreating");
                 }
             }
             else if (alive) {

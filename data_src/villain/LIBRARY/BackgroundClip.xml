@@ -1,19 +1,70 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BackgroundClip" itemID="50cceb2a-00000f5d" linkageExportForAS="true" linkageClassName="BackgroundClip" lastModified="1355606826">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BackgroundClip" itemID="50cceb2a-00000f5d" linkageExportForAS="true" linkageClassName="BackgroundClip" lastModified="1355627347">
   <timeline>
     <DOMTimeline name="BackgroundClip">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix ty="210"/>
+                  </matrix>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#333333"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!12800 640S2|0 640!0 640|0 0!0 0|12800 0!12800 0|12800 640"/>
+                    <Edge fillStyle1="1" edges="!12800 640S2|0 640!0 640|0 120!0 120[#1C23.A7 #1F8.5B 12800 120!12800 120|12800 640"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix ty="210"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999999"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!12800 -560S2|12800 320!12800 320|0 320!0 320|0 -560!0 -560[#25C0.65 #FFFB2F.EC 12800 -560"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix ty="210"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.41717529296875" d="0.41717529296875" tx="320" ty="-88"/>
+                        </matrix>
+                        <GradientEntry color="#999999" ratio="0"/>
+                        <GradientEntry color="#666666" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!12800 -4160S2|12800 640!12800 640|0 640!0 640|0 -4160!0 -4160|12800 -4160"/>
                   </edges>
                 </DOMShape>
               </elements>

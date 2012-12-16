@@ -17,8 +17,8 @@
     16 See animatic sketch of light blue dragon bite.
     17 - How can I contour dragon limbs?
     18 See dragon body.  See peasant.
-    19 See peasant walk?
-    20
+    19 See peasant walk.  - How can I debug not retreating?
+    20 Hear bite, eat, walk, gold?
     21
 16
     8
@@ -33,12 +33,8 @@
     17
 
 TODO
-    See peasant.
-    See cave.
-    See gold.
-    See peasant eaten.
-    See dragon eat and bite.
     Hear bite, eat, walk, gold.
+    See peasant eaten.
     Release space to eat a knight.
     See knight.
     Release space to eat a thief.
