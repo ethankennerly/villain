@@ -1,16 +1,17 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#666666" gridColor="#CCCCCC" width="640" height="240" frameRate="60" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="16" gridSpacingY="16" gridSnapTo="true" pixelSnap="true" vanishingPoint3DX="320" vanishingPoint3DY="240" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#666666" gridColor="#CCCCCC" width="640" height="240" frameRate="60" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 481" majorVersion="12" buildNumber="481" gridSpacingX="16" gridSpacingY="16" gridSnapTo="true" rulerVisible="true" pixelSnap="true" vanishingPoint3DX="320" vanishingPoint3DY="240" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <symbols>
           <Include href="BackgroundClip.xml" itemID="50cceb2a-00000f5d" lastModified="1355606826"/>
-          <Include href="BodyClip.xml" itemID="50ccec7a-00000f9a" lastModified="1355619005"/>
+          <Include href="BodyClip.xml" itemID="50ccec7a-00000f9a" lastModified="1355624490"/>
           <Include href="GoldClip.xml" itemID="50ccb08b-00000e73" lastModified="1355609862"/>
           <Include href="GoldGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf655-0000027e" lastModified="1355609881"/>
-          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355619715"/>
+          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355624187"/>
           <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355618377"/>
           <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355618321"/>
           <Include href="MouthCollisionClip.xml" itemID="50cd1126-000002c7" lastModified="1355616617"/>
+          <Include href="NeckGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cd2740-00000325" lastModified="1355622715"/>
           <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355612921"/>
           <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355612883"/>
-          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355619733"/>
+          <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355623437"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -33,6 +34,13 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="96021" publishTime="1355623674" publishDebug="true"/>
+          <PublishItem publishSize="96022" publishTime="1355623639" publishDebug="true"/>
+          <PublishItem publishSize="96020" publishTime="1355623596" publishDebug="true"/>
+          <PublishItem publishSize="96017" publishTime="1355623571" publishDebug="true"/>
+          <PublishItem publishSize="96016" publishTime="1355623450" publishDebug="true"/>
+          <PublishItem publishSize="95997" publishTime="1355623341" publishDebug="true"/>
+          <PublishItem publishSize="94656" publishTime="1355619737" publishDebug="true"/>
           <PublishItem publishSize="94596" publishTime="1355619640" publishDebug="true"/>
           <PublishItem publishSize="94625" publishTime="1355619557" publishDebug="true"/>
           <PublishItem publishSize="94384" publishTime="1355618968" publishDebug="true"/>
@@ -46,12 +54,5 @@
           <PublishItem publishSize="92761" publishTime="1355614623" publishDebug="true"/>
           <PublishItem publishSize="92732" publishTime="1355614531" publishDebug="true"/>
           <PublishItem publishSize="92765" publishTime="1355614456" publishDebug="true"/>
-          <PublishItem publishSize="92774" publishTime="1355614430" publishDebug="true"/>
-          <PublishItem publishSize="92788" publishTime="1355613378" publishDebug="true"/>
-          <PublishItem publishSize="92797" publishTime="1355612959" publishDebug="true"/>
-          <PublishItem publishSize="62785" publishTime="1355610741"/>
-          <PublishItem publishSize="62792" publishTime="1355610736"/>
-          <PublishItem publishSize="92768" publishTime="1355609894" publishDebug="true"/>
-          <PublishItem publishSize="92623" publishTime="1355609421" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

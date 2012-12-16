@@ -151,7 +151,7 @@ package com.finegamedesign.dragon
         private function updateInput():void
         {
             if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
-                head.play("bite");
+                head.play("bite", true);
             }
             else if (head.finished) {
                 head.play("idling");

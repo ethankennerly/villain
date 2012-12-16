@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355619733" lastUniqueIdentifier="6">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355623437" lastUniqueIdentifier="6">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
-        <DOMLayer name="mob" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="mob" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="HeadClip" selected="true" centerPoint3DX="385.5" centerPoint3DY="111">
+                <DOMSymbolInstance libraryItemName="HeadClip" centerPoint3DX="385.5" centerPoint3DY="111">
                   <matrix>
                     <Matrix tx="329.5" ty="95"/>
                   </matrix>
@@ -74,13 +74,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#FF800A" autoNamed="false">
+        <DOMLayer name="body" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="BodyClip" centerPoint3DX="431.05" centerPoint3DY="207.65">
+                <DOMSymbolInstance libraryItemName="BodyClip" selected="true" centerPoint3DX="414.05" centerPoint3DY="177.65">
                   <matrix>
-                    <Matrix tx="249" ty="61.95"/>
+                    <Matrix tx="232" ty="31.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="180" y="129.05"/>

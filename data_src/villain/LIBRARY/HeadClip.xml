@@ -1,23 +1,23 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HeadClip" itemID="50cc1c36-00000df1" linkageExportForAS="true" linkageClassName="HeadClip" lastModified="1355619715">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HeadClip" itemID="50cc1c36-00000df1" linkageExportForAS="true" linkageClassName="HeadClip" lastModified="1355624187">
   <timeline>
-    <DOMTimeline name="HeadClip">
+    <DOMTimeline name="HeadClip" currentFrame="19">
       <layers>
-        <DOMLayer name="label" color="#9933CC" autoNamed="false">
+        <DOMLayer name="label" color="#9933CC" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="3" name="idling" labelType="name" keyMode="9728">
+            <DOMFrame index="0" duration="2" name="idling" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="3" duration="13" name="bite" labelType="name" keyMode="9728">
+            <DOMFrame index="2" duration="13" name="bite" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="16" duration="15" name="eat" labelType="name" keyMode="9728">
+            <DOMFrame index="15" duration="11" name="eat" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="eye" color="#FF800A" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="3" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -35,13 +35,13 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!2300 1670[2258 1700 2194 1717!2194 1717[2131 1735 2081 1729!2081 1729[2031 1725 2025 1701!2025 1701[2018 1677 2076 1678!2076 1678[2133 1678 2189 1647!2189 1647[2244 1615 2286 1605!2286 1605[2327 1594 2334 1618!2334 1618[2340 1642 2300
- 1670"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!2063 1631[2112 1613 2178 1613!2178 1613[2244 1611 2290 1630!2290 1630[2337 1647 2337 1672!2337 1672[2338 1697 2282 1681!2282 1681[2227 1666 2165 1681!2165 1681[2103 1698 2060 1697!2060 1697[2018 1697 2018 1672!2018 1672[2018 1647 2063
+ 1631"/>
                   </edges>
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="3" duration="5" keyMode="9728">
+            <DOMFrame index="2" duration="5" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -65,7 +65,7 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="8" duration="6" keyMode="9728">
+            <DOMFrame index="7" duration="6" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -90,7 +90,7 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="14" duration="17" keyMode="9728">
+            <DOMFrame index="13" duration="13" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -116,9 +116,9 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="skull" color="#9933CC" autoNamed="false">
+        <DOMLayer name="skull" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="3" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -150,7 +150,7 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="3" duration="5" keyMode="9728">
+            <DOMFrame index="2" duration="5" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -176,13 +176,11 @@
 !2331 1240[2358 1237 2321 1419!2321 1419[2283 1600 2340 1610!2340 1610[2396 1620 2436 1665!2436 1665[2473 1707 2579 1660"/>
                     <Edge fillStyle0="1" strokeStyle="1" edges="
 !2579 1660[2525 1622 2574 1653!2574 1653[2578 1657 2583 1659!2583 1659[2591 1664 2600 1669!2600 1669[2795 1782 3012 1724!3012 1724[3230 1665 3341 1470!3341 1470[3455 1275 3403 1057!3403 1057[3401 1051 3400 1046"/>
-                    <Edge strokeStyle="1" edges="
-!2374 1890[2384 1902 2399 1920"/>
                   </edges>
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="8" duration="6" keyMode="9728">
+            <DOMFrame index="7" duration="6" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -203,8 +201,11 @@
                     <Edge fillStyle1="1" edges="
 !1994 2150[1880 2169 1841 2167!1841 2167[1802 2164 1955 2148!1955 2148[2108 2130 2023 1927!2023 1927[1937 1723 1879 1236"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="
-!1879 1236[2044 1155 2298 1160!2298 1160[2551 1164 2704 1218!2704 1218[2856 1272 2904 1415!2904 1415[2950 1557 2945 1781!2945 1781[2939 2005 2779 2164!2779 2164[2621 2323 2264 2370!2264 2370[1907 2416 1903 2305!1903 2305[1902 2277 1904
- 2255"/>
+!1879 1236[2044 1155 2298 1160!2298 1160[2551 1164 2704 1218!2704 1218[#B02.97 #4EA.B6 2874 1350"/>
+                    <Edge fillStyle1="1" edges="
+!2874 1350[#B4C.3 #563.CE 2904 1415!2904 1415[2950 1557 2945 1781!2945 1781[#B80.55 #70D.E7 2942 1830"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!2942 1830[#B69.36 #7E6.AD 2779 2164!2779 2164[2621 2323 2264 2370!2264 2370[1907 2416 1903 2305!1903 2305[1902 2277 1904 2255"/>
                     <Edge strokeStyle="1" edges="
 !1904 2255[1901 2257 1899 2260!1899 2260[1901 2256 1905 2253!1905 2253[1904 2252 1905 2252!1905 2252[1912 2188 1949 2173!1949 2173|1988 2157"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="
@@ -221,7 +222,7 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="14" duration="17" keyMode="9728">
+            <DOMFrame index="13" duration="13" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -255,108 +256,47 @@
         </DOMLayer>
         <DOMLayer name="neck" color="#FF4FFF" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="3" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#B1DFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="2">
-                        <fill>
-                          <SolidColor color="#322529"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!4566 823[4612 1216 4271 1313!4271 1313[3929 1408 3190 1777!3190 1777[2450 2145 2437 2012!2437 2012[2424 1878 2325 1617!2325 1617[2226 1354 2779 1341!2779 1341[3332 1327 3771 786!3771 786[4210 244 4365 337!4365 337[4520 429 4566 823"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="NeckGraphic" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="115.5" ty="16.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56.5" y="43.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="3" duration="5" keyMode="9728">
+            <DOMFrame index="2" duration="5" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#B1DFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="2">
-                        <fill>
-                          <SolidColor color="#322529"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!4533 906[4540 1461 4507 1159!4507 1159[4473 857 3745 1179!3745 1179[3016 1501 2839 1685!2839 1685[2661 1869 2685 1481!2685 1481[2708 1093 3487 536!3487 536[4266 -21 4258 69!4258 69[4250 158 4387 255!4387 255[4525 351 4533 906"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="NeckGraphic" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <matrix>
+                    <Matrix tx="115.5" ty="16.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56.5" y="43.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="8" duration="6" keyMode="9728">
+            <DOMFrame index="7" duration="19" keyMode="9728">
               <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#B1DFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="2">
-                        <fill>
-                          <SolidColor color="#322529"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!3986 994[4297 951 4332 1043!4332 1043[4368 1136 4108 1310!4108 1310[3849 1485 3446 1639!3446 1639[3044 1793 2734 1836!2734 1836[2425 1880 2389 1787!2389 1787[2354 1695 2612 1520!2612 1520[2872 1345 3274 1191!3274 1191[3677 1037 3986
- 994"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="14" duration="17" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#B1DFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="2">
-                        <fill>
-                          <SolidColor color="#322529"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!4566 823[4612 1216 4271 1313!4271 1313[3929 1408 3190 1777!3190 1777[2450 2145 2437 2012!2437 2012[2424 1878 2325 1617!2325 1617[2226 1354 2779 1341!2779 1341[3332 1327 3771 786!3771 786[4210 244 4365 337!4365 337[4520 429 4566 823"/>
-                  </edges>
-                </DOMShape>
+                <DOMSymbolInstance libraryItemName="NeckGraphic" symbolType="graphic" loop="single frame">
+                  <matrix>
+                    <Matrix tx="115.5" ty="16.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56.5" y="43.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="JawTop" color="#FF800A" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="3" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawTop" symbolType="graphic" loop="loop">
                   <matrix>
@@ -368,19 +308,19 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="3" duration="5" keyMode="9728">
+            <DOMFrame index="2" duration="5" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawTop" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.987106323242188" b="-0.160064697265625" c="0.160064697265625" d="0.987106323242188" tx="137.5" ty="73.95"/>
+                    <Matrix a="0.966201782226562" b="-0.25775146484375" c="0.25775146484375" d="0.966201782226562" tx="141.9" ty="68.35"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-55.95" y="-8"/>
+                    <Point x="-55.9" y="-8.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="8" duration="6" keyMode="9728">
+            <DOMFrame index="7" duration="6" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawTop" symbolType="graphic" loop="loop">
                   <matrix>
@@ -392,7 +332,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="14" duration="2" keyMode="9728">
+            <DOMFrame index="13" duration="2" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawTop" symbolType="graphic" loop="loop">
                   <matrix>
@@ -404,7 +344,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="16" duration="5" keyMode="9728">
+            <DOMFrame index="15" duration="5" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawTop" symbolType="graphic" loop="loop">
                   <matrix>
@@ -416,26 +356,14 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="21" duration="8" keyMode="9728">
+            <DOMFrame index="20" duration="6" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawTop" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.997299194335938" b="0.0734405517578125" c="-0.0734405517578125" d="0.997299194335938" tx="116.65" ty="94.75"/>
+                    <Matrix a="0.999984741210938" b="-0.0001983642578125" c="0.0001983642578125" d="0.999984741210938" tx="117.05" ty="94.05"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-10" y="-4"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="29" duration="2" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="JawTop" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="116.95" ty="99"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="-56" y="-8"/>
+                    <Point x="-10.05" y="-4.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -444,7 +372,7 @@
         </DOMLayer>
         <DOMLayer name="JawBottom" color="#4FFF4F" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="3" keyMode="9728">
+            <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawBottom" symbolType="graphic" loop="loop">
                   <matrix>
@@ -456,11 +384,11 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="3" duration="5" keyMode="9728">
+            <DOMFrame index="2" duration="5" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawBottom" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.987106323242188" b="-0.160064697265625" c="0.160064697265625" d="0.987106323242188" tx="143.3" ty="72.05"/>
+                    <Matrix a="0.987106323242188" b="-0.160064697265625" c="0.160064697265625" d="0.987106323242188" tx="148.3" ty="68.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="-56" y="8"/>
@@ -468,7 +396,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="8" duration="6" keyMode="9728">
+            <DOMFrame index="7" duration="6" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawBottom" symbolType="graphic" loop="loop">
                   <matrix>
@@ -480,7 +408,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="14" duration="2" keyMode="9728">
+            <DOMFrame index="13" duration="2" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawBottom" symbolType="graphic" loop="loop">
                   <matrix>
@@ -492,7 +420,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="16" duration="5" keyMode="9728">
+            <DOMFrame index="15" duration="5" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawBottom" symbolType="graphic" loop="loop">
                   <matrix>
@@ -504,11 +432,11 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="21" duration="8" keyMode="9728">
+            <DOMFrame index="20" duration="6" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="JawBottom" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.998428344726562" b="-0.0560302734375" c="0.0560302734375" d="0.998428344726562" tx="113.5" ty="101.45"/>
+                    <Matrix a="0.987106323242188" b="-0.160079956054688" c="0.160079956054688" d="0.987106323242188" tx="112.55" ty="100.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="-10" y="8"/>
@@ -516,23 +444,11 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="29" duration="2" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="JawBottom" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix tx="116.95" ty="99"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="-56" y="8"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="frame" color="#FF4FFF" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
+        <DOMLayer name="frame" color="#FF4FFF" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="31" keyMode="9728">
+            <DOMFrame index="0" duration="26" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
