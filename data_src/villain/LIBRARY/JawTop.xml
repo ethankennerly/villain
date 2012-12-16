@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="JawTop" itemID="50ccad1b-00000e40" symbolType="graphic" lastModified="1355609608">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="JawTop" itemID="50ccad1b-00000e40" symbolType="graphic" lastModified="1355618321">
   <timeline>
     <DOMTimeline name="JawTop">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer 5" color="#4FFFFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -22,8 +22,97 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!-2219 -130[-2219 -195 -1898 -241!-1898 -241[-1576 -287 -1120 -287!-1120 -287[-707 -287 -403 -249!-403 -249[-374 -246 -345 -241!-345 -241[-22 -195 -22 -130!-22 -130[-22 -65 -345 -19!-345 -19[-347 -19 -351 -19!-351 -19[-669 27 -1120 27
-!-1120 27[-1576 27 -1898 -19!-1898 -19[-2219 -65 -2219 -130"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!-2155 -255[-2169 -240 -2190 -240!-2190 -240[-2211 -240 -2226 -255!-2226 -255[-2240 -269 -2240 -290!-2240 -290[-2240 -311 -2226 -326!-2226 -326[-2211 -340 -2190 -340!-2190 -340[-2169 -340 -2155 -326!-2155 -326[-2140 -311 -2140 -290!-2140
+ -290[-2140 -269 -2155 -255!-2103 -92[-2120 -103 -2120 -120!-2120 -120[-2120 -137 -2103 -149!-2103 -149[-2085 -160 -2060 -160!-2060 -160[-2035 -160 -2018 -149!-2018 -149[-2000 -137 -2000 -120!-2000 -120[-2000 -103 -2018 -92!-2018 -92
+[-2035 -80 -2060 -80!-2060 -80[-2085 -80 -2103 -92"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!-1624 -469[-1569 -514 -1514 -499!-1514 -499[-1459 -484 -1529 -432!-1529 -432[-1598 -380 -1557 -293!-1557 -293[-1519 -207 -1576 -175!-1576 -175[-1634 -141 -1680 -150!-1680 -150[-1726 -159 -1724 -211!-1724 -211[-1722 -262 -1700 -342!-1700
+ -342[-1680 -423 -1624 -469!-1234 -293[-1182 -228 -1216 -200!-1216 -200[-1249 -173 -1284 -182!-1284 -182[-1318 -191 -1334 -232!-1334 -232[-1349 -273 -1336 -321!-1336 -321[-1323 -370 -1290 -398!-1290 -398[-1255 -425 -1231 -418!-1231 -418
+[-1208 -412 -1247 -386!-1247 -386[-1286 -360 -1234 -293"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!-1966.5 -303.5[#FFF9BE.81 #FFFF43.F6 -1010 -315!-1010 -315[#FFFE5D.7A #FFFE46.0A -311.5 -414!-311.5 -414[-204.375 #FFFE7E.17 -107.5 -282!-107.5 -282[#FFFFF5.7A #FFFF4D.C7 108 60!108 60[#E2.A5 #12A.39 -99.5 203.5!-99.5 203.5[-425.84375
+ #6C.BB -688 74!-688 74[#FFFC49.DC #27.27 -1328 126.5!-1328 126.5[#FFF956.47 #D6.0C -1987.5 111!-1987.5 111[#FFF722.AF #7.CB -2300.5 -205.5!-2300.5 -205.5[#FFF6E4.7D #FFFE5D.1A -1966.5 -303.5"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="
+!-1554 153[-1502 105 -1536 85!-1536 85[-1569 65 -1604 72!-1604 72[-1638 78 -1654 108!-1654 108[-1669 138 -1656 173!-1656 173[-1643 209 -1610 229!-1610 229[-1575 249 -1551 244!-1551 244[-1528 239 -1567 220!-1567 220[-1606 201 -1554 153
+!-1930 170[-1876 119 -1925 82!-1925 82[-1975 43 -2021 36!-2021 36[-2067 31 -2075 69!-2075 69[-2083 106 -2077 167!-2077 167[-2073 229 -2028 276!-2028 276[-1983 322 -1927 326!-1927 326[-1871 330 -1929 274!-1929 274[-1986 221 -1930 170"/>
                   </edges>
                 </DOMShape>
               </elements>

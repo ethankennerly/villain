@@ -14,8 +14,8 @@
     13 - How can I draw a dragon?
     14 Sketch volume of dragon, peasant, and gold.
     15 On last frame of bite, dragon may eat at mouth.
-    16 See dragon?
-    17
+    16 See animatic sketch of light blue dragon bite.
+    17 See dragon body?
     18
     19
     20
@@ -51,5 +51,7 @@ TODO
     Release space bar to swipe gold back with tail.
     Hold space and release to breathe fire.
     Score higher for gold position and timing of eating.
+    When idle, peek at peasant.
+    Why does peasant horizontal motion stutter?
 
 

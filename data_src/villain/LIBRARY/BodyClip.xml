@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BodyClip" itemID="50ccec7a-00000f9a" linkageExportForAS="true" linkageClassName="BodyClip" lastModified="1355609644">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="BodyClip" itemID="50ccec7a-00000f9a" linkageExportForAS="true" linkageClassName="BodyClip" lastModified="1355619005">
   <timeline>
     <DOMTimeline name="BodyClip">
       <layers>
@@ -33,67 +33,21 @@
         <DOMLayer name="Layer 2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#B1DFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="2">
-                        <fill>
-                          <SolidColor color="#322529"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!3303 2260[3304 2249 3307 2238!3307 2238[3339 2091 3452 1977!3452 1977[3612 1818 3837 1818!3837 1818[4062 1818 4220 1977!4220 1977[4380 2136 4380 2361!4380 2361[4380 2586 4220 2745!4220 2745[4062 2904 3837 2904!3837 2904[3612 2904 3452
- 2745!3452 2745[3442 2734 3432 2723!3432 2723[3383 2670 3351 2609"/>
-                    <Edge fillStyle1="1" edges="
-!3351 2609[3355 2609 3357 2608!3357 2608[3656 2539 3656 2440!3656 2440[3656 2342 3357 2272!3357 2272[3330 2265 3303 2260"/>
-                  </edges>
-                </DOMShape>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+        <DOMLayer name="Layer 4" color="#FF4FFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FF800A">
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#B1DFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="2">
-                        <fill>
-                          <SolidColor color="#322529"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="
-!5646 1495[5957 1452 5992 1544!5992 1544[6028 1637 5768 1811!5768 1811[5509 1986 5106 2140!5106 2140[4704 2294 4394 2337!4394 2337[4085 2381 4049 2288!4049 2288[4014 2196 4272 2021!4272 2021[4532 1846 4934 1692!4934 1692[5337 1538 5646
- 1495"/>
-                  </edges>
-                </DOMShape>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

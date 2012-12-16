@@ -1,14 +1,14 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355616623" lastUniqueIdentifier="6">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355619733" lastUniqueIdentifier="6">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
-        <DOMLayer name="mob" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="mob" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="HeadClip" centerPoint3DX="392" centerPoint3DY="176">
+                <DOMSymbolInstance libraryItemName="HeadClip" selected="true" centerPoint3DX="385.5" centerPoint3DY="111">
                   <matrix>
-                    <Matrix tx="336" ty="160"/>
+                    <Matrix tx="329.5" ty="95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>
@@ -58,11 +58,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mouth" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="mouth" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="MouthCollisionClip" selected="true" centerPoint3DX="392" centerPoint3DY="176">
+                <DOMSymbolInstance libraryItemName="MouthCollisionClip" centerPoint3DX="392" centerPoint3DY="176">
                   <matrix>
                     <Matrix tx="336" ty="160"/>
                   </matrix>

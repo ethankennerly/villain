@@ -1,7 +1,37 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="JawBottom" itemID="50ccad31-00000e44" symbolType="graphic" lastModified="1355609626">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="JawBottom" itemID="50ccad31-00000e44" symbolType="graphic" lastModified="1355618377">
   <timeline>
     <DOMTimeline name="JawBottom">
       <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B1DFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#322529"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!-1770 -113[-1715 -98 -1785 -46!-1785 -46[-1854 6 -1813 93!-1813 93[-1775 179 -1832 211!-1832 211[-1890 245 -1936 236!-1936 236[-1982 227 -1980 175!-1980 175[-1978 124 -1956 44!-1956 44[-1936 -37 -1880 -83!-1880 -83[-1825 -128 -1770 -113
+!-1487 -32[-1464 -26 -1503 0!-1503 0[-1542 26 -1490 93!-1490 93[-1438 158 -1472 186!-1472 186[-1505 213 -1540 204!-1540 204[-1574 195 -1590 154!-1590 154[-1605 113 -1592 65!-1592 65[-1579 16 -1546 -12!-1546 -12[-1511 -39 -1487 -32!-982
+ 112[-945 159 -969 179!-969 179[-993 198 -1018 192!-1018 192[-1042 185 -1054 156!-1054 156[-1065 126 -1055 92!-1055 92[-1046 57 -1022 36!-1022 36[-997 17 -980 22!-980 22[-963 26 -991 45!-991 45[-1019 64 -982 112!-1199 164[-1223 184 -1248
+ 177!-1248 177[-1273 171 -1284 141!-1284 141[-1295 112 -1286 77!-1286 77[-1276 42 -1252 22!-1252 22[-1227 3 -1210 8!-1210 8[-1193 12 -1222 31!-1222 31[-1250 49 -1212 98!-1212 98[-1175 144 -1199 164"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="Layer 2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -22,18 +52,12 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!-344 46[-21 92 -21 157!-21 157[-21 222 -344 268!-344 268[-346 268 -350 268!-350 268[-668 314 -1119 314!-1119 314[-1575 314 -1897 268!-1897 268[-2218 222 -2218 157!-2218 157[-2218 92 -1897 46!-1897 46[-1575 0 -1119 0!-1119 0[-706 0 -402
- 38!-402 38[-373 41 -344 46"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!-344 46[-21 92 -21 157!-21 157[-21 222 -344 268!-344 268[-346 268 -350 268!-350 268[#FFFD63.F4 #13A.06 -1088 351!-1088 351[#FFFA1C.24 #183.EE -1796.5 378!-1796.5 378[#FFF7DA.E1 #170.0B -2151.5 230!-2151.5 230[#FFF755.FD #5C.0C -1918
+ 54.5!-1918 54.5[#FFF9AE.3A #10.B3 -1320.5 70!-1320.5 70[#FFFC00.C5 #7B.4C -698 82!-698 82[#FFFE8B.13 #28.E6 -344 46"/>
                   </edges>
                 </DOMShape>
               </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
