@@ -84,14 +84,16 @@ package com.finegamedesign.dragon
         private var mouth:MouthCollision;
         private var golds:FlxGroup;
         private var peasants:FlxGroup;
+        private var poisons:FlxGroup;
         private var state:String;
         private var gibs:FlxEmitter;
         private var floor:Floor;
 
         private function addChildren(scene:MovieClip):void
         {
-            peasants = new FlxGroup();
             golds = new FlxGroup();
+            peasants = new FlxGroup();
+            poisons = new FlxGroup();
             for (var c:int=0; c < scene.numChildren; c++) {
                 var child:* = scene.getChildAt(c);
                 if (child is HeadClip) {
@@ -105,6 +107,10 @@ package com.finegamedesign.dragon
                 else if (child is KnightClip) {
                     peasants.add(constructChild(Knight, child));
                     add(peasants);
+                }
+                else if (child is PoisonClip) {
+                    poisons.add(constructChild(Poison, child));
+                    add(poisons);
                 }
                 else if (child is GoldClip) {
                     golds.add(constructChild(Gold, child));
@@ -170,6 +176,7 @@ package com.finegamedesign.dragon
             updateInput();
             if (head.mayEat()) {
                 FlxG.overlap(mouth, peasants, eat);
+                FlxG.overlap(mouth, poisons, head.poison);
             }
             FlxG.collide(floor, gibs, crunch);
             updateGold();
@@ -253,12 +260,6 @@ package com.finegamedesign.dragon
          */ 
         private function updateInput():void
         {
-            if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
-                head.play("bite", true);
-            }
-            else if (head.finished) {
-                head.play("idling");
-            }
             if (FlxG.keys.pressed("SHIFT")) {
                 if (FlxG.keys.justPressed("ONE")) {
                     FlxG.timeScale = 1.0;

@@ -26,28 +26,29 @@
     9 - How can I spawn 1 gib from movie clip?
     10 See peasant bones bounce.  Release space to turn peasant from blue to tan. 
     11 Release space to destroy knight's armor.
-    12 Green meat wagon knocks out dragon?
-    13
-    14
+    12 - How can I play poison for a while and stop when frames seem to blink and timer not started?
+    13 Green meat wagon knocks out dragon.
+    14 Release space to eat a fast rogue?
     15
     16
     17
 
 TODO
-    Don't eat green meat wagon.
-    Release space to eat a thief.
-    See thief.
+    Release space to eat a fast rogue.
+    See rogue.
+    Release space to eat a hiding thief.
+    See thief disappear.
+    Wizard levitates gold.
+    See wizard.
+    Hold space and release to breathe fire.
     See peasant taunt. (after Spike)
     Delay after chomp until next chomp.
     Read review (after Spike)
-    Wizard levitates gold.
-    See wizard.
     Release space bar to swipe gold back with tail.
-    Hold space and release to breathe fire.
     Score higher for gold position and timing of eating.
     When idle, peek at peasant.
+    Knight armor flies off.  Tinkles.
     Why does peasant horizontal motion stutter?
-    Fade menu transition.
     Shake camera.
 
 

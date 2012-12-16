@@ -4,23 +4,47 @@ package com.finegamedesign.dragon
     public class Head extends FlxSprite
     {
         public var sounds:Object;
+        private var poisonTimer:FlxTimer;
 
         public function Head(X:int = 0, Y:int = 0, MovieClipClass:Class = null) 
         {
             super(X, Y);
             sounds = {};
             PlayState.constructSprite(this, HeadSpritesheet);
+            poisonTimer = new FlxTimer();
         }
 
         /**
+         * Release space bar to bite.
          * Play the sound associated with this frame index.
          */
         override public function update():void
         {
+            if (0.0 < poisonTimer.timeLeft && !poisonTimer.finished) {
+            }
+            else if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
+                play("bite", true);
+            }
+            else if (finished) {
+                play("idling");
+            }
+
             if (_curIndex.toString() in sounds) {
                 FlxG.play(Sounds[sounds[_curIndex.toString()]]);
             }
             super.update();
+        }
+
+        public function poison(mouth:FlxObject, poison:FlxObject):void
+        {
+            poison.hurt(1);
+            play("poisoning");
+            poisonTimer.start(3.0, 1, recover);
+        }
+
+        private function recover(timer:FlxTimer):void
+        {
+            play("idling");
         }
 
         public function mayEat():Boolean

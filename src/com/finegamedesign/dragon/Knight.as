@@ -14,9 +14,10 @@ package com.finegamedesign.dragon
 
         override public function hurt(Damage:Number):void
         {   
-            trace("hurt", Damage);
+            // trace("hurt", Damage);
             super.hurt(Damage);
             if (alive) {
+                FlxG.play(Sounds.coinClass);
                 _pixels = new PeasantSpritesheet().bitmapData;
             }
         }

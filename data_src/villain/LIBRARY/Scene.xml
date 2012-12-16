@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355687010" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355690193" lastUniqueIdentifier="9">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
@@ -22,7 +22,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="HeadClip" centerPoint3DX="385.5" centerPoint3DY="111">
+                <DOMSymbolInstance libraryItemName="HeadClip" selected="true" centerPoint3DX="385.5" centerPoint3DY="111">
                   <matrix>
                     <Matrix tx="329.5" ty="95"/>
                   </matrix>
@@ -70,9 +70,17 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="KnightClip" selected="true" centerPoint3DX="-877" centerPoint3DY="160">
+                <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-877" centerPoint3DY="160">
                   <matrix>
                     <Matrix tx="-933" ty="144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="PoisonClip" centerPoint3DX="-1113.85" centerPoint3DY="155">
+                  <matrix>
+                    <Matrix tx="-1169.85" ty="139"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="56" y="16"/>

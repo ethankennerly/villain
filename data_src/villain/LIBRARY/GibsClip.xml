@@ -1,106 +1,20 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GibsClip" itemID="50ce0670-00000522" linkageExportForAS="true" linkageClassName="GibsClip" lastModified="1355687018">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GibsClip" itemID="50ce0670-00000522" linkageExportForAS="true" linkageClassName="GibsClip" lastModified="1355690453">
   <timeline>
     <DOMTimeline name="GibsClip">
       <layers>
-        <DOMLayer name="Layer 4" color="#FF4FFF">
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isFloating="true">
+                <DOMSymbolInstance libraryItemName="BoneGraphic" selected="true" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.667022705078125" d="0.667022705078125" tx="0.25" ty="0.2"/>
+                    <Matrix tx="0.75" ty="0.65"/>
                   </matrix>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#FFFFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#666666"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!867 268S6[868 268 869 269!869 269[913 306 913 356!913 356[913 407 869 444!869 444[824 480 760 480!760 480[696 480 651 444!651 444[606 407 606 356!606 356[606 337 613 319"/>
-                    <Edge fillStyle1="1" edges="!613 319S2[624 292 651 269!651 269[669 255 690 246!690 246[711 237 735 235!735 235[747 233 760 233!760 233[823 233 867 268!100 202[130 190 166 190!166 190[180 190 192 192!192 192[238 198 273 226!273 226[310 256 316 297"/>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!316 297S6[317 304 317 311!317 311[317 362 273 397!273 397[228 433 166 433!166 433[103 433 59 397!59 397[15 362 15 311!15 311[15 262 59 226!59 226[78 211 100 202"/>
-                  </edges>
-                </DOMShape>
+                  <transformationPoint>
+                    <Point x="15.6" y="7.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 3" color="#FF800A">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix a="0.667022705078125" d="0.667022705078125" tx="0.25" ty="0.2"/>
-                  </matrix>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#FFFFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#666666"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!647 187S6[645 177 645 167!645 167[645 117 690 80!690 80[735 44 799 44!799 44[863 44 908 80!908 80[952 117 952 167!952 167[952 218 908 255!908 255[863 291 799 291!799 291[753 291 717 273"/>
-                    <Edge fillStyle1="1" edges="!717 273S2[703 265 690 255!690 255[654 225 647 187"/>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!276 248S6[251 256 221 256!221 256[159 256 114 220!114 220[70 185 70 134!70 134[70 85 114 49!114 49[159 13 221 13!221 13[284 13 328 49!328 49[372 85 372 134!372 134[372 178 338 211"/>
-                    <Edge fillStyle1="1" edges="!338 211S2[333 216 328 220!328 220[304 239 276 248"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix a="0.667022705078125" d="0.667022705078125" tx="0.25" ty="0.2"/>
-                  </matrix>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#FFFFFF"/>
-                    </FillStyle>
-                  </fills>
-                  <strokes>
-                    <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal">
-                        <fill>
-                          <SolidColor color="#666666"/>
-                        </fill>
-                      </SolidStroke>
-                    </StrokeStyle>
-                  </strokes>
-                  <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!690 168S6[799 161 807 240!807 240[815 318 743 352!743 352[670 384 526 328!526 328[381 271 288 349!288 349[193 425 193 294!193 294[193 161 264 160!264 160[335 159 458 167!458 167[581 175 690 168"/>
-                  </edges>
-                </DOMShape>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Layer 5" color="#4FFFFF">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

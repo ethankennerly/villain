@@ -18,7 +18,7 @@ package com.finegamedesign.dragon
 
         override public function kill():void
         {
-            trace(this, "kill");
+            // trace(this, "kill");
             velocity.x = 0;
             if (null != gold) {
                 gold.play("idling");
