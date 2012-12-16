@@ -1,7 +1,7 @@
 Sleeping Dragon
 ===============
 
-Do not let 3 peasants steal the 2 gold.
+Do not let peasants or knights steal the 2 gold.
 Release space bar to eat a peasant.
 Or you can release mouse button.
 To make it harder, play 2x speed: press Shift+2.  

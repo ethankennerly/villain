@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="KnightClip" itemID="50ce184c-00000550" linkageExportForAS="true" linkageClassName="KnightClip" lastModified="1355683966">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="KnightClip" itemID="50ce184c-00000550" linkageExportForAS="true" linkageClassName="KnightClip" lastModified="1355688117">
   <timeline>
-    <DOMTimeline name="KnightClip" currentFrame="26">
+    <DOMTimeline name="KnightClip" currentFrame="1">
       <layers>
-        <DOMLayer name="label" color="#9933CC" autoNamed="false">
+        <DOMLayer name="label" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="11" name="idling" labelType="name" keyMode="9728">
               <elements/>
@@ -10,12 +10,12 @@
             <DOMFrame index="11" duration="11" name="retreating" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="22" duration="12" name="carrying" labelType="name" keyMode="9728">
+            <DOMFrame index="22" duration="11" name="carrying" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="sound" color="#FF800A" autoNamed="false">
+        <DOMLayer name="sound" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="5" keyMode="9728">
               <elements/>
@@ -26,8 +26,78 @@
             <DOMFrame index="16" duration="12" name="walk.mp3" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="28" duration="6" name="carry.mp3" labelType="name" keyMode="9728">
+            <DOMFrame index="28" duration="5" name="carry.mp3" labelType="name" keyMode="9728">
               <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shield" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightArmorGraphic" symbolType="graphic" loop="single frame">
+                  <transformationPoint>
+                    <Point x="17.95" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightArmorGraphic" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <transformationPoint>
+                    <Point x="17.95" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightArmorGraphic" symbolType="graphic" centerPoint3DX="30.35" centerPoint3DY="31" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="49.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.95" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightArmorGraphic" symbolType="graphic" firstFrame="1" centerPoint3DX="30.35" centerPoint3DY="30.95" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="49.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.95" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightArmorGraphic" symbolType="graphic" centerPoint3DX="30.35" centerPoint3DY="31" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="49.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.95" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightArmorGraphic" symbolType="graphic" firstFrame="1" centerPoint3DX="30.35" centerPoint3DY="30.95" loop="single frame">
+                  <matrix>
+                    <Matrix a="-1" tx="49.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.95" y="30"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -39,9 +109,6 @@
                   <transformationPoint>
                     <Point x="7" y="6"/>
                   </transformationPoint>
-                  <color>
-                    <Color tintMultiplier="0.53" tintColor="#66FFFF"/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
@@ -54,26 +121,75 @@
                   <transformationPoint>
                     <Point x="47" y="1"/>
                   </transformationPoint>
-                  <color>
-                    <Color tintMultiplier="0.53" tintColor="#66FFFF"/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="22" duration="12" keyMode="9728">
+            <DOMFrame index="22" duration="11" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="PeasantGraphic" selected="true" symbolType="graphic" centerPoint3DX="33" centerPoint3DY="16.5" loop="loop">
+                <DOMSymbolInstance libraryItemName="PeasantGraphic" symbolType="graphic" centerPoint3DX="33" centerPoint3DY="16.5" loop="loop">
                   <matrix>
                     <Matrix a="-1" tx="51"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="47" y="1"/>
                   </transformationPoint>
-                  <color>
-                    <Color tintMultiplier="0.53" tintColor="#0099FF"/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sword" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightSwordGraphic" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.965927124023438" b="0.258804321289062" c="-0.258804321289062" d="0.965927124023438" tx="40.15" ty="5.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.45" y="16.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightSwordGraphic" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.798614501953125" b="0.601776123046875" c="-0.601776123046875" d="0.798614501953125" tx="40.85" ty="25.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.6" y="17.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightSwordGraphic" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.965911865234375" b="-0.258804321289062" c="0.258804321289062" d="0.965911865234375" tx="0.3" ty="10.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="17"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="KnightSwordGraphic" symbolType="graphic" centerPoint3DX="18.35" centerPoint3DY="45.2" loop="loop">
+                  <matrix>
+                    <Matrix a="0.263519287109375" b="-0.964584350585938" c="0.964584350585938" d="0.263519287109375" tx="2.05" ty="44.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.55" y="17.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="11" keyMode="9728">
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

@@ -25,8 +25,8 @@
     8 See peasant decapitated.
     9 - How can I spawn 1 gib from movie clip?
     10 See peasant bones bounce.  Release space to turn peasant from blue to tan. 
-    11 Release space to destroy knight's armor?
-    12
+    11 Release space to destroy knight's armor.
+    12 Green meat wagon knocks out dragon?
     13
     14
     15
@@ -34,12 +34,10 @@
     17
 
 TODO
-    Release space to eat a knight.
-    See knight.
+    Don't eat green meat wagon.
     Release space to eat a thief.
     See thief.
     See peasant taunt. (after Spike)
-    Don't eat poison.
     Delay after chomp until next chomp.
     Read review (after Spike)
     Wizard levitates gold.

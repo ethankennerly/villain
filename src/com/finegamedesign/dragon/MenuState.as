@@ -21,7 +21,10 @@ package com.finegamedesign.dragon
             t.alignment = "center";
             add(t);
             t = new FlxText(FlxG.width/2-50,FlxG.height/2,100,
-                "PRESS SPACE TO EAT THE PEASANT\n\nClick to play\n\nHigh Score " + Math.max.apply(null, FlxG.scores));
+                "PRESS SPACE TO EAT THE PEASANT\n\nClick to play"
+                + "\n\nScore " + FlxG.score
+                + "\nHigh Score " + Math.max.apply(null, FlxG.scores)
+                );
             
             t.alignment = "center";
             add(t);

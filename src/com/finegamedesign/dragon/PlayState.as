@@ -155,8 +155,9 @@ package com.finegamedesign.dragon
 
         private function addHud():void
         {
-            instructionText = new FlxText(FlxG.width/2 - 40, 0, 200, 
+            instructionText = new FlxText(0, 0, FlxG.width, 
                 "RELEASE SPACEBAR TO EAT");
+            instructionText.alignment = "center";
             add(instructionText);
             waveText = new FlxText(0, 0, 100, "");
             add(waveText);
@@ -225,6 +226,7 @@ package com.finegamedesign.dragon
         private function eat(mouth:FlxObject, peasant:FlxObject):void
         {
             head.play("eat", peasant);
+            var isRight:Boolean = 0 <= peasant.velocity.x;
             if (!peasant.flickering) {
                 peasant.hurt(1);
                 peasant.flicker(0.25);
@@ -232,9 +234,10 @@ package com.finegamedesign.dragon
             if (!peasant.alive) {
                 FlxG.score++;
                 var gibsClip:PeasantKillClip = new PeasantKillClip();
-                gibsClip.x = peasant.x - 80.0;
+                gibsClip.x = peasant.x + (isRight ? -80.0 : -80.0);
                 gibsClip.y = peasant.y;
                 var peasantKill:PeasantKill = PeasantKill(add(constructChild(PeasantKill, gibsClip)));
+                peasantKill.facing = isRight ? FlxObject.RIGHT : FlxObject.LEFT;
                 peasantKill.play("kill");
                 gibs.x = peasant.x;
                 gibs.y = peasant.y;

@@ -1,14 +1,14 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355684296" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355687010" lastUniqueIdentifier="8">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
-        <DOMLayer name="gibs" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="gibs" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="GibsClip" centerPoint3DX="345" centerPoint3DY="184">
+                <DOMSymbolInstance libraryItemName="GibsClip" centerPoint3DX="341" centerPoint3DY="200">
                   <matrix>
-                    <Matrix tx="329" ty="176"/>
+                    <Matrix tx="325" ty="192"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="16" y="8"/>
