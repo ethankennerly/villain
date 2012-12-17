@@ -79,6 +79,7 @@ package com.finegamedesign.dragon
             return flxSprite;
         }
 
+        public var fire:Fire;
         private var instructionText:FlxText;
         private var waveText:FlxText;
         private var goldText:FlxText;
@@ -100,6 +101,7 @@ package com.finegamedesign.dragon
                 var child:* = scene.getChildAt(c);
                 if (child is HeadClip) {
                     head = constructChild(Head, child);
+                    head.state = this;
                     add(head);
                 }
                 else if (child is PeasantClip) {
@@ -113,6 +115,11 @@ package com.finegamedesign.dragon
                 else if (child is PoisonClip) {
                     poisons.add(constructChild(Poison, child));
                     add(poisons);
+                }
+                else if (child is FireClip) {
+                    fire = constructChild(Fire, child);
+                    Fire.origin = new FlxPoint(child.x, child.y);
+                    fire.kill();
                 }
                 else if (child is GoldClip) {
                     golds.add(constructChild(Gold, child));
@@ -180,9 +187,12 @@ package com.finegamedesign.dragon
                 FlxG.overlap(mouth, peasants, eat);
                 FlxG.overlap(mouth, poisons, head.poison);
             }
+            if (fire.alive) {
+                FlxG.overlap(fire, peasants, burn);
+                FlxG.overlap(fire, poisons, burn);
+            }
             FlxG.collide(floor, gibs, crunch);
             updateGold();
-            updateRetreat();
             updateHud(peasants.countLiving(), golds.countLiving());
             super.update();
         }
@@ -202,13 +212,15 @@ package com.finegamedesign.dragon
                 waveText.text = "PEASANTS " + peasantsLiving.toString();
                 goldText.text = "GOLD " + goldsLiving.toString();
                 if (goldsLiving <= 0) {
+                    FlxG.score = int(Math.pow(FlxG.score, 3));
+                    FlxG.score = int(FlxG.score / 50) * 50;
                     state = "lose";
                     instructionText.text = "THEY STOLE ALL YOUR GOLD!";
                     FlxG.fade(0xFF000000, 3.0, lose);
                 }
                 else if (peasantsLiving <= 0) {
                     FlxG.score += goldsLiving;
-                    FlxG.score = int(Math.pow(2, FlxG.score));
+                    FlxG.score = int(Math.pow(FlxG.score, 3));
                     FlxG.score = int(FlxG.score / 50) * 50;
                     if (goldsLiving < golds.length) {
                         instructionText.text = "YOU KEPT SOME GOLD";
@@ -231,13 +243,25 @@ package com.finegamedesign.dragon
         {
             FlxG.switchState(new MenuState());
         }
-    
-        /**
-         * Spawn gibs at peasant.
-         */
+   
         private function eat(mouth:FlxObject, peasant:FlxObject):void
         {
             head.play("eat", peasant);
+            hurt(mouth, peasant);
+        }
+
+        private function burn(fire:FlxObject, peasant:FlxObject):void
+        {
+            fire.kill();
+            hurt(fire, peasant);
+            FlxG.play(Sounds.biteClass);
+        }
+
+        /**
+         * Spawn gibs at peasant.
+         */
+        private function hurt(mouth:FlxObject, peasant:FlxObject):void
+        {
             var isRight:Boolean = 0 <= peasant.velocity.x;
             if (!peasant.flickering) {
                 peasant.hurt(1);
@@ -245,12 +269,14 @@ package com.finegamedesign.dragon
             }
             if (!peasant.alive) {
                 FlxG.score++;
-                var gibsClip:PeasantKillClip = new PeasantKillClip();
-                gibsClip.x = peasant.x + (isRight ? -80.0 : -80.0);
-                gibsClip.y = peasant.y;
-                var peasantKill:PeasantKill = PeasantKill(add(constructChild(PeasantKill, gibsClip)));
-                peasantKill.facing = isRight ? FlxObject.RIGHT : FlxObject.LEFT;
-                peasantKill.play("kill");
+                if (peasant is Peasant) {
+                    var gibsClip:PeasantKillClip = new PeasantKillClip();
+                    gibsClip.x = peasant.x + (isRight ? -80.0 : -80.0);
+                    gibsClip.y = peasant.y;
+                    var peasantKill:PeasantKill = PeasantKill(add(constructChild(PeasantKill, gibsClip)));
+                    peasantKill.facing = isRight ? FlxObject.RIGHT : FlxObject.LEFT;
+                    peasantKill.play("kill");
+                }
                 gibs.x = peasant.x;
                 gibs.y = peasant.y;
                 gibs.start(true, 0, 0.1, 1);
@@ -281,22 +307,13 @@ package com.finegamedesign.dragon
         /**
          * If peasant touches gold, carry.  Otherwise gold sits.
          * If peasants carry all gold away, lose.
+         * If no gold idling on screen, then peasants on screen retreat.
          */
         private function updateGold():void
         {
             FlxG.overlap(golds, peasants, carry);
-        }
-
-        /**
-         * If no gold idling on screen, then peasants on screen retreat.
-         */
-        private function updateRetreat():void
-        {
             Gold.sum = 0;
             golds.callAll("count");
-            if (Gold.sum <= 0) {
-                peasants.callAll("retreat");
-            }
         }
 
         /**

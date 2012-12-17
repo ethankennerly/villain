@@ -29,20 +29,20 @@
     12 - How can I play poison for a while and stop when frames seem to blink and timer not started?
     13 Green meat wagon knocks out dragon.
     14 Dozens of peasants, knights, and poison meat wagons.
-    15 Wizard?
-    16
-    17
+    15 - How can I trigger fire after animation?
+    16 Hold space and release to breathe fire.
+    17 Polish fire, level, illustration?
 
 TODO
+    If in mouth, eat.
+    Wizard levitates gold.
     Release space to eat a fast rogue.
     See rogue.
     Release space to eat a hiding thief.
     See thief disappear.
-    Wizard levitates gold.
     See wizard.
     Color peasant, dragon, knight?
     Title screen image.
-    Hold space and release to breathe fire.
     See peasant taunt. (after Spike)
     Delay after chomp until next chomp.
     Read review (after Spike)

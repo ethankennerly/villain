@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FireClip" itemID="50ce5bfa-00000291" linkageExportForAS="true" linkageClassName="FireClip" lastModified="1355701272">
+  <timeline>
+    <DOMTimeline name="FireClip">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF9900"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFF00"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!1333 649|1933 332!1933 332|1616 932!1616 932|2265 1133!2265 1133|1616 1333!1616 1333|1933 1933!1933 1933|1333 1616!1333 1616|1133 2265!1133 2265|932 1616!932 1616|332 1933!332 1933|649 1333!649 1333|0 1133!0 1133|649 932!649 932|332
+ 332!332 332|932 649!932 649|1133 0!1133 0|1333 649"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

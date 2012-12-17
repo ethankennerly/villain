@@ -31,9 +31,13 @@ package com.finegamedesign.dragon
 
         override public function update():void
         {
-            if (velocity.x == PlayState.offScreenMaxVelocityX && onScreen()) {
+            if (Gold.sum <= 0 && onScreen()) {
+                retreat();
+            }
+            else if (velocity.x == PlayState.offScreenMaxVelocityX && onScreen()) {
                 velocity.x = idleVelocity;
             }
+
             if (velocity.x < 0 && alive && !onScreen()) {
                 kill();
             }
@@ -78,7 +82,7 @@ package com.finegamedesign.dragon
                     play("retreating");
                 }
             }
-            else if (alive) {
+            else if (alive && 0 <= x) {
                 kill();
             }
         }

@@ -1,14 +1,7 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MouthCollisionClip" itemID="50cd1126-000002c7" linkageExportForAS="true" linkageClassName="MouthCollisionClip" lastModified="1355629986">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MouthCollisionClip" itemID="50cd1126-000002c7" linkageExportForAS="true" linkageClassName="MouthCollisionClip" lastModified="1355702288">
   <timeline>
     <DOMTimeline name="MouthCollisionClip">
       <layers>
-        <DOMLayer name="label" color="#9933CC" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" name="idling" labelType="name" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
         <DOMLayer name="JawTop" color="#FF800A" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -20,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!1600 0|1600 1080!1600 1080|0 1080!0 1080|0 0!0 0|1600 0"/>
+                    <Edge fillStyle1="1" edges="!1280 0|1280 1080!1280 1080|0 1080!0 1080|0 0!0 0|1280 0"/>
                   </edges>
                 </DOMShape>
               </elements>

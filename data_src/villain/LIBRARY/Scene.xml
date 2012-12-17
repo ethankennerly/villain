@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355698675" lastUniqueIdentifier="38">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scene" itemID="50cc1c2e-00000df0" linkageExportForAS="true" linkageClassName="Scene" lastModified="1355704594" lastUniqueIdentifier="38">
   <timeline>
     <DOMTimeline name="Scene">
       <layers>
@@ -18,11 +18,43 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
+        <DOMLayer name="fire" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FireClip" centerPoint3DX="380.8" centerPoint3DY="193">
+                  <matrix>
+                    <Matrix tx="324.2" ty="136.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56.6" y="56.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mouth" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MouthCollisionClip" centerPoint3DX="410" centerPoint3DY="176">
+                  <matrix>
+                    <Matrix tx="354" ty="160"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="mob" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="HeadClip" centerPoint3DX="385.5" centerPoint3DY="111">
+                <DOMSymbolInstance libraryItemName="HeadClip" selected="true" centerPoint3DX="385.5" centerPoint3DY="111">
                   <matrix>
                     <Matrix tx="329.5" ty="95"/>
                   </matrix>
@@ -198,14 +230,6 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="GoldClip" centerPoint3DX="600" centerPoint3DY="163">
-                  <matrix>
-                    <Matrix tx="544" ty="147"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="56" y="16"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="KnightClip" centerPoint3DX="-746" centerPoint3DY="161">
                   <matrix>
                     <Matrix tx="-802" ty="145"/>
@@ -353,22 +377,6 @@
                 <DOMSymbolInstance libraryItemName="BackgroundClip" centerPoint3DX="320" centerPoint3DY="16">
                   <transformationPoint>
                     <Point x="320" y="16"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="mouth" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="MouthCollisionClip" centerPoint3DX="392" centerPoint3DY="176">
-                  <matrix>
-                    <Matrix tx="336" ty="160"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
