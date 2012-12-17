@@ -10,22 +10,24 @@ package com.finegamedesign.dragon
             if (null == FlxG.scores || FlxG.scores.length <= 0) {
                 FlxG.scores = [0];
                 FlxG.score = 0;
-                trace("new game");
             }
             else {
                 FlxG.scores.push(FlxG.score);
             }
             var t:FlxText;
-            t = new FlxText(0,FlxG.height/4,FlxG.width,"Sleeping Dragon\nEating Peasants");
-            t.size = 16;
+            t = new FlxText(0,FlxG.height/5,FlxG.width,"Sleeping Dragon");
+            t.size = 20;
             t.alignment = "center";
             add(t);
-            t = new FlxText(FlxG.width/2-50,FlxG.height/2,100,
-                "PRESS SPACE TO EAT THE PEASANT\n\nClick to play"
+            t = new FlxText(0,FlxG.height/3, FlxG.width,
+                "Release spacebar to bite"
+                + "\nHold exactly until yellow eye to breathe fire"
+                + "\nClick to play"
                 + "\n\nScore " + FlxG.score
                 + "\nHigh Score " + Math.max.apply(null, FlxG.scores)
                 );
             
+            t.size = 14;
             t.alignment = "center";
             add(t);
             

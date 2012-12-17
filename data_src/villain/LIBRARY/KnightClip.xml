@@ -144,10 +144,10 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="KnightSwordGraphic" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.965927124023438" b="0.258804321289062" c="-0.258804321289062" d="0.965927124023438" tx="40.15" ty="5.2"/>
+                    <Matrix a="0.965927124023438" b="0.2587890625" c="-0.2587890625" d="0.965927124023438" tx="40.15" ty="5.2"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="5.45" y="16.95"/>
+                    <Point x="5.5" y="16.95"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -168,7 +168,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="KnightSwordGraphic" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="0.965911865234375" b="-0.258804321289062" c="0.258804321289062" d="0.965911865234375" tx="0.3" ty="10.05"/>
+                    <Matrix a="0.965911865234375" b="-0.2587890625" c="0.2587890625" d="0.965911865234375" tx="0.3" ty="10.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="5.5" y="17"/>

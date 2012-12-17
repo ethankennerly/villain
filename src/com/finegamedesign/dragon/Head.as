@@ -29,14 +29,19 @@ package com.finegamedesign.dragon
             if (0.0 < poisonTimer.timeLeft && !poisonTimer.finished) {
             }
             else if (FlxG.keys.pressed("SPACE") || FlxG.mouse.pressed()) {
-                play("inhale");
+                //if (null == _curAnim || "inhale" != _curAnim.name) {
+                    play("inhale");
+                //}
             }
             else if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
-                if (null != _curAnim && "inhale" == _curAnim.name && _curAnim.frames.length - 2 <= _curFrame) {
+                var fireHealth:int = 3 - (_curAnim.frames.length - 1 - _curFrame);
+                if (null != _curAnim && "inhale" == _curAnim.name && 1 <= fireHealth) {
                     play("fire", true);
                     FlxG.play(Sounds.biteClass);
                     state.fire.reset(Fire.origin.x, Fire.origin.y);
                     state.add(state.fire);
+                    state.fire.health = fireHealth;
+                    state.fire.play("health" + fireHealth + "ing");
                 }
                 else {
                     play("bite", true);

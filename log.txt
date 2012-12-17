@@ -31,7 +31,7 @@
     14 Dozens of peasants, knights, and poison meat wagons.
     15 - How can I trigger fire after animation?
     16 Hold space and release to breathe fire.
-    17 Polish fire, level, illustration?
+    17 Polish fire, illustration.
 
 TODO
     If in mouth, eat.

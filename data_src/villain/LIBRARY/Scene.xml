@@ -54,7 +54,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="HeadClip" selected="true" centerPoint3DX="385.5" centerPoint3DY="111">
+                <DOMSymbolInstance libraryItemName="HeadClip" centerPoint3DX="385.5" centerPoint3DY="111">
                   <matrix>
                     <Matrix tx="329.5" ty="95"/>
                   </matrix>
@@ -182,7 +182,7 @@
                     <Point x="56" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="PeasantClip" centerPoint3DX="-130" centerPoint3DY="162">
+                <DOMSymbolInstance libraryItemName="PeasantClip" selected="true" centerPoint3DX="-130" centerPoint3DY="162">
                   <matrix>
                     <Matrix tx="-186" ty="146"/>
                   </matrix>

@@ -26,10 +26,10 @@ package com.finegamedesign.dragon
                 FlxG.score ++;
                 kill();
             }
-            else if (onScreen() && velocity.x != 64) {
-                velocity.x = 64;
-                play("idling");
+            else if (onScreen() && velocity.x != idleVelocity) {
+                velocity.x = idleVelocity;
             }
+            play("idling");
             if (onScreen() && _curIndex.toString() in sounds) {
                 FlxG.play(Sounds[sounds[_curIndex.toString()]]);
             }

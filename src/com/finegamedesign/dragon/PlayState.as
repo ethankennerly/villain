@@ -171,7 +171,7 @@ package com.finegamedesign.dragon
         private function addHud():void
         {
             instructionText = new FlxText(0, 0, FlxG.width, 
-                "RELEASE SPACEBAR TO EAT");
+                "RELEASE SPACEBAR TO BITE, OR AT YELLOW EYE TO FIRE");
             instructionText.alignment = "center";
             add(instructionText);
             waveText = new FlxText(0, 0, 100, "");
@@ -212,7 +212,7 @@ package com.finegamedesign.dragon
                 waveText.text = "PEASANTS " + peasantsLiving.toString();
                 goldText.text = "GOLD " + goldsLiving.toString();
                 if (goldsLiving <= 0) {
-                    FlxG.score = int(Math.pow(FlxG.score, 3));
+                    FlxG.score = int(Math.pow(FlxG.score, 4));
                     FlxG.score = int(FlxG.score / 50) * 50;
                     state = "lose";
                     instructionText.text = "THEY STOLE ALL YOUR GOLD!";
@@ -220,7 +220,7 @@ package com.finegamedesign.dragon
                 }
                 else if (peasantsLiving <= 0) {
                     FlxG.score += goldsLiving;
-                    FlxG.score = int(Math.pow(FlxG.score, 3));
+                    FlxG.score = int(Math.pow(FlxG.score, 4));
                     FlxG.score = int(FlxG.score / 50) * 50;
                     if (goldsLiving < golds.length) {
                         instructionText.text = "YOU KEPT SOME GOLD";
@@ -247,25 +247,30 @@ package com.finegamedesign.dragon
         private function eat(mouth:FlxObject, peasant:FlxObject):void
         {
             head.play("eat", peasant);
-            hurt(mouth, peasant);
+            hurt(2, peasant);
         }
 
         private function burn(fire:FlxObject, peasant:FlxObject):void
         {
-            fire.kill();
-            hurt(fire, peasant);
-            FlxG.play(Sounds.biteClass);
+            if (!peasant.flickering) {
+                FlxG.play(Sounds.biteClass);
+                fire.hurt(1);
+            }
+            if (fire.alive) {
+                Fire(fire).play("health" + fire.health + "ing");
+            }
+            hurt(1, peasant);
         }
 
         /**
          * Spawn gibs at peasant.
          */
-        private function hurt(mouth:FlxObject, peasant:FlxObject):void
+        private function hurt(Damage:Number, peasant:FlxObject):void
         {
             var isRight:Boolean = 0 <= peasant.velocity.x;
             if (!peasant.flickering) {
-                peasant.hurt(1);
-                peasant.flicker(0.25);
+                peasant.hurt(Damage);
+                peasant.flicker(0.0625);
             }
             if (!peasant.alive) {
                 FlxG.score++;

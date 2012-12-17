@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PoisonClip" itemID="50ce30a3-000005d6" linkageExportForAS="true" linkageClassName="PoisonClip" lastModified="1355696017">
   <timeline>
-    <DOMTimeline name="PoisonClip" currentFrame="6">
+    <DOMTimeline name="PoisonClip">
       <layers>
         <DOMLayer name="label" color="#9933CC" autoNamed="false">
           <frames>
@@ -9,7 +9,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="sound" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="sound" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -210,7 +210,7 @@
                   </strokes>
                   <edges>
                     <Edge strokeStyle="1" edges="
-!249 1126|313 1119!313 1119|307 1067!349 1114|313 1119!313 1119|319 1166!751 1078|747 1114!747 1114|793 1120!747 1114|737 1176!747 1114|695 1106"/>
+!737 1176|747 1114!747 1114|695 1106!751 1078|747 1114!747 1114|793 1120!349 1114|313 1119!313 1119|319 1166!249 1126|313 1119!313 1119|307 1067"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -229,7 +229,7 @@
                   </strokes>
                   <edges>
                     <Edge strokeStyle="1" edges="
-!297 1066|302 1102!302 1102|349 1096!302 1102|309 1166!302 1102|250 1108!777 1160|738.5 1109!738.5 1109|697 1140!777 1080|738.5 1109!717 1080|738.5 1109"/>
+!717 1080|738.5 1109!738.5 1109|777 1080!777 1160|738.5 1109!738.5 1109|697 1140!309 1166|302 1102!302 1102|250 1108!297 1066|302 1102!302 1102|349 1096"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -257,8 +257,8 @@
                   </strokes>
                   <edges>
                     <Edge fillStyle1="1" strokeStyle="1" edges="
-!457 1110[457 1172 413 1216!413 1216[369 1260 307 1260!307 1260[245 1260 201 1216!201 1216[157 1172 157 1110!157 1110[157 1048 201 1004!201 1004[245 960 307 960!307 960[369 960 413 1004!413 1004[457 1048 457 1110!631 1004[675 960 737
- 960!737 960[799 960 843 1004!843 1004[887 1048 887 1110!887 1110[887 1172 843 1216!843 1216[799 1260 737 1260!737 1260[675 1260 631 1216!631 1216[587 1172 587 1110!587 1110[587 1048 631 1004"/>
+!413 1216[369 1260 307 1260!307 1260[245 1260 201 1216!201 1216[157 1172 157 1110!157 1110[157 1048 201 1004!201 1004[245 960 307 960!307 960[369 960 413 1004!413 1004[457 1048 457 1110!457 1110[457 1172 413 1216!631 1216[587 1172 587
+ 1110!587 1110[587 1048 631 1004!631 1004[675 960 737 960!737 960[799 960 843 1004!843 1004[887 1048 887 1110!887 1110[887 1172 843 1216!843 1216[799 1260 737 1260!737 1260[675 1260 631 1216"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -306,7 +306,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="meat" color="#4FFF4F" autoNamed="false">
+        <DOMLayer name="meat" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -362,7 +362,7 @@
                   </fills>
                   <edges>
                     <Edge fillStyle1="1" edges="
-!1017 -20S2|1017 1280!1017 1280|-3 1280!-3 1280|-3 -20!-3 -20|1017 -20"/>
+!1017 1280S2|-3 1280!-3 1280|-3 -20!-3 -20|1017 -20!1017 -20|1017 1280"/>
                   </edges>
                 </DOMShape>
               </elements>

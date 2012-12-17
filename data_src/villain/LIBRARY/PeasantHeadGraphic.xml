@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantHeadGraphic" itemID="50cdf755-00000481" symbolType="graphic" lastModified="1355675483">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantHeadGraphic" itemID="50cdf755-00000481" symbolType="graphic" lastModified="1355709855">
   <timeline>
     <DOMTimeline name="PeasantHeadGraphic">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F">
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -10,6 +10,15 @@
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#F4B678"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#990000"/>
+                    </FillStyle>
+                    <FillStyle index="3">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                    <FillStyle index="4">
+                      <SolidColor/>
                     </FillStyle>
                   </fills>
                   <strokes>
@@ -20,9 +29,81 @@
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#660000"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="3">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#333333"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!347 560[347 519 377 489!377 489[409 461 429 471!429 471[448 481 426 534!426 534[401 584 517 625!517 625[632 665 601 695!601 695[569 722 490 691!490 691[409 659 377 630!377 630[347 601 347 560"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!649 387[#2AB.4D #188.2C 733 401!733 401[884 425 951 489!951 489[1016 552 990 612!990 612[964 673 879 691!879 691[796 710 711 659!711 659[#290.01 #273.5C 609.5 590.5!609.5 590.5[#270.1E #271.DD 638 662!638 662/704 729!704 729/704 838
+!704 838[429 934 156 811!156 811[#99.C #28A.C3 171 518!171 518[#96.BD 524 127 524!127 524[82 524 50 504!50 504[20 483 20 455!20 455[20 424 50 403!50 403[82 383 127 383!127 383[#A3.71 383 191.5 397.5!191.5 397.5[#D6.D4 #121.57 254 203.5"/>
+                    <Edge fillStyle1="2" strokeStyle="2" edges="
+!254 203.5[#F2.7C #C9.09 229 194!229 194[183 169 197 126!197 126[211 83 243 53!243 53[275 25 332 29!332 29[390 31 419 60!419 60[448 88 427 120!427 120[#19B.22 #90.38 379 153"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!379 153[#1A9.D4 #DF.A5 468.5 299.5"/>
+                    <Edge fillStyle1="3" strokeStyle="3" edges="
+!468.5 299.5[#1E0.AC #10B.02 504 248!504 248[536 225 566 233!566 233[#251.14 #F0.39 605.5 268.5!605.5 268.5[#273.B8 #FD.42 658 245!658 245[699 234 733 247!733 247[771 260 779 289!779 289[787 317 762 343!762 343[739 371 697 382!697 382
+[#29F.7D #183.CC 649 387"/>
+                    <Edge fillStyle0="3" fillStyle1="3" strokeStyle="3" edges="
+!568 298[574 298 578 302!578 302[582 307 582 312!582 312[582 318 578 323!578 323[574 326 568 326!568 326[562 326 557 323!557 323[552 318 552 312!552 312[552 307 557 302!557 302[562 298 568 298"/>
+                    <Edge fillStyle0="1" fillStyle1="3" strokeStyle="3" edges="
+!596.5 380[#249.C9 #18C.E5 570 409!570 409[542 431 511 424!511 424[480 415 465 385!465 385[453 349 465 310!465 310[#1D2.A2 #130.8F 468.5 299.5"/>
+                    <Edge fillStyle1="3" strokeStyle="3" edges="
+!600.5 373[#256.95 #178.9 596.5 380"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!596.5 380[#25E.C2 #17C.F3 621.5 383"/>
+                    <Edge fillStyle1="3" strokeStyle="3" edges="
+!621.5 383[#26B.AA #17E.7A 618 382"/>
+                    <Edge fillStyle1="3" strokeStyle="1" edges="
+!618 382[#260.55 #179.F9 600.5 373"/>
+                    <Edge fillStyle0="3" fillStyle1="4" strokeStyle="3" edges="
+!616 313.5[#26A.55 #135.DA 622 307!622 307[632 298 644 298!644 298[655 298 665 307!665 307[674 314 674 326!674 326[674 338 665 346!665 346[655 355 644 355!644 355[632 355 622 346!622 346[#268.86 #155.22 614.5 335"/>
+                    <Edge fillStyle0="3" fillStyle1="3" strokeStyle="3" edges="
+!614.5 335[#265.75 #154.52 612 346!612 346[#25F.92 #168.C5 600.5 373"/>
+                    <Edge fillStyle0="3" fillStyle1="4" strokeStyle="3" edges="
+!614.5 335[613 #14A.B2 613 326!613 326[613 #13E.E4 616 313.5"/>
+                    <Edge fillStyle0="3" fillStyle1="3" strokeStyle="3" edges="
+!616 313.5[#267.F #125.25 608 275!608 275[#25E.D5 #10F.B 605.5 268.5"/>
+                    <Edge fillStyle0="3" fillStyle1="1" strokeStyle="3" edges="
+!621.5 383[#279.A2 #180.99 649 387"/>
+                    <Edge fillStyle0="1" fillStyle1="2" strokeStyle="2" edges="
+!379 153[#174.EC #9A.D9 366 156!366 156[325 160 300 189!300 189[#11A.54 209.5 254 203.5"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
+!191.5 397.5[#C4.46 #18F.F3 201 403!201 403[233 424 233 455!233 455[233 483 201 504!201 504[#BB.1D #200.F5 171 518"/>
+                    <Edge fillStyle0="1" fillStyle1="3" strokeStyle="1" edges="
+!347 560[347 519 377 489!377 489[409 461 429 471!429 471[448 481 426 534!426 534[401 584 517 625!517 625[632 665 601 695!601 695[569 722 490 691!490 691[409 659 377 630!377 630[347 601 347 560"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
+!609.5 590.5[#252.4E #242.94 580 566"/>
+                    <Edge cubics="!704 838(;521,901 337,894 156,811q704 838Q429 934q156 811);"/>
+                    <Edge cubics="!704 729(;704,729 704,838 704,838q704 729 704 838);"/>
+                    <Edge cubics="!638 662(;638,662 704,729 704,729q638 662 704 729);"/>
+                    <Edge cubics="!156 811(;155,704 160,607 171,518q156 811Q154 651q171 518);"/>
+                    <Edge cubics="!171 518(;177,476 184,436 192,398q171 518 192 398);"/>
+                    <Edge cubics="!192 398(;206,330 227,263 254,204q192 398Q215 289q254 204);"/>
+                    <Edge cubics="!254 204(;275,157 300,116 328,79q254 204Q286 134q328 79);"/>
+                    <Edge cubics="!328 79(;346,104 364,130 379,153q328 79 379 153);"/>
+                    <Edge cubics="!379 153(;411,202 441,252 469,300q379 153 469 300);"/>
+                    <Edge cubics="!469 300(;493,343 514,383 534,424q469 300 534 424);"/>
+                    <Edge cubics="!534 424(;561,481 586,537 610,591q534 424 610 591);"/>
+                    <Edge cubics="!610 591(;620,616 629,639 638,662q610 591 638 662);"/>
+                    <Edge cubics="!377 630(;357,611 347,587 347,560q377 630Q347 601q347 560);"/>
+                    <Edge cubics="!426 534(;409,567 440,598 517,625q426 534Q401 584q517 625);"/>
+                    <Edge cubics="!517 625(;594,652 622,675 601,695q517 625Q632 665q601 695);"/>
+                    <Edge cubics="!601 695(;580,713 543,712 490,691q601 695Q569 722q490 691);"/>
+                    <Edge cubics="!347 560(;347,533 357,509 377,489q347 560Q347 519q377 489);"/>
+                    <Edge cubics="!377 489(;398,470 416,464 429,471q377 489Q409 461q429 471);"/>
+                    <Edge cubics="!429 471(;442,478 441,499 426,534q429 471Q448 481q426 534);"/>
+                    <Edge cubics="!490 691(;436,670 398,649 377,630q490 691Q409 659q377 630);"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -49,7 +130,8 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle1="1" strokeStyle="1" edges="!557 302[562 298 568 298!568 298[574 298 578 302!578 302[582 307 582 312!582 312[582 318 578 323!578 323[574 326 568 326!568 326[562 326 557 323!557 323[552 318 552 312!552 312[552 307 557 302!644 298[655 298 665 307!665 307[674 314 674
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!557 302[562 298 568 298!568 298[574 298 578 302!578 302[582 307 582 312!582 312[582 318 578 323!578 323[574 326 568 326!568 326[562 326 557 323!557 323[552 318 552 312!552 312[552 307 557 302!644 298[655 298 665 307!665 307[674 314 674
  326!674 326[674 338 665 346!665 346[655 355 644 355!644 355[632 355 622 346!622 346[613 338 613 326!613 326[613 314 622 307!622 307[632 298 644 298"/>
                   </edges>
                 </DOMShape>
@@ -199,7 +281,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 8" color="#FF4F4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 8" color="#FF4F4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

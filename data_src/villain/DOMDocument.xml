@@ -4,13 +4,13 @@
           <Include href="BodyClip.xml" itemID="50ccec7a-00000f9a" lastModified="1355624490"/>
           <Include href="BoneGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ce31be-00000614" lastModified="1355690445"/>
           <Include href="DragonEyeGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ce5a0f-00000289" lastModified="1355700751"/>
-          <Include href="FireClip.xml" itemID="50ce5bfa-00000291" lastModified="1355701272"/>
+          <Include href="FireClip.xml" itemID="50ce5bfa-00000291" lastModified="1355709167"/>
           <Include href="FloorClip.xml" itemID="50ce07b1-00000541" lastModified="1355679665"/>
           <Include href="Gibs3Clip.xml" loadImmediate="false" itemID="50ce0b73-00000547" lastModified="1355680627"/>
           <Include href="GibsClip.xml" itemID="50ce0670-00000522" lastModified="1355690453"/>
           <Include href="GoldClip.xml" itemID="50ccb08b-00000e73" lastModified="1355609862"/>
           <Include href="GoldGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf655-0000027e" lastModified="1355609881"/>
-          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355704930"/>
+          <Include href="HeadClip.xml" itemID="50cc1c36-00000df1" lastModified="1355708263"/>
           <Include href="JawBottom.xml" itemIcon="1" loadImmediate="false" itemID="50ccad31-00000e44" lastModified="1355618377"/>
           <Include href="JawTop.xml" itemIcon="1" loadImmediate="false" itemID="50ccad1b-00000e40" lastModified="1355618321"/>
           <Include href="KnightArmorGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ce21a9-0000056e" lastModified="1355686712"/>
@@ -18,11 +18,11 @@
           <Include href="KnightSwordGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ce21e8-00000575" lastModified="1355687819"/>
           <Include href="MouthCollisionClip.xml" itemID="50cd1126-000002c7" lastModified="1355702288"/>
           <Include href="NeckGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cd2740-00000325" lastModified="1355625000"/>
-          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355687951"/>
-          <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355629706"/>
-          <Include href="PeasantHeadGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf755-00000481" lastModified="1355675483"/>
+          <Include href="PeasantClip.xml" itemID="50cc1eb6-00000df8" lastModified="1355709804"/>
+          <Include href="PeasantGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ccf467-0000026f" lastModified="1355709842"/>
+          <Include href="PeasantHeadGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf755-00000481" lastModified="1355709855"/>
           <Include href="PeasantKillClip.xml" itemID="50ce0663-00000521" lastModified="1355683918"/>
-          <Include href="PeasantKillGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf6cd-0000047f" lastModified="1355675543"/>
+          <Include href="PeasantKillGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50cdf6cd-0000047f" lastModified="1355709945"/>
           <Include href="PoisonClip.xml" itemID="50ce30a3-000005d6" lastModified="1355696017"/>
           <Include href="PoisonMeatGraphic.xml" itemIcon="1" loadImmediate="false" itemID="50ce3490-00000635" lastModified="1355691205"/>
           <Include href="Scene.xml" itemID="50cc1c2e-00000df0" lastModified="1355704594"/>
@@ -55,25 +55,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="134608" publishTime="1355704655" publishDebug="true"/>
-          <PublishItem publishSize="134625" publishTime="1355704483" publishDebug="true"/>
-          <PublishItem publishSize="134603" publishTime="1355704403" publishDebug="true"/>
-          <PublishItem publishSize="134623" publishTime="1355704309" publishDebug="true"/>
-          <PublishItem publishSize="134587" publishTime="1355703906" publishDebug="true"/>
-          <PublishItem publishSize="134568" publishTime="1355703443" publishDebug="true"/>
-          <PublishItem publishSize="134577" publishTime="1355703342" publishDebug="true"/>
-          <PublishItem publishSize="134525" publishTime="1355703262" publishDebug="true"/>
-          <PublishItem publishSize="134492" publishTime="1355703226" publishDebug="true"/>
-          <PublishItem publishSize="134534" publishTime="1355703124" publishDebug="true"/>
-          <PublishItem publishSize="134455" publishTime="1355702964" publishDebug="true"/>
-          <PublishItem publishSize="134430" publishTime="1355702906" publishDebug="true"/>
-          <PublishItem publishSize="134431" publishTime="1355702806" publishDebug="true"/>
-          <PublishItem publishSize="134427" publishTime="1355702690" publishDebug="true"/>
-          <PublishItem publishSize="134355" publishTime="1355702501" publishDebug="true"/>
-          <PublishItem publishSize="134367" publishTime="1355702434" publishDebug="true"/>
-          <PublishItem publishSize="134370" publishTime="1355702196" publishDebug="true"/>
-          <PublishItem publishSize="133178" publishTime="1355698302" publishDebug="true"/>
-          <PublishItem publishSize="133193" publishTime="1355698141" publishDebug="true"/>
-          <PublishItem publishSize="133184" publishTime="1355697882" publishDebug="true"/>
+          <PublishItem publishSize="137876" publishTime="1355709782" publishDebug="true"/>
+          <PublishItem publishSize="137648" publishTime="1355709659" publishDebug="true"/>
+          <PublishItem publishSize="136958" publishTime="1355709421" publishDebug="true"/>
+          <PublishItem publishSize="136961" publishTime="1355709245" publishDebug="true"/>
+          <PublishItem publishSize="136952" publishTime="1355709174" publishDebug="true"/>
+          <PublishItem publishSize="136910" publishTime="1355709034" publishDebug="true"/>
+          <PublishItem publishSize="135205" publishTime="1355708604" publishDebug="true"/>
+          <PublishItem publishSize="134904" publishTime="1355708268" publishDebug="true"/>
+          <PublishItem publishSize="134851" publishTime="1355708121" publishDebug="true"/>
+          <PublishItem publishSize="134612" publishTime="1355707351" publishDebug="true"/>
+          <PublishItem publishSize="134594" publishTime="1355707271" publishDebug="true"/>
+          <PublishItem publishSize="134626" publishTime="1355707236" publishDebug="true"/>
+          <PublishItem publishSize="134612" publishTime="1355707213" publishDebug="true"/>
+          <PublishItem publishSize="134607" publishTime="1355707014" publishDebug="true"/>
+          <PublishItem publishSize="134618" publishTime="1355706969" publishDebug="true"/>
+          <PublishItem publishSize="134609" publishTime="1355706842" publishDebug="true"/>
+          <PublishItem publishSize="134576" publishTime="1355706231" publishDebug="true"/>
+          <PublishItem publishSize="134568" publishTime="1355706183" publishDebug="true"/>
+          <PublishItem publishSize="134555" publishTime="1355706158" publishDebug="true"/>
+          <PublishItem publishSize="134594" publishTime="1355706125" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

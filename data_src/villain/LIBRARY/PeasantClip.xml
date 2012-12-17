@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355687951">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="PeasantClip" itemID="50cc1eb6-00000df8" linkageExportForAS="true" linkageClassName="PeasantClip" lastModified="1355709804">
   <timeline>
-    <DOMTimeline name="PeasantClip" currentFrame="32">
+    <DOMTimeline name="PeasantClip" currentFrame="26">
       <layers>
         <DOMLayer name="label" color="#9933CC" autoNamed="false">
           <frames>
@@ -64,7 +64,7 @@
                     <Point x="47" y="1"/>
                   </transformationPoint>
                   <color>
-                    <Color brightness="-0.34"/>
+                    <Color brightness="-0.14"/>
                   </color>
                 </DOMSymbolInstance>
               </elements>
