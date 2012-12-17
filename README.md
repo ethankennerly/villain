@@ -1,8 +1,8 @@
 Sleeping Dragon
 ===============
 
-Do not let peasants or knights steal the 2 gold.
-Release space bar to eat a peasant.
+Do not let peasants or knights steal the your gold.
+Release space bar to bite a peasant.
 Or you can release mouse button.
 To make it harder, play 2x speed: press Shift+2.  
 To make it normal again, play 1x speed: press Shift+1.  
@@ -10,7 +10,8 @@ To make it normal again, play 1x speed: press Shift+1.
 A game made in 2 days by Ethan Kennerly.
 Ludum Dare 25, December 14-16, 2012.  
 Theme:  You are the Villain
-http://www.ludumdare.com/compo/
+If you had fun, comment and vote:
+http://www.ludumdare.com/compo/ludum-dare-25/?uid=3040
 
 Source:  https://github.com/ethankennerly/villain
 Gameplay after Spike: A Love Story, which was suggested by Dave Alleca.

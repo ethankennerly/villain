@@ -129,11 +129,11 @@ set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
-exe '1resize ' . ((&lines * 6 + 33) / 67)
+exe '1resize ' . ((&lines * 22 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 15 + 33) / 67)
+exe '2resize ' . ((&lines * 27 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
-exe '3resize ' . ((&lines * 37 + 33) / 67)
+exe '3resize ' . ((&lines * 9 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
 exe '4resize ' . ((&lines * 4 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)
@@ -245,12 +245,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 9 - ((2 * winheight(0) + 3) / 6)
+let s:l = 5 - ((3 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-9
-normal! 0
+5
+normal! 025l
 wincmd w
 argglobal
 edit ~/ludum/villain/bin/dragon.html
@@ -357,12 +357,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 7 - ((2 * winheight(0) + 7) / 15)
+let s:l = 54 - ((1 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-7
-normal! 015l
+54
+normal! 025l
 wincmd w
 argglobal
 edit ~/ludum/villain/log.txt
@@ -469,7 +469,7 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 34 - ((25 * winheight(0) + 18) / 37)
+let s:l = 34 - ((6 * winheight(0) + 4) / 9)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -806,7 +806,7 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 223 - ((24 * winheight(0) + 16) / 32)
+let s:l = 223 - ((28 * winheight(0) + 16) / 32)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
@@ -814,12 +814,12 @@ normal! zt
 normal! 058l
 lcd ~/ludum/villain/src/com/finegamedesign/dragon
 wincmd w
-3wincmd w
-exe '1resize ' . ((&lines * 6 + 33) / 67)
+2wincmd w
+exe '1resize ' . ((&lines * 22 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
-exe '2resize ' . ((&lines * 15 + 33) / 67)
+exe '2resize ' . ((&lines * 27 + 33) / 67)
 exe 'vert 2resize ' . ((&columns * 104 + 104) / 209)
-exe '3resize ' . ((&lines * 37 + 33) / 67)
+exe '3resize ' . ((&lines * 9 + 33) / 67)
 exe 'vert 3resize ' . ((&columns * 104 + 104) / 209)
 exe '4resize ' . ((&lines * 4 + 33) / 67)
 exe 'vert 4resize ' . ((&columns * 104 + 104) / 209)
@@ -1181,7 +1181,7 @@ normal! zt
 250
 normal! 017l
 wincmd w
-3wincmd w
+2wincmd w
 exe '1resize ' . ((&lines * 16 + 33) / 67)
 exe 'vert 1resize ' . ((&columns * 104 + 104) / 209)
 exe '2resize ' . ((&lines * 48 + 33) / 67)
