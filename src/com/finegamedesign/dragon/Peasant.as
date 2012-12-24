@@ -6,6 +6,7 @@ package com.finegamedesign.dragon
         public static var idleVelocity:Number = 128;
         public static var carryVelocity:Number = -64;
         public static var retreatVelocity:Number = -128;
+        public static var Spritesheet:Class = PeasantSpritesheet;
         public var gold:Gold;
         public var sounds:Object;
 
@@ -91,6 +92,7 @@ package com.finegamedesign.dragon
 
 
 import com.noorhakim.FlxMovieClip;
+import com.finegamedesign.dragon.Swc;
 
 /**
  * Hold the pixels of a sprite sheet in this.bitmapData.
@@ -99,7 +101,6 @@ class PeasantSpritesheet extends FlxMovieClip
 {
     public function PeasantSpritesheet() 
     {
-        super(PeasantClip);
+        super(Swc.PeasantClip);
     }
-    
 }

@@ -16,7 +16,8 @@ package com.finegamedesign.dragon
             super.hurt(Damage);
             if (alive) {
                 FlxG.play(Sounds.coinClass);
-                _pixels = new PeasantSpritesheet().bitmapData;
+                var sheet:* = new PeasantSpritesheet();
+                _pixels = sheet.bitmapData;
             }
         }
     }
@@ -24,6 +25,7 @@ package com.finegamedesign.dragon
 
 
 import com.noorhakim.FlxMovieClip;
+import com.finegamedesign.dragon.Swc;
 
 /**
  * Hold the pixels of a sprite sheet in this.bitmapData.
@@ -32,7 +34,7 @@ class KnightSpritesheet extends FlxMovieClip
 {
     public function KnightSpritesheet() 
     {
-        super(KnightClip);
+        super(Swc.KnightClip);
     }
 }
 
@@ -40,6 +42,6 @@ class PeasantSpritesheet extends FlxMovieClip
 {
     public function PeasantSpritesheet() 
     {
-        super(PeasantClip);
+        super(Swc.PeasantClip);
     }
 }

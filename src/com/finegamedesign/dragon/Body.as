@@ -13,15 +13,16 @@ package com.finegamedesign.dragon
 
 
 import com.noorhakim.FlxMovieClip;
+import com.finegamedesign.dragon.Swc;
 
 /**
  * Hold the pixels of a sprite sheet in this.bitmapData.
  */
 class BodySpritesheet extends FlxMovieClip
 {
+
     public function BodySpritesheet() 
     {
-        super(BodyClip);
+        super(Swc.BodyClip);
     }
-    
 }

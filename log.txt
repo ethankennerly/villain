@@ -32,9 +32,21 @@
     15 - How can I trigger fire after animation?
     16 Hold space and release to breathe fire.
     17 Polish fire, illustration.
+24 Compile from command line.
+    11 - How can I compile without access to Flash CS6?
+    12 - How can I coerce Swc.BackgroundClip to MovieClip?
+    13 - How can I see peasants and knights?
+    14 Embed Flash CS movieclips and sprites.
+
+REQUESTS
+    JoeProgram says ...  Dec 17, 2012 @ 3:25am The fireball is a bit too easy to spam
+    Ashkin says ...  Dec 17, 2012 @ 3:45am it was easy to just continuously breathe fire with a little timing practice.
+    ilo says ...  Dec 17, 2012 @ 5:51am Maybe a minion could occasionally arrive to pick up dropped gold and return it to the back of your cave? He would be immune to being eaten, but as cookable as the others. :)
+    Tobias Wehrum says ...  Dec 22, 2012 @ 3:20pm there's so much pause between the peasents. more frequently at the beginning.  Right now, fireball is rather easy to use and seems to kill most attackers rather easily. 
+    Spotlightor Gao says ...  Dec 19, 2012 @ 12:38pm I found x1 speed is a little slow for me, x2 is much more fun!
+    Mesene says ...  Dec 23, 2012 @ 11:16pm  it would be nice if you cast 2 or more bones with random speeds instead of those. 
 
 TODO
-    If in mouth, eat.
     Wizard levitates gold.
     Release space to eat a fast rogue.
     See rogue.
@@ -52,5 +64,5 @@ TODO
     Knight armor flies off.  Tinkles.
     Why does peasant horizontal motion stutter?
     Shake camera.
-
+    ethankennerly says ...  Dec 17, 2012 @ 4:44am @JoeProgram and @Ashkin, yeah a perfectly timed fireball (bright yellow) does 3 damage and dominates other actions. If I continue to develop, I had in mind to add a couple of new units, tuning to timing and damage, and advanced scenarios in which spamming fireball loses. If you have other ideas or feelings around that, I'd listen to those also.
 

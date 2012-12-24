@@ -14,6 +14,7 @@ package com.noorhakim
 {
 	import flash.display.BitmapData;
 	import flash.display.MovieClip;
+	import flash.display.Sprite;
 	import flash.geom.Matrix;
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
@@ -63,55 +64,80 @@ package com.noorhakim
 
 		//----------------------------------------------------------------------------------------
 		
-		public function FlxMovieClip(MovieClipClass:Class, X:Number = 0, Y:Number = 0, fps:uint = 30)
+        /**
+         * Will also parse a Flash Sprite class.  -- Ethan
+         */
+		public function FlxMovieClip(MovieClipOrSpriteClass:Class, X:Number = 0, Y:Number = 0, fps:uint = 30)
 		{
 			super(X, Y);
 			
-			/**
-			 * You could just replace this with new MovieClipClass();
-			 */
-			//- var mc:MovieClip = MovieClipCache.instance.getMovieClip(MovieClipClass);
-			var mc:MovieClip = new MovieClipClass();
+			var mcOrSprite:* = new MovieClipOrSpriteClass();
+            if (!(mcOrSprite is MovieClip || mcOrSprite is Sprite)) {
+                throw new Error("Expecting MovieClip or Sprite, not " + mcOrSprite);
+            }
 			
-			/**
-			 * find the biggest boundary
-			 */
-			var b:Rectangle = null;
-			//- var w:int	   = 0;
-			//- var h:int	   = 0;
-			var i:int	   = 0; //+
-			
-			for (i = 1; i <= mc.totalFrames; ++i)
-			{
-				mc.gotoAndStop(i);
-				b = mc.getBounds(mc);
-				if (b.width  > frameWidth) frameWidth = b.width;
-				if (b.height > frameHeight) frameHeight = b.height;
-			}
-			
-			/**
-			 * create the bitmapData to hold mc
-			 */
-			var key:String = String(MovieClipClass);
-			if (!FlxG.checkBitmapCache(key))
-				buildBuffer(mc, key, frameWidth, frameHeight);
-			else
-				mcBuffer = FlxG.createBitmap(0, 0, 0, false, key);
-			
-
-			for (var j:int = 0; j < 2; ++j)
-				for (i = 0; i < mc.totalFrames; ++i)
-				{
-					mc.gotoAndStop(i + 1);
-					bounds [ j * mc.totalFrames + i ] = mc.getBounds(mc);
-					frmRect[ j * mc.totalFrames + i ] = new Rectangle(i * frameWidth, j * frameHeight, frameWidth, frameHeight);
-				}
-					
-			totalFrames = mc.totalFrames;
+			var key:String = String(MovieClipOrSpriteClass);
+            /**
+             * find the biggest boundary
+             */
+            var b:Rectangle = null;
+            var j:int;
+            if (mcOrSprite is MovieClip) {
+                var mc:MovieClip = MovieClip(mcOrSprite);
+                //- var w:int	   = 0;
+                //- var h:int	   = 0;
+                var i:int	   = 0; //+
+                
+                for (i = 1; i <= mc.totalFrames; ++i)
+                {
+                    mc.gotoAndStop(i);
+                    b = mc.getBounds(mc);
+                    if (b.width  > frameWidth) frameWidth = b.width;
+                    if (b.height > frameHeight) frameHeight = b.height;
+                }
+                /**
+                 * create the bitmapData to hold mc
+                 */
+                if (!FlxG.checkBitmapCache(key))
+                    buildBuffer(mc, key, frameWidth, frameHeight);
+                else
+                    mcBuffer = FlxG.createBitmap(0, 0, 0, false, key);
+                totalFrames = mc.totalFrames;
+                for (j = 0; j < 2; ++j)
+                    for (i = 0; i < mc.totalFrames; ++i)
+                    {
+                        mc.gotoAndStop(i + 1);
+                        bounds [ j * mc.totalFrames + i ] = mc.getBounds(mc);
+                        frmRect[ j * mc.totalFrames + i ] = new Rectangle(i * frameWidth, j * frameHeight, frameWidth, frameHeight);
+                    }
+            }
+            else if (mcOrSprite is Sprite) {
+                var sprite:Sprite = Sprite(mcOrSprite);
+                b = sprite.getBounds(sprite);
+                if (b.width  > frameWidth) frameWidth = b.width;
+                if (b.height > frameHeight) frameHeight = b.height;
+                /**
+                 * create the bitmapData to hold mc
+                 */
+                if (!FlxG.checkBitmapCache(key))
+                    buildSprite(sprite, key, frameWidth, frameHeight);
+                else
+                    mcBuffer = FlxG.createBitmap(0, 0, 0, false, key);
+                totalFrames = 1;
+                for (j = 0; j < 2; ++j) {
+                    bounds [j] = sprite.getBounds(sprite);
+                    frmRect[j] = new Rectangle(frameWidth, j * frameHeight, frameWidth, frameHeight);
+                }
+		    }	
 			_delta	  = 1 / fps;
 		}
 		
-		
+		private function buildSprite(sprite:Sprite, key:String, w:int, h:int):void
+        {
+			mcBuffer = FlxG.createBitmap(w, h * 2, 0x00000000, false, key);
+            mcBuffer.draw(sprite);
+        }
+
 		private function buildBuffer(mc:MovieClip, key:String, w:int, h:int):void
 		{
 			var b:Rectangle = null;				// boundary

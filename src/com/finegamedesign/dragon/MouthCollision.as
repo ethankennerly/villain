@@ -13,6 +13,7 @@ package com.finegamedesign.dragon
 
 
 import com.noorhakim.FlxMovieClip;
+import com.finegamedesign.dragon.Swc;
 
 /**
  * Hold the pixels of a sprite sheet in this.bitmapData.
@@ -21,7 +22,6 @@ class MouthCollisionSpritesheet extends FlxMovieClip
 {
     public function MouthCollisionSpritesheet() 
     {
-        super(MouthCollisionClip);
+        super(Swc.MouthCollisionClip);
     }
-    
 }

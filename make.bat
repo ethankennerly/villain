@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\flex_sdk_4.6\bin\mxmlc.exe" -debug=true -o .\bin\villain2.swf -static-link-runtime-shared-libraries=true -compiler.source-path=..\src -compiler.source-path=.\src -- .\src\com\finegamedesign\dragon\Dragon.as

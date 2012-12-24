@@ -11,7 +11,7 @@ package com.finegamedesign.dragon
    
     public class PlayState extends FlxState
     {
-        private static var scene:Scene;
+        private static var scene:DisplayObjectContainer;
         public static var offScreenMaxVelocityX:Number = 8.0;
         public static var onScreenMaxVelocityX:Number = 800.0;
 
@@ -68,14 +68,16 @@ package com.finegamedesign.dragon
          */
         public static function constructSprite(flxSprite:FlxSprite, SpritesheetClass:Class):void
         {
-            var sheet:* = new SpritesheetClass();
-            flxSprite.loadGraphic(SpritesheetClass, true, true, sheet.frameWidth, sheet.frameHeight);
+            var sheet:FlxMovieClip = new SpritesheetClass();
+            flxSprite.loadGraphic(SpritesheetClass, false, false, sheet.frameWidth, sheet.frameHeight);
         }
 
-        public static function constructChild(FlxSpriteClass:Class, child:MovieClip):*
+        public static function constructChild(FlxSpriteClass:Class, child:DisplayObject):*
         {
             var flxSprite:FlxSprite = new FlxSpriteClass(child.x, child.y);
-            addAnimation(flxSprite, child);
+            if (child is MovieClip) {
+                addAnimation(flxSprite, MovieClip(child));
+            }
             return flxSprite;
         }
 
@@ -92,53 +94,53 @@ package com.finegamedesign.dragon
         private var gibs:FlxEmitter;
         private var floor:Floor;
 
-        private function addChildren(scene:MovieClip):void
+        private function addChildren(scene:DisplayObjectContainer):void
         {
             golds = new FlxGroup();
             peasants = new FlxGroup();
             poisons = new FlxGroup();
             for (var c:int=0; c < scene.numChildren; c++) {
                 var child:* = scene.getChildAt(c);
-                if (child is HeadClip) {
+                if (child is Swc.HeadClip) {
                     head = constructChild(Head, child);
                     head.state = this;
                     add(head);
                 }
-                else if (child is PeasantClip) {
+                else if (child is Swc.PeasantClip) {
                     peasants.add(constructChild(Peasant, child));
                     add(peasants);
                 }
-                else if (child is KnightClip) {
+                else if (child is Swc.KnightClip) {
                     peasants.add(constructChild(Knight, child));
                     add(peasants);
                 }
-                else if (child is PoisonClip) {
+                else if (child is Swc.PoisonClip) {
                     poisons.add(constructChild(Poison, child));
                     add(poisons);
                 }
-                else if (child is FireClip) {
+                else if (child is Swc.FireClip) {
                     fire = constructChild(Fire, child);
                     Fire.origin = new FlxPoint(child.x, child.y);
                     fire.kill();
                 }
-                else if (child is GoldClip) {
+                else if (child is Swc.GoldClip) {
                     golds.add(constructChild(Gold, child));
                     add(golds);
                 }
-                else if (child is BackgroundClip) {
+                else if (child is Swc.BackgroundClip) {
                     add(constructChild(Background, child));
                 }
-                else if (child is BodyClip) {
+                else if (child is Swc.BodyClip) {
                     add(constructChild(Body, child));
                 }
-                else if (child is MouthCollisionClip) {
+                else if (child is Swc.MouthCollisionClip) {
                     mouth = constructChild(MouthCollision, child);
                     add(mouth);
                 }
-                else if (child is GibsClip) {
+                else if (child is Swc.GibsClip) {
                     addGibs();
                 }
-                else if (child is FloorClip) {
+                else if (child is Swc.FloorClip) {
                     floor = Floor(add(constructChild(Floor, child)));
                 }
             }
@@ -162,7 +164,7 @@ package com.finegamedesign.dragon
             FlxG.score = 0;
             // FlxG.visualDebug = true;
             super.create();
-            scene = new Scene();
+            scene = new Swc.Scene();
             addChildren(scene);
             addHud();
             state = "play";
@@ -246,7 +248,7 @@ package com.finegamedesign.dragon
    
         private function eat(mouth:FlxObject, peasant:FlxObject):void
         {
-            head.play("eat", peasant);
+            head.play("eat");
             hurt(2, peasant);
         }
 
@@ -275,7 +277,7 @@ package com.finegamedesign.dragon
             if (!peasant.alive) {
                 FlxG.score++;
                 if (peasant is Peasant) {
-                    var gibsClip:PeasantKillClip = new PeasantKillClip();
+                    var gibsClip:MovieClip = new Swc.PeasantKillClip();
                     gibsClip.x = peasant.x + (isRight ? -80.0 : -80.0);
                     gibsClip.y = peasant.y;
                     var peasantKill:PeasantKill = PeasantKill(add(constructChild(PeasantKill, gibsClip)));

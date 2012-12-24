@@ -91,6 +91,7 @@ package com.finegamedesign.dragon
 
 
 import com.noorhakim.FlxMovieClip;
+import com.finegamedesign.dragon.Swc;
 
 /**
  * Hold the pixels of a sprite sheet in this.bitmapData.
@@ -99,7 +100,6 @@ class HeadSpritesheet extends FlxMovieClip
 {
     public function HeadSpritesheet() 
     {
-        super(HeadClip);
+        super(Swc.HeadClip);
     }
-    
 }
