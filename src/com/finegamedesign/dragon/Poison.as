@@ -15,6 +15,7 @@ package com.finegamedesign.dragon
             sounds = {};
             PlayState.constructSprite(this, PoisonSpritesheet);
             velocity.x = PlayState.offScreenMaxVelocityX;
+            health = 2;
         }
 
         override public function update():void

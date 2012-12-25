@@ -214,6 +214,7 @@ package com.finegamedesign.dragon
                 waveText.text = "PEASANTS " + peasantsLiving.toString();
                 goldText.text = "GOLD " + goldsLiving.toString();
                 if (goldsLiving <= 0) {
+                    FlxG.score *= 2;
                     FlxG.score = int(Math.pow(FlxG.score, 4));
                     FlxG.score = int(FlxG.score / 50) * 50;
                     state = "lose";
@@ -222,6 +223,7 @@ package com.finegamedesign.dragon
                 }
                 else if (peasantsLiving <= 0) {
                     FlxG.score += goldsLiving;
+                    FlxG.score *= 2;
                     FlxG.score = int(Math.pow(FlxG.score, 4));
                     FlxG.score = int(FlxG.score / 50) * 50;
                     if (goldsLiving < golds.length) {
@@ -249,19 +251,19 @@ package com.finegamedesign.dragon
         private function eat(mouth:FlxObject, peasant:FlxObject):void
         {
             head.play("eat");
-            hurt(2, peasant);
+            hurt(1, peasant);
         }
 
         private function burn(fire:FlxObject, peasant:FlxObject):void
         {
             if (!peasant.flickering) {
                 FlxG.play(Sounds.biteClass);
-                fire.hurt(1);
+                hurt(fire.health, peasant);
+                fire.hurt(3);
             }
             if (fire.alive) {
                 Fire(fire).play("health" + fire.health + "ing");
             }
-            hurt(1, peasant);
         }
 
         /**
@@ -306,7 +308,7 @@ package com.finegamedesign.dragon
                     FlxG.timeScale = 2.0;
                 }
                 else if (FlxG.keys.justPressed("THREE")) {
-                    FlxG.timeScale = 8.0;
+                    FlxG.timeScale = 4.0;
                 }
             }
         }

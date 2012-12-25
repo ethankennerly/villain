@@ -37,6 +37,7 @@
     12 - How can I coerce Swc.BackgroundClip to MovieClip?
     13 - How can I see peasants and knights?
     14 Embed Flash CS movieclips and sprites.
+    16 Peasants twice as tough.  Fire burns one.  Double score.
 
 REQUESTS
     JoeProgram says ...  Dec 17, 2012 @ 3:25am The fireball is a bit too easy to spam

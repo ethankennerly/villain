@@ -34,14 +34,14 @@ package com.finegamedesign.dragon
                 //}
             }
             else if (FlxG.keys.justReleased("SPACE") || FlxG.mouse.justReleased()) {
-                var fireHealth:int = 3 - (_curAnim.frames.length - 1 - _curFrame);
-                if (null != _curAnim && "inhale" == _curAnim.name && 1 <= fireHealth) {
+                var fireFrame:Number = 2 - (_curAnim.frames.length - 1 - _curFrame);
+                if (null != _curAnim && "inhale" == _curAnim.name && 1 <= fireFrame) {
                     play("fire", true);
                     FlxG.play(Sounds.biteClass);
                     state.fire.reset(Fire.origin.x, Fire.origin.y);
                     state.add(state.fire);
-                    state.fire.health = fireHealth;
-                    state.fire.play("health" + fireHealth + "ing");
+                    state.fire.health = 0.5 * fireFrame;
+                    state.fire.play("health" + (fireFrame+1).toString() + "ing");
                 }
                 else {
                     play("bite", true);
